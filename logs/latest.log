@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [086月2026 01:00:53.777] [main/INFO] [Arclight/]: 
+=======
+[086月2026 00:47:30.146] [main/INFO] [Arclight/]: 
+>>>>>>> d71ffca912ff52e618a13cf1192f51769fb24c16
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -10,6 +14,7 @@
     运行版本 诸王 / arclight-1.21.1-1.0.2-SNAPSHOT-0769551
     构建日期 2026-05-09 08:50:30
 
+<<<<<<< HEAD
 [086月2026 01:00:53.804] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.neoForgeVersion, 21.1.228, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
 [086月2026 01:00:53.804] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
 [086月2026 01:00:53.806] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
@@ -17,6 +22,15 @@
 [086月2026 01:00:54.056] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23105!/ Service=ModLauncher Env=SERVER
 [086月2026 01:00:55.110] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 32 dependencies adding them to mods collection
 [086月2026 01:00:55.112] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+=======
+[086月2026 00:47:30.171] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.neoForgeVersion, 21.1.228, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[086月2026 00:47:30.172] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[086月2026 00:47:30.173] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[086月2026 00:47:30.355] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[086月2026 00:47:30.402] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23105!/ Service=ModLauncher Env=SERVER
+[086月2026 00:47:31.457] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 32 dependencies adding them to mods collection
+[086月2026 00:47:31.459] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+>>>>>>> d71ffca912ff52e618a13cf1192f51769fb24c16
      Mod List:
 		Name Version (Mod Id)
 
@@ -84,6 +98,7 @@
 		Xaero's Minimap 25.3.13 (xaerominimap)
 		Xaero's World Map 1.40.16 (xaeroworldmap)
 		XaeroLib 1.1.15 (xaerolib)
+<<<<<<< HEAD
 [086月2026 01:00:55.319] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaeroworldmap, xaerominimap]
 [086月2026 01:00:56.293] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
 [086月2026 01:00:56.297] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
@@ -604,3 +619,524 @@ Things may not work well.
 [086月2026 01:02:10.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
 [086月2026 01:02:10.792] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
 [086月2026 01:02:15.822] [Exit Thread/INFO] [Arclight/]: 2 threads not shutting down correctly, force exiting
+=======
+[086月2026 00:47:31.677] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaeroworldmap, xaerominimap]
+[086月2026 00:47:32.682] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[086月2026 00:47:32.685] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
+[086月2026 00:47:32.686] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[086月2026 00:47:32.786] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[086月2026 00:47:32.817] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[086月2026 00:47:32.818] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[086月2026 00:47:32.823] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
+[086月2026 00:47:32.835] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.838] [main/WARN] [mixin/]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.844] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.847] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.848] [main/WARN] [mixin/]: Reference map 'botanypots.refmap.json' for botanypots.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.848] [main/WARN] [mixin/]: Reference map 'bookshelf.refmap.json' for bookshelf.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.860] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.command.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.860] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.debug.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.860] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.dynamicbuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.860] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.fix.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.860] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.framebuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.861] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.necromancer.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.861] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.network.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.861] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.performance.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.861] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.perspective.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.861] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.pipeline.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.861] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.quasar.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.861] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.registry.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.862] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.rendertype.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.862] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.resource.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.862] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.scheduler.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.862] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.shader.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.862] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.862] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.863] [main/WARN] [mixin/]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.864] [main/WARN] [mixin/]: Reference map 'createbetterfps.refmap.json' for createbetterfps.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.865] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.865] [main/WARN] [mixin/]: Reference map 'mixins.mmlib.refmap.json' for mixins.mmlib.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.874] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.898] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[086月2026 00:47:32.899] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[086月2026 00:47:32.900] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.900] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.901] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.902] [main/WARN] [mixin/]: Reference map 'oritech.refmap.json' for oritech.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:32.903] [main/WARN] [mixin/]: Reference map 'jadeaddons.refmap.json' for jadeaddons.mixins.json could not be read. If this is a development environment you can ignore this message
+[086月2026 00:47:33.341] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.346] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.370] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.370] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.380] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.381] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.834] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[086月2026 00:47:33.846] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.847] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.848] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.848] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.854] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.854] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.855] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.856] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.860] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.861] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.862] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:33.862] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:33.970] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[086月2026 00:47:34.384] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[086月2026 00:47:35.397] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:35.397] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:35.402] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:35.403] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:35.407] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[086月2026 00:47:35.407] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[086月2026 00:47:39.578] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[086月2026 00:47:39.628] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
+[086月2026 00:47:39.693] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[086月2026 00:47:39.722] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[086月2026 00:47:39.746] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[086月2026 00:47:39.751] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[086月2026 00:47:39.755] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[086月2026 00:47:39.760] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[086月2026 00:47:39.819] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[086月2026 00:47:39.830] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[086月2026 00:47:39.831] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[086月2026 00:47:39.837] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[086月2026 00:47:39.964] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[086月2026 00:47:39.965] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[086月2026 00:47:40.111] [modloading-worker-0/INFO] [oritech/]: Begin Oritech initialization
+[086月2026 00:47:40.376] [modloading-worker-0/INFO] [oritech/]: Oritech initialization complete
+[086月2026 00:47:40.495] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[086月2026 00:47:41.558] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[086月2026 00:47:50.176] [modloading-sync-worker/INFO] [BotanyPots/]: Loaded 1 botany pots plugins!
+[086月2026 00:47:52.502] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[086月2026 00:47:52.502] [modloading-worker-0/INFO] [cn.mcmod_mmf.mmlib.Main/]: Presented by Zaia
+[086月2026 00:47:52.505] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.7.19 initializing...
+[086月2026 00:47:52.515] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
+[086月2026 00:47:52.525] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[086月2026 00:47:52.525] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[086月2026 00:47:52.525] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Tools' module.
+[086月2026 00:47:52.525] [modloading-worker-0/INFO] [MekanismMoreMachine/]: Version 1.3.3 initializing...
+[086月2026 00:47:52.526] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[086月2026 00:47:52.633] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [botanypots] Starting version check at https://updates.blamejared.com/get?n=botanypots&gv=1.21.1&ml=neoforge
+[086月2026 00:47:52.764] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7d6e8c5]
+[086月2026 00:47:52.765] [modloading-worker-0/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
+[086月2026 00:47:52.833] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[086月2026 00:47:52.833] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[086月2026 00:47:52.833] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[086月2026 00:47:52.834] [modloading-sync-worker/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[086月2026 00:47:52.834] [modloading-sync-worker/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[086月2026 00:47:52.834] [modloading-sync-worker/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[086月2026 00:47:52.834] [modloading-sync-worker/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[086月2026 00:47:52.957] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[086月2026 00:47:52.962] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from net.untitledduckmod.compat.jade.JadePlugin
+[086月2026 00:47:52.963] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[086月2026 00:47:52.970] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[086月2026 00:47:52.973] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[086月2026 00:47:52.973] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[086月2026 00:47:52.973] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[086月2026 00:47:52.974] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from appeng.integration.modules.jade.JadeModule
+[086月2026 00:47:52.980] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from com.mao.barbequesdelight.compat.jade.JadeCompat
+[086月2026 00:47:52.980] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from rearth.oritech.init.compat.jade.OritechJadePlugin
+[086月2026 00:47:52.980] [modloading-worker-0/INFO] [oritech/]: Registering Jade providers
+[086月2026 00:47:52.980] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.JadeAddonsBase
+[086月2026 00:47:53.125] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[086月2026 00:47:53.214] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23226!/assets/.mcassetsroot' uses unexpected schema
+[086月2026 00:47:53.214] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23226!/data/.mcassetsroot' uses unexpected schema
+[086月2026 00:47:53.309] [main/INFO] [com.simibubi.create.Create/]: Created 170 recipes which will be injected into the game
+[086月2026 00:47:53.313] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[086月2026 00:47:53.328] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@72e78ee5] for runtime resource [create_dragons_plus:runtime]
+[086月2026 00:47:53.345] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@72e78ee5 finished after 17 ms
+[086月2026 00:47:53.355] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKBlockTags@207ea2bc] for runtime resource [create_central_kitchen:runtime]
+[086月2026 00:47:53.365] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKBlockTags@207ea2bc finished after 9 ms
+[086月2026 00:47:53.365] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKItemTags@1d65e6c0] for runtime resource [create_central_kitchen:runtime]
+[086月2026 00:47:53.366] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKItemTags@1d65e6c0 finished after 0 ms
+[086月2026 00:47:53.689] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [botanypots] Found status: BETA Current: 21.1.42 Target: 21.1.42
+[086月2026 00:47:53.689] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.21.1&ml=neoforge
+[086月2026 00:47:53.898] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 21.1.81 Target: 21.1.81
+[086月2026 00:47:53.898] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [prickle] Starting version check at https://updates.blamejared.com/get?n=prickle&gv=1.21.1&ml=neoforge
+[086月2026 00:47:54.004] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_dissolving_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_dissolving_factory
+[086月2026 00:47:54.008] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_lathing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_lathing_factory
+[086月2026 00:47:54.012] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_replicating_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_replicating_factory
+[086月2026 00:47:54.016] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_centrifuging_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_centrifuging_factory
+[086月2026 00:47:54.023] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_planting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_planting_factory
+[086月2026 00:47:54.026] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_crystallizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_crystallizing_factory
+[086月2026 00:47:54.030] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_replicating_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_replicating_factory
+[086月2026 00:47:54.033] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_rolling_mill_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_rolling_mill_factory
+[086月2026 00:47:54.033] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekanism_extras:blocks/absolute_chemical_infusing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekanism_extras:absolute_chemical_infusing_factory
+[086月2026 00:47:54.036] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_pigment_extracting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_pigment_extracting_factory
+[086月2026 00:47:54.041] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekanism_extras:blocks/cosmic_chemical_infusing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekanism_extras:cosmic_chemical_infusing_factory
+[086月2026 00:47:54.048] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_liquifying_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_liquifying_factory
+[086月2026 00:47:54.049] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_rolling_mill_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_rolling_mill_factory
+[086月2026 00:47:54.049] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_washing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_washing_factory
+[086月2026 00:47:54.051] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_liquifying_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_liquifying_factory
+[086月2026 00:47:54.060] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_recycling_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_recycling_factory
+[086月2026 00:47:54.060] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_pressurised_reacting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_pressurised_reacting_factory
+[086月2026 00:47:54.060] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_centrifuging_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_centrifuging_factory
+[086月2026 00:47:54.067] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_lathing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_lathing_factory
+[086月2026 00:47:54.068] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_washing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_washing_factory
+[086月2026 00:47:54.069] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_stamping_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_stamping_factory
+[086月2026 00:47:54.070] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_crystallizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_crystallizing_factory
+[086月2026 00:47:54.070] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_crystallizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_crystallizing_factory
+[086月2026 00:47:54.075] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_lathing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_lathing_factory
+[086月2026 00:47:54.084] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_planting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_planting_factory
+[086月2026 00:47:54.087] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_lathing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_lathing_factory
+[086月2026 00:47:54.089] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_recycling_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_recycling_factory
+[086月2026 00:47:54.094] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_liquifying_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_liquifying_factory
+[086月2026 00:47:54.096] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_pigment_extracting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_pigment_extracting_factory
+[086月2026 00:47:54.099] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_replicating_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_replicating_factory
+[086月2026 00:47:54.107] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [prickle] Found status: BETA Current: 21.1.11 Target: 21.1.11
+[086月2026 00:47:54.107] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Starting version check at https://assets.melanx.de/updates/simple-backups.json
+[086月2026 00:47:54.111] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_dissolving_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_dissolving_factory
+[086月2026 00:47:54.113] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_planting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_planting_factory
+[086月2026 00:47:54.113] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_oxidizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_oxidizing_factory
+[086月2026 00:47:54.113] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_lathing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_lathing_factory
+[086月2026 00:47:54.117] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_liquifying_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_liquifying_factory
+[086月2026 00:47:54.119] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_rolling_mill_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_rolling_mill_factory
+[086月2026 00:47:54.119] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_washing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_washing_factory
+[086月2026 00:47:54.120] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_replicating_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_replicating_factory
+[086月2026 00:47:54.121] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_stamping_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_stamping_factory
+[086月2026 00:47:54.122] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_dissolving_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_dissolving_factory
+[086月2026 00:47:54.122] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_painting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_painting_factory
+[086月2026 00:47:54.130] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_painting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_painting_factory
+[086月2026 00:47:54.132] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_stamping_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_stamping_factory
+[086月2026 00:47:54.133] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_oxidizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_oxidizing_factory
+[086月2026 00:47:54.134] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_rolling_mill_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_rolling_mill_factory
+[086月2026 00:47:54.137] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_pigment_extracting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_pigment_extracting_factory
+[086月2026 00:47:54.139] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_pressurised_reacting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_pressurised_reacting_factory
+[086月2026 00:47:54.140] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_centrifuging_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_centrifuging_factory
+[086月2026 00:47:54.140] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_oxidizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_oxidizing_factory
+[086月2026 00:47:54.141] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekanism_extras:blocks/supreme_chemical_infusing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekanism_extras:supreme_chemical_infusing_factory
+[086月2026 00:47:54.142] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_painting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_painting_factory
+[086月2026 00:47:54.144] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_liquifying_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_liquifying_factory
+[086月2026 00:47:54.145] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_recycling_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_recycling_factory
+[086月2026 00:47:54.146] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_stamping_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_stamping_factory
+[086月2026 00:47:54.147] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_crystallizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_crystallizing_factory
+[086月2026 00:47:54.149] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_oxidizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_oxidizing_factory
+[086月2026 00:47:54.150] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_washing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_washing_factory
+[086月2026 00:47:54.150] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekanism_extras:blocks/infinite_chemical_infusing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekanism_extras:infinite_chemical_infusing_factory
+[086月2026 00:47:54.152] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_dissolving_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_dissolving_factory
+[086月2026 00:47:54.152] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_painting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_painting_factory
+[086月2026 00:47:54.153] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_painting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_painting_factory
+[086月2026 00:47:54.158] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_centrifuging_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_centrifuging_factory
+[086月2026 00:47:54.164] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_pressurised_reacting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_pressurised_reacting_factory
+[086月2026 00:47:54.166] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_pressurised_reacting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_pressurised_reacting_factory
+[086月2026 00:47:54.167] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_recycling_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_recycling_factory
+[086月2026 00:47:54.172] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_planting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_planting_factory
+[086月2026 00:47:54.175] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_centrifuging_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_centrifuging_factory
+[086月2026 00:47:54.179] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_pigment_extracting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_pigment_extracting_factory
+[086月2026 00:47:54.188] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_dissolving_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_dissolving_factory
+[086月2026 00:47:54.189] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_replicating_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_replicating_factory
+[086月2026 00:47:54.190] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/quantum_planting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:quantum_planting_factory
+[086月2026 00:47:54.192] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_stamping_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_stamping_factory
+[086月2026 00:47:54.193] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/dense_crystallizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:dense_crystallizing_factory
+[086月2026 00:47:54.195] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_washing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_washing_factory
+[086月2026 00:47:54.198] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/overclocked_rolling_mill_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:overclocked_rolling_mill_factory
+[086月2026 00:47:54.198] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_pigment_extracting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_pigment_extracting_factory
+[086月2026 00:47:54.199] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_recycling_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_recycling_factory
+[086月2026 00:47:54.201] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/multiversal_oxidizing_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:multiversal_oxidizing_factory
+[086月2026 00:47:54.202] [Worker-Main-15/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:mekmm:blocks/creative_pressurised_reacting_factory - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekmm:creative_pressurised_reacting_factory
+[086月2026 00:47:54.446] [Worker-Main-15/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.neoforge.NeoForgePlatform
+[086月2026 00:47:54.504] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[086月2026 00:47:54.505] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
+[086月2026 00:47:54.505] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[086月2026 00:47:54.505] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
+[086月2026 00:47:54.505] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
+[086月2026 00:47:54.505] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[086月2026 00:47:54.505] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[086月2026 00:47:54.506] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
+[086月2026 00:47:54.506] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[086月2026 00:47:54.506] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[086月2026 00:47:54.506] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[086月2026 00:47:54.510] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[086月2026 00:47:54.511] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[086月2026 00:47:54.511] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[086月2026 00:47:54.511] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[086月2026 00:47:54.511] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
+[086月2026 00:47:54.511] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[086月2026 00:47:54.511] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[086月2026 00:47:54.512] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[086月2026 00:47:54.806] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Found status: AHEAD Current: 1.21-4.0.30 Target: null
+[086月2026 00:47:54.809] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[086月2026 00:47:54.831] [main/INFO] [BotanyPots/]: Updating registry access.
+[086月2026 00:47:55.034] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9133 recipes
+[086月2026 00:47:55.224] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 4701 advancements
+[086月2026 00:47:56.414] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[086月2026 00:47:56.414] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json?neoforge=only
+[086月2026 00:47:56.729] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 4.2.4 Target: null
+[086月2026 00:47:57.148] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
+[086月2026 00:47:57.260] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[086月2026 00:47:57.260] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[086月2026 00:47:57.260] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[086月2026 00:47:57.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[086月2026 00:47:57.299] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25568
+[086月2026 00:47:57.340] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding UDP server channel future
+[086月2026 00:47:57.372] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[086月2026 00:47:57.373] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[086月2026 00:47:57.377] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[086月2026 00:47:57.377] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[086月2026 00:47:57.377] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[086月2026 00:47:57.377] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[086月2026 00:47:57.501] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21.1-1.0.2-SNAPSHOT-0769551 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[086月2026 00:47:57.925] [Server thread/INFO] [Minecraft/]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[086月2026 00:47:57.925] [Server thread/INFO] [Minecraft/]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[086月2026 00:47:57.965] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[086月2026 00:47:58.030] [Server thread/INFO] [Arclight/]: 注册了 4788 个材料，其中 3051 个方块 1737 个物品
+[086月2026 00:47:58.136] [Server thread/INFO] [Arclight/]: 注册了 38 个新的生物类型
+[086月2026 00:47:58.137] [Server thread/INFO] [Arclight/]: 注册了 1 个新的生物群系
+[086月2026 00:47:58.161] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[086月2026 00:47:58.162] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[086月2026 00:47:58.163] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[086月2026 00:47:58.166] [Spigot Watchdog Thread/INFO] [Arclight/]: Started pseudo Spigot watchdog thread.
+[086月2026 00:47:58.262] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[086月2026 00:47:58.669] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[086月2026 00:47:58.764] [Server thread/INFO] [CoreProtect/]: Loading CoreProtect v23.2
+[086月2026 00:47:58.764] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.12.2
+[086月2026 00:47:59.416] [Server thread/INFO] [ZMusic/]: Loading ZMusic v2.12.0
+[086月2026 00:47:59.416] [Server thread/INFO] [ZMusic-Addon/]: Loading ZMusic-Addon v2.5.0
+[086月2026 00:47:59.529] [Server thread/INFO] [spark/]: Starting background profiler...
+[086月2026 00:47:59.534] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[086月2026 00:47:59.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[086月2026 00:47:59.582] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
+[086月2026 00:47:59.749] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 0 to minecraft:overworld
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[086月2026 00:48:00.020] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[086月2026 00:48:00.021] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[086月2026 00:48:00.021] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[086月2026 00:48:00.021] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[086月2026 00:48:00.021] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[086月2026 00:48:00.021] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[086月2026 00:48:00.021] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[086月2026 00:48:00.021] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[086月2026 00:48:00.101] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 1 to minecraft:the_end
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[086月2026 00:48:00.438] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[086月2026 00:48:00.439] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[086月2026 00:48:00.439] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[086月2026 00:48:00.439] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[086月2026 00:48:00.439] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[086月2026 00:48:00.439] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[086月2026 00:48:00.441] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 2 to minecraft:the_nether
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[086月2026 00:48:00.453] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[086月2026 00:48:00.454] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[086月2026 00:48:00.454] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[086月2026 00:48:00.454] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[086月2026 00:48:00.461] [Server thread/INFO] [CoreProtect/]: Enabling CoreProtect v23.2
+[086月2026 00:48:00.673] [Server thread/INFO] [Console/]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
+[086月2026 00:48:00.673] [Server thread/INFO] [Minecraft/]: [CoreProtect] Using SQLite for data storage.
+[086月2026 00:48:00.673] [Server thread/INFO] [Minecraft/]: --------------------
+[086月2026 00:48:00.673] [Server thread/INFO] [Minecraft/]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[086月2026 00:48:00.673] [Server thread/INFO] [Minecraft/]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[086月2026 00:48:00.673] [Server thread/INFO] [Minecraft/]: --------------------
+[086月2026 00:48:00.679] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.12.2
+[086月2026 00:48:00.904] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
+[086月2026 00:48:00.906] [Server thread/INFO] [ZMusic/]: Enabling ZMusic v2.12.0
+[086月2026 00:48:00.907] [Server thread/INFO] [Console/]: ZMusic >>> 正在加载中....
+[086月2026 00:48:00.915] [Server thread/INFO] [Console/]: ZMusic >>> 正在注册Mod通信频道...
+[086月2026 00:48:00.916] [Server thread/INFO] [Console/]: ZMusic >>> -- [AllMusic] 频道注册完毕.
+[086月2026 00:48:00.916] [Server thread/INFO] [Console/]: ZMusic >>> -- [ZMusic Mod] 频道注册完毕.
+[086月2026 00:48:00.916] [Server thread/INFO] [Console/]: ZMusic >>> -- [AudioBuffer] 服务端大于1.12，频道注册取消.
+[086月2026 00:48:00.916] [Server thread/INFO] [Console/]: ZMusic >>> 已检测到PlaceholderAPI, 正在注册...
+[086月2026 00:48:00.917] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: zmusic [1.0.0]
+[086月2026 00:48:00.918] [Server thread/INFO] [Console/]: ZMusic >>> -- [PlaceholderAPI] 注册成功!
+[086月2026 00:48:00.918] [Server thread/INFO] [Console/]: ZMusic >>> 未找到Vault, 经济相关功能不生效.
+[086月2026 00:48:00.918] [Server thread/INFO] [Console/]: ZMusic >>> 未找到ViaVersion, 高版本转发功能不生效.
+[086月2026 00:48:00.919] [Server thread/INFO] [Console/]: ZMusic >>> 成功加载配置文件!
+[086月2026 00:48:00.920] [Server thread/INFO] [ZMusic-Addon/]: Enabling ZMusic-Addon v2.5.0
+[086月2026 00:48:00.920] [Server thread/WARN] [ZMusic-Addon/]: 请勿在子服安装ZMusic插件
+[086月2026 00:48:00.929] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[086月2026 00:48:00.934] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
+[086月2026 00:48:00.937] [Server thread/INFO] [Console/]: 0 placeholder hook(s) registered!
+[086月2026 00:48:00.938] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 3 to ae2:spatial_storage
+[086月2026 00:48:00.963] [Server thread/WARN] [Arclight/]: Assign ae2:spatial_storage to unknown level stem LevelStem[type=Reference{ResourceKey[minecraft:dimension_type / ae2:spatial_storage]=DimensionType[fixedTime=OptionalLong[12000], hasSkyLight=false, hasCeiling=false, ultraWarm=false, natural=false, coordinateScale=1.0, bedWorks=false, respawnAnchorWorks=false, minY=0, height=256, logicalHeight=256, infiniburn=TagKey[minecraft:block / minecraft:infiniburn_overworld], effectsLocation=ae2:spatial_storage, ambientLight=1.0, monsterSettings=MonsterSettings[piglinSafe=false, hasRaids=false, monsterSpawnLightTest=0, monsterSpawnBlockLightLimit=0]]}, generator=appeng.spatial.SpatialStorageChunkGenerator@42aaba6c]
+[086月2026 00:48:00.963] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/ae2/spatial_storage] --------
+[086月2026 00:48:00.963] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[086月2026 00:48:00.963] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[086月2026 00:48:00.964] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[086月2026 00:48:00.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[086月2026 00:48:01.193] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[086月2026 00:48:01.245] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 279 ms
+[086月2026 00:48:01.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.828s)! For help, type "help"
+[086月2026 00:48:01.310] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[086月2026 00:48:01.311] [Server thread/INFO] [Arclight/]: Forwarding forge permission[neoforge:default_handler] to bukkit
+[086月2026 00:48:12.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[086月2026 00:48:12.269] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[086月2026 00:48:12.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[086月2026 00:48:12.435] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[086月2026 00:48:12.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[086月2026 00:48:12.444] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[086月2026 00:48:12.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
+[086月2026 00:48:12.452] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
+[086月2026 00:48:12.460] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading...
+[086月2026 00:48:12.482] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 正在检查更新...
+[086月2026 00:48:12.601] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 已是最新版本!
+[086月2026 00:48:12.601] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 初始化语言系统...
+[086月2026 00:48:12.602] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件zh_CN[中文 (中国)]加载完成
+[086月2026 00:48:12.602] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件作者: 真心
+[086月2026 00:48:12.875] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 您未登录网易云音乐, 自动转为匿名登录.
+[086月2026 00:48:12.875] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 匿名登录将无法获取您的个人信息, 仅能播放公开音乐.
+[086月2026 00:48:12.875] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 请使用 /zm login 命令登录网易云音乐.
+[086月2026 00:48:12.875] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件作者: 真心
+[086月2026 00:48:12.875] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
+[086月2026 00:48:12.875] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
+[086月2026 00:48:12.875] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件已加载完成!
+[086月2026 00:48:14.271] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Downloading 'https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar' to 'bluemap\minecraft-client-1.21.1.jar'...
+[086月2026 00:48:20.205] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading resources...
+[086月2026 00:48:21.164] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading textures...
+[086月2026 00:48:28.762] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Baking resources...
+[086月2026 00:48:28.814] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Resources loaded.
+[086月2026 00:48:28.920] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Initializing Storage: 'file' (Type: 'bluemap:file')
+[086月2026 00:48:28.924] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading map 'world'...
+[086月2026 00:48:29.167] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading map 'world_the_end'...
+[086月2026 00:48:29.382] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading map 'world_the_nether'...
+[086月2026 00:48:29.581] [BlueMap-Plugin-Loading/WARN] [BlueMap/]: The level-data does not contain any dimension with the id 'ae2:spatial_storage', using fallback.
+[086月2026 00:48:29.581] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading map 'world_ae2_spatial_storage'...
+[086月2026 00:48:29.722] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: WebServer bound to all network interfaces on port 8100
+[086月2026 00:48:29.722] [Thread-15/INFO] [BlueMap/]: WebServer started.
+[086月2026 00:48:29.747] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loaded!
+[086月2026 00:48:52.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[086月2026 00:48:52.911] [Server thread/INFO] [BlueMap/]: BlueMap unloaded!
+[086月2026 00:48:52.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[086月2026 00:48:52.913] [Server thread/INFO] [ZMusic/]: Disabling ZMusic v2.12.0
+[086月2026 00:48:52.913] [Server thread/INFO] [Console/]: ZMusic >>> 正在卸载中....
+[086月2026 00:48:52.913] [Server thread/INFO] [Console/]: ZMusic >>> 插件作者: 真心
+[086月2026 00:48:52.913] [Server thread/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
+[086月2026 00:48:52.913] [Server thread/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
+[086月2026 00:48:52.913] [Server thread/INFO] [Console/]: ZMusic >>> 插件已卸载完成!
+[086月2026 00:48:52.914] [Server thread/INFO] [PlaceholderAPI/]: Disabling PlaceholderAPI v2.12.2
+[086月2026 00:48:52.915] [Server thread/INFO] [CoreProtect/]: Disabling CoreProtect v23.2
+[086月2026 00:48:52.916] [Server thread/INFO] [Minecraft/]: [CoreProtect] Finishing up data logging. Please wait...
+[086月2026 00:48:53.518] [Server thread/INFO] [Minecraft/]: [CoreProtect] Success! Disabled CoreProtect v23.2
+[086月2026 00:48:53.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[086月2026 00:48:53.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[086月2026 00:48:53.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[086月2026 00:48:53.592] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[086月2026 00:48:53.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[086月2026 00:48:53.664] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[086月2026 00:48:53.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[086月2026 00:48:53.677] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[086月2026 00:48:53.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
+[086月2026 00:48:53.689] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
+[086月2026 00:48:58.721] [Exit Thread/INFO] [Arclight/]: 1 threads not shutting down correctly, force exiting
+>>>>>>> d71ffca912ff52e618a13cf1192f51769fb24c16
