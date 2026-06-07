@@ -1,29 +1,16 @@
-[2026-06-07 17:41:28] [INFO]: I18nUpdate Mod 3.7.0 is loaded in 1.21.1 with Forge
-[2026-06-07 17:41:28] [DEBUG]: Minecraft path: D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0
-[2026-06-07 17:41:28] [DEBUG]: Local Storage Pos: C:\Users\CHEN JIAHAO\AppData\Local
-[2026-06-07 17:41:28] [INFO]: Using fastest url: http://downloader1.meitangdehulu.com:22943/
-[2026-06-07 17:41:28] [DEBUG]: Using asset root: http://downloader1.meitangdehulu.com:22943/
-[2026-06-07 17:41:28] [DEBUG]: Both temp and current file not found
-[2026-06-07 17:41:28] [DEBUG]: Local file C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip not exist.
-[2026-06-07 17:41:28] [INFO]: Downloading: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-21.zip -> C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip.tmp
-[2026-06-07 17:41:30] [DEBUG]: Downloaded: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-21.zip -> C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip.tmp
-[2026-06-07 17:41:30] [DEBUG]: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip.tmp md5: 3DB1777517E96E2CB9F24FF4CF62C5F8, remote md5: 3DB1777517E96E2CB9F24FF4CF62C5F8
-[2026-06-07 17:41:30] [DEBUG]: Updates temp file: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip
-[2026-06-07 17:41:30] [DEBUG]: Both temp and current file not found
-[2026-06-07 17:41:30] [DEBUG]: Local file C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip not exist.
-[2026-06-07 17:41:30] [INFO]: Downloading: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-20.zip -> C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip.tmp
-[2026-06-07 17:41:31] [DEBUG]: Downloaded: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-20.zip -> C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip.tmp
-[2026-06-07 17:41:31] [DEBUG]: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip.tmp md5: 804BF06B4953EB83E36A6DC0239C08B9, remote md5: 804BF06B4953EB83E36A6DC0239C08B9
-[2026-06-07 17:41:31] [DEBUG]: Updates temp file: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
-[2026-06-07 17:41:31] [DEBUG]: Both temp and current file not found
-[2026-06-07 17:41:31] [DEBUG]: Local file C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip not exist.
-[2026-06-07 17:41:31] [INFO]: Downloading: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-19.zip -> C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip.tmp
-[2026-06-07 17:41:31] [DEBUG]: Downloaded: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-19.zip -> C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip.tmp
-[2026-06-07 17:41:31] [DEBUG]: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip.tmp md5: 530C601DF24599503E9E82BB3D30526E, remote md5: 530C601DF24599503E9E82BB3D30526E
-[2026-06-07 17:41:31] [DEBUG]: Updates temp file: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
-[2026-06-07 17:41:31] [INFO]: Converting: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip
-[2026-06-07 17:41:32] [INFO]: Converting: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
-[2026-06-07 17:41:32] [INFO]: Converting: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
-[2026-06-07 17:41:32] [INFO]: Converted: [C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip, C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip] -> C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21.1\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
-[2026-06-07 17:41:32] [INFO]: Synchronized: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21.1\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip -> D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
-[2026-06-07 17:41:32] [INFO]: Resource Packs: ["file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"]
+[2026-06-07 18:01:26] [INFO]: I18nUpdate Mod 3.7.0 is loaded in 1.21.1 with Forge
+[2026-06-07 18:01:26] [DEBUG]: Minecraft path: D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0
+[2026-06-07 18:01:26] [DEBUG]: Local Storage Pos: C:\Users\CHEN JIAHAO\AppData\Local
+[2026-06-07 18:01:26] [INFO]: Using fastest url: http://downloader1.meitangdehulu.com:22943/
+[2026-06-07 18:01:26] [DEBUG]: Using asset root: http://downloader1.meitangdehulu.com:22943/
+[2026-06-07 18:01:26] [DEBUG]: Local file C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip has been updated recently.
+[2026-06-07 18:01:26] [DEBUG]: Already up to date.
+[2026-06-07 18:01:26] [DEBUG]: Local file C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip has been updated recently.
+[2026-06-07 18:01:26] [DEBUG]: Already up to date.
+[2026-06-07 18:01:26] [DEBUG]: Local file C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip has been updated recently.
+[2026-06-07 18:01:26] [DEBUG]: Already up to date.
+[2026-06-07 18:01:26] [INFO]: Converting: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip
+[2026-06-07 18:01:26] [INFO]: Converting: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
+[2026-06-07 18:01:27] [INFO]: Converting: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
+[2026-06-07 18:01:27] [INFO]: Converted: [C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip, C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip] -> C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21.1\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
+[2026-06-07 18:01:27] [INFO]: Synchronized: C:\Users\CHEN JIAHAO\AppData\Local\.i18nupdatemod\1.21.1\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip -> D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
