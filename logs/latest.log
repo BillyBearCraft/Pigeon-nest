@@ -1,86 +1,90 @@
-[076月2026 21:20:45.674] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, test, --version, 1.21.1-鸽子窝-V1.0, --gameDir, D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0, --assetsDir, D:\Minecraft\PN Base V0.1-client\.minecraft\assets, --assetIndex, 17, --uuid, 0000000000003004998F501A96EE52DC, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, PCL, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.233, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
-[076月2026 21:20:45.677] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
-[076月2026 21:20:45.679] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[076月2026 21:20:45.872] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[076月2026 21:20:46.019] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[076月2026 21:20:46.227] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[076月2026 21:20:46.443] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/PN%20Base%20V0.1-client/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23175!/ Service=ModLauncher Env=CLIENT
-[076月2026 21:20:46.557] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon 780M Graphics GL version 4.6.0 Core Profile Context 25.10.30.02.250923, ATI Technologies Inc.
-[076月2026 21:20:47.771] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.233:client]
-[076月2026 21:20:47.787] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.233-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[D:\Minecraft\PN Base V0.1-client\.minecraft\libraries\net\neoforged\neoforge\21.1.233\neoforge-21.1.233-universal.jar]], reader: mod manifest]
-[076月2026 21:20:47.798] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[JEI物品管理器]jei-1.21.1-neoforge-19.27.0.340.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.802] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[JEI物品管理器兼容AE2补丁]ae2jeiintegration-1.2.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.807] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[Xaero的世界地图]xaeroworldmap-neoforge-1.21.1-1.40.16.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.813] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[Xaero的小地图]xaerominimap-neoforge-1.21.1-25.3.13.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.817] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[光影]iris-neoforge-1.8.12+mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.821] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事]FarmersDelight-1.21.1-1.3.2.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.825] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属乡村乐事]rusticdelight-neoforge-1.21-1.6.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.828] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属存储乐事]storagedelight-26.04.18a+1.21-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.832] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属果园乐事]fruitsdelight-1.2.14.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.835] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属烧烤乐事]barbequesdelight-1.3.0.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.840] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属玉米乐事]corn_delight-1.2.10-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.843] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属玉米乐事前置]mysterious_mountain_lib-1.2.15-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.846] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[创世神]worldedit-mod-7.3.8.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.851] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[应用能源2]appliedenergistics2-19.2.17.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.856] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[应用能源2前置]guideme-21.1.16.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.858] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[无题鸭]untitledduckmod-1.5.2-neoforge-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.860] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[无题鸭奥瑞科技Let's Do 系列前置]architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.863] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[无题鸭奥瑞科技前置]geckolib-neoforge-1.21.1-4.8.4.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.869] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力]create-1.21.1-6.0.10.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.872] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力中央厨房]create-central-kitchen-2.4.0.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.874] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力中央厨房附魔工业集成农业前置]CreateDragonsPlus-1.10.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.877] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力光影优化]createbetterfps-1.21.1-1.1.4.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力喷淋灌溉系统]sliceanddice-forge-4.2.4.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "[机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力甜食]create-confectionery1.21.1_v1.1.3b.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.889] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力航空学]create-aeronautics-bundled-1.21.1-1.2.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.892] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力航空学前置]sable-neoforge-1.21.1-1.2.2.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.895] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力附魔工业]create-enchantment-industry-2.3.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.898] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力集成农业]create-integrated-farming-1.2.2.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.901] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力齿轮与麦穗]create_ratatouille-1.21.1-1.3.9-2.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.903] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[自动钓鱼]xplus-autofish-1.3.3-neoforged-mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.905] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[自动钓鱼前置]cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.915] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[通用机械]Mekanism-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.918] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:47.920] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[音乐播放器-客户端插件]zmusic-neoforge-1.21.1-3.7.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
-[076月2026 21:20:48.739] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 36 dependencies adding them to mods collection
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "l2serial-3.0.9+5.jar" [parent: [农夫乐事附属烧烤乐事]barbequesdelight-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.233-universal.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: [钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: [光影]iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.0.0.jar, locator: jarinjar]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "l2harvester-3.0.0.jar" [parent: [农夫乐事附属果园乐事]fruitsdelight-1.2.14.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: [机械动力]create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.233.jar" [parent: neoforge-21.1.233-universal.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.11.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.11.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xaerolib-neoforge-1.21.1-1.1.15.jar" [parent: [Xaero的小地图]xaerominimap-neoforge-1.21.1-25.3.13.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.2.1.jar" [parent: [机械动力航空学]create-aeronautics-bundled-1.21.1-1.2.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jcpp-1.4.14.jar" [parent: [光影]iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.11.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.3.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.3.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: [机械动力]create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: [机械动力航空学前置]sable-neoforge-1.21.1-1.2.2.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "l2modularblocks-3.0.0+4.jar" [parent: [农夫乐事附属烧烤乐事]barbequesdelight-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-transformer-2.0.1.jar" [parent: [光影]iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: [钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "l2core-3.0.8+16.jar" [parent: [农夫乐事附属果园乐事]fruitsdelight-1.2.14.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.0.0.jar" [parent: [机械动力航空学前置]sable-neoforge-1.21.1-1.2.2.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.741] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.1-service.jar" [parent: [钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.2.1.jar" [parent: [机械动力航空学]create-aeronautics-bundled-1.21.1-1.2.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "conditional-mixin-neoforge-0.6.4.jar" [parent: [机械动力中央厨房附魔工业集成农业前置]CreateDragonsPlus-1.10.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.3.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.3.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: [钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.0.0.jar, locator: jarinjar]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: [农夫乐事附属烧烤乐事]barbequesdelight-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
-[076月2026 21:20:48.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.2.1.jar" [parent: [机械动力航空学]create-aeronautics-bundled-1.21.1-1.2.1.jar, locator: jarinjar, reader: mod manifest]
-[076月2026 21:20:48.744] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[076月2026 21:56:17.802] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, test, --version, 1.21.1-鸽子窝-V1.0, --gameDir, D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0, --assetsDir, D:\Minecraft\PN Base V0.1-client\.minecraft\assets, --assetIndex, 17, --uuid, 0000000000003004998F501A96EE52DC, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, PCL, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.233, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[076月2026 21:56:17.804] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[076月2026 21:56:17.806] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[076月2026 21:56:17.975] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[076月2026 21:56:18.093] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[076月2026 21:56:18.217] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[076月2026 21:56:18.398] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/PN%20Base%20V0.1-client/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23175!/ Service=ModLauncher Env=CLIENT
+[076月2026 21:56:18.491] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon 780M Graphics GL version 4.6.0 Core Profile Context 25.10.30.02.250923, ATI Technologies Inc.
+[076月2026 21:56:19.524] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.233:client]
+[076月2026 21:56:19.538] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.233-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[D:\Minecraft\PN Base V0.1-client\.minecraft\libraries\net\neoforged\neoforge\21.1.233\neoforge-21.1.233-universal.jar]], reader: mod manifest]
+[076月2026 21:56:19.547] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[JEI物品管理器]jei-1.21.1-neoforge-19.27.0.340.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.549] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[JEI物品管理器兼容AE2补丁]ae2jeiintegration-1.2.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.554] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[Xaero的世界地图]xaeroworldmap-neoforge-1.21.1-1.40.16.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.562] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[Xaero的小地图]xaerominimap-neoforge-1.21.1-25.3.13.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.565] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[光影]iris-neoforge-1.8.12+mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.568] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事]FarmersDelight-1.21.1-1.3.2.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.571] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属乡村乐事]rusticdelight-neoforge-1.21-1.6.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.573] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属存储乐事]storagedelight-26.04.18a+1.21-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.575] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属果园乐事]fruitsdelight-1.2.14.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.577] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属烧烤乐事]barbequesdelight-1.3.0.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.579] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属玉米乐事]corn_delight-1.2.10-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.580] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[农夫乐事附属玉米乐事前置]mysterious_mountain_lib-1.2.15-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.583] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[创世神]worldedit-mod-7.3.8.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.586] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[应用能源2]appliedenergistics2-19.2.17.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.590] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[应用能源2前置]guideme-21.1.16.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.592] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[无题鸭]untitledduckmod-1.5.2-neoforge-1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.594] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[无题鸭奥瑞科技Let's Do 系列前置]architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.596] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[无题鸭奥瑞科技前置]geckolib-neoforge-1.21.1-4.8.4.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.602] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力]create-1.21.1-6.0.10.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.604] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力中央厨房]create-central-kitchen-2.4.0.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.606] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力中央厨房附魔工业集成农业前置]CreateDragonsPlus-1.10.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.609] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力光影优化]createbetterfps-1.21.1-1.1.4.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.611] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力喷淋灌溉系统]sliceanddice-forge-4.2.4.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.613] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "[机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.616] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力甜食]create-confectionery1.21.1_v1.1.3b.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.618] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力航空学]create-aeronautics-bundled-1.21.1-1.2.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.621] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力航空学前置]sable-neoforge-1.21.1-1.2.2.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.623] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力附魔工业]create-enchantment-industry-2.3.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.625] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力集成农业]create-integrated-farming-1.2.2.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.627] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[机械动力齿轮与麦穗]create_ratatouille-1.21.1-1.3.9-2.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.629] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[自动钓鱼]xplus-autofish-1.3.3-neoforged-mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.631] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[自动钓鱼前置]cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.635] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[通用机械]Mekanism-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.637] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[通用机械发电机]MekanismGenerators-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.639] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[通用机械工具]MekanismTools-1.21.1-10.7.19.85.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.641] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[通用机械扩展]mekanism_extras-1.21.1-1.4.0.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.643] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[通用机械更多机器]mekmm-1.21.1-1.3.3.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.646] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:19.648] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[音乐播放器-客户端插件]zmusic-neoforge-1.21.1-3.7.1.jar" [locator: {mods folder locator at D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\mods}, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 36 dependencies adding them to mods collection
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "l2serial-3.0.9+5.jar" [parent: [农夫乐事附属果园乐事]fruitsdelight-1.2.14.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.233-universal.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: [钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: [光影]iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.0.0.jar, locator: jarinjar]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "l2harvester-3.0.0.jar" [parent: [农夫乐事附属果园乐事]fruitsdelight-1.2.14.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: [机械动力]create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.233.jar" [parent: neoforge-21.1.233-universal.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.11.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.11.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "xaerolib-neoforge-1.21.1-1.1.15.jar" [parent: [Xaero的小地图]xaerominimap-neoforge-1.21.1-25.3.13.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.2.1.jar" [parent: [机械动力航空学]create-aeronautics-bundled-1.21.1-1.2.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jcpp-1.4.14.jar" [parent: [光影]iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.11.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.3.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.3.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: [机械动力]create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: [机械动力航空学前置]sable-neoforge-1.21.1-1.2.2.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "l2modularblocks-3.0.0+4.jar" [parent: [农夫乐事附属烧烤乐事]barbequesdelight-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-transformer-2.0.1.jar" [parent: [光影]iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: [钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "l2core-3.0.8+16.jar" [parent: [农夫乐事附属果园乐事]fruitsdelight-1.2.14.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.0.0.jar" [parent: [机械动力航空学前置]sable-neoforge-1.21.1-1.2.2.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.1-service.jar" [parent: [钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.2.1.jar" [parent: [机械动力航空学]create-aeronautics-bundled-1.21.1-1.2.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "conditional-mixin-neoforge-0.6.4.jar" [parent: [机械动力中央厨房附魔工业集成农业前置]CreateDragonsPlus-1.10.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.3.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.3.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: [钠 客户端优化] sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.0.0.jar, locator: jarinjar]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: [农夫乐事附属果园乐事]fruitsdelight-1.2.14.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: [机械动力喷淋灌溉系统前置]kotlinforforge-5.11.0-all.jar, locator: jarinjar]
+[076月2026 21:56:20.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.2.1.jar" [parent: [机械动力航空学]create-aeronautics-bundled-1.21.1-1.2.1.jar, locator: jarinjar, reader: mod manifest]
+[076月2026 21:56:20.228] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -118,6 +122,10 @@
 		L2Core 3.0.8+16 (l2core)
 		L2Harvester 3.0.0 (l2harvester)
 		Mekanism 10.7.19 (mekanism)
+		Mekanism: Generators 10.7.19 (mekanismgenerators)
+		Mekanism: MoreMachine 1.3.3 (mekmm)
+		Mekanism: Tools 10.7.19 (mekanismtools)
+		MekanismExtras 1.4.0 (mekanism_extras)
 		Minecraft 1.21.1 (minecraft)
 		Mysterious Mountain Lib 1.2.15-1.21.1 (mysterious_mountain_lib)
 		NeoForge 21.1.233 (neoforge)
@@ -136,78 +144,74 @@
 		XaeroLib 1.1.15 (xaerolib)
 		XPlus AutoFish 1.3.3-neoforged (autofish)
 		ZMusic 3.7.1 (zmusic)
-[076月2026 21:20:49.071] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaeroworldmap, xaerominimap]
-[076月2026 21:20:50.134] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[076月2026 21:20:50.239] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.21.1-鸽子窝-V1.0, --gameDir, D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0, --assetsDir, D:\Minecraft\PN Base V0.1-client\.minecraft\assets, --uuid, 0000000000003004998F501A96EE52DC, --username, test, --assetIndex, 17, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, PCL, --width, 854, --height, 480]
-[076月2026 21:20:50.268] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.277] [main/WARN] [mixin/]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.287] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.289] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.292] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.293] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.294] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.294] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.294] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.308] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.command.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.308] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.debug.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.309] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.dynamicbuffer.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.309] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.fix.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.309] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.framebuffer.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.309] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.necromancer.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.309] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.network.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.309] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.performance.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.310] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.perspective.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.310] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.pipeline.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.310] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.quasar.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.310] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.registry.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.311] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.rendertype.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.311] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.resource.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.311] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.scheduler.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.311] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.shader.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.312] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.312] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.325] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
-[076月2026 21:20:50.327] [main/WARN] [mixin/]: Reference map 'createbetterfps.refmap.json' for createbetterfps.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.328] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.328] [main/WARN] [mixin/]: Reference map 'mixins.mmlib.refmap.json' for mixins.mmlib.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.329] [main/WARN] [mixin/]: Reference map 'xplusautofish.refmap.json' for autofish.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.337] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.364] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Sodium renderer mixins
-[076月2026 21:20:50.365] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Sodium renderer mixins
-[076月2026 21:20:50.366] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.367] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.369] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 21:20:50.665] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/ponder/PonderWorld (java.lang.ClassNotFoundException: com.simibubi.create.foundation.ponder.PonderWorld)
-[076月2026 21:20:50.958] [main/WARN] [mixin/]: Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)
-[076月2026 21:20:50.959] [main/WARN] [mixin/]: Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)
-[076月2026 21:20:50.964] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/client/utils/IEGLShaders (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.client.utils.IEGLShaders)
-[076月2026 21:20:51.168] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[076月2026 21:20:51.168] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[076月2026 21:20:51.168] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[076月2026 21:20:51.738] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
-[076月2026 21:20:51.826] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[076月2026 21:20:53.136] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 215 milliseconds
-[076月2026 21:20:53.248] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[076月2026 21:20:57.461] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1-client/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23225!/assets/.mcassetsroot' uses unexpected schema
-[076月2026 21:20:57.461] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1-client/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23225!/data/.mcassetsroot' uses unexpected schema
-[076月2026 21:20:57.480] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[076月2026 21:20:57.486] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: test
-[076月2026 21:20:57.557] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[076月2026 21:20:57.593] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: ATI Technologies Inc.
-[076月2026 21:20:57.593] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: AMD Radeon 780M Graphics
-[076月2026 21:20:57.593] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 Core Profile Context 25.10.30.02.250923
-[076月2026 21:20:57.711] [Render thread/INFO] [Iris/]: Debug functionality is disabled.
-[076月2026 21:20:57.713] [Render thread/INFO] [Iris/]: OpenGL 4.5 detected, enabling DSA.
-[076月2026 21:20:57.731] [Render thread/INFO] [Iris/]: Shaders are disabled because no valid shaderpack is selected
-[076月2026 21:20:58.092] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
-[076月2026 21:20:58.148] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.233, for MC 1.21.1
-[076月2026 21:20:58.158] [modloading-worker-0/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
-[076月2026 21:20:58.251] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method renderSectionLayer in sodium-common.mixins.json:core.render.world.LevelRendererMixin from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[076月2026 21:20:58.371] [Download-2/ERROR] [net.minecraft.client.Minecraft/]: Failed to fetch user properties
+[076月2026 21:56:20.416] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaeroworldmap, xaerominimap]
+[076月2026 21:56:21.370] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[076月2026 21:56:21.429] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.21.1-鸽子窝-V1.0, --gameDir, D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0, --assetsDir, D:\Minecraft\PN Base V0.1-client\.minecraft\assets, --uuid, 0000000000003004998F501A96EE52DC, --username, test, --assetIndex, 17, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, PCL, --width, 854, --height, 480]
+[076月2026 21:56:21.457] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.462] [main/WARN] [mixin/]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.470] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.472] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.474] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.474] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.474] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.474] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.474] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.488] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.command.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.488] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.debug.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.489] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.dynamicbuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.489] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.fix.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.489] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.framebuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.489] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.necromancer.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.489] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.network.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.489] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.performance.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.490] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.perspective.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.490] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.pipeline.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.490] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.quasar.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.490] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.registry.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.490] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.rendertype.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.490] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.resource.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.491] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.scheduler.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.491] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.shader.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.491] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.491] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.500] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[076月2026 21:56:21.501] [main/WARN] [mixin/]: Reference map 'createbetterfps.refmap.json' for createbetterfps.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.502] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.502] [main/WARN] [mixin/]: Reference map 'mixins.mmlib.refmap.json' for mixins.mmlib.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.503] [main/WARN] [mixin/]: Reference map 'xplusautofish.refmap.json' for autofish.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.509] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.525] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Sodium renderer mixins
+[076月2026 21:56:21.526] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Sodium renderer mixins
+[076月2026 21:56:21.528] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.528] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.529] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:56:21.760] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/ponder/PonderWorld (java.lang.ClassNotFoundException: com.simibubi.create.foundation.ponder.PonderWorld)
+[076月2026 21:56:21.975] [main/WARN] [mixin/]: Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)
+[076月2026 21:56:21.976] [main/WARN] [mixin/]: Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)
+[076月2026 21:56:21.981] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/client/utils/IEGLShaders (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.client.utils.IEGLShaders)
+[076月2026 21:56:22.122] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[076月2026 21:56:22.122] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[076月2026 21:56:22.123] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[076月2026 21:56:22.585] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[076月2026 21:56:22.640] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[076月2026 21:56:23.816] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 205 milliseconds
+[076月2026 21:56:23.912] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[076月2026 21:56:27.440] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1-client/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23229!/assets/.mcassetsroot' uses unexpected schema
+[076月2026 21:56:27.441] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1-client/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23229!/data/.mcassetsroot' uses unexpected schema
+[076月2026 21:56:27.464] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[076月2026 21:56:27.471] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: test
+[076月2026 21:56:27.545] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[076月2026 21:56:27.580] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: ATI Technologies Inc.
+[076月2026 21:56:27.580] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: AMD Radeon 780M Graphics
+[076月2026 21:56:27.580] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 Core Profile Context 25.10.30.02.250923
+[076月2026 21:56:27.700] [Render thread/INFO] [Iris/]: Debug functionality is disabled.
+[076月2026 21:56:27.704] [Render thread/INFO] [Iris/]: OpenGL 4.5 detected, enabling DSA.
+[076月2026 21:56:27.722] [Render thread/INFO] [Iris/]: Shaders are disabled because no valid shaderpack is selected
+[076月2026 21:56:27.994] [Download-2/ERROR] [net.minecraft.client.Minecraft/]: Failed to fetch user properties
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-6.0.54.jar%23111!/:?]
 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150) ~[authlib-6.0.54.jar%23111!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:431) ~[client-1.21.1-20240808.144430-srg.jar%23225!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:431) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
@@ -217,362 +221,425 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar%23111!/:?]
 	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-6.0.54.jar%23111!/:?]
 	... 5 more
-[076月2026 21:20:58.455] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
-[076月2026 21:20:58.523] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering client data for channel xaerolib:main!
-[076月2026 21:20:58.552] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
-[076月2026 21:20:58.576] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
-[076月2026 21:20:58.581] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
-[076月2026 21:20:58.585] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary client config for channel xaerolib:main!
-[076月2026 21:20:58.586] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading client config profiles for channel xaerolib:main!
-[076月2026 21:20:58.587] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
-[076月2026 21:20:58.627] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[076月2026 21:20:58.643] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering client data for channel xaeroworldmap:main!
-[076月2026 21:20:58.735] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
-[076月2026 21:20:58.737] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
-[076月2026 21:20:58.739] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary client config for channel xaeroworldmap:main!
-[076月2026 21:20:58.741] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading client config profiles for channel xaeroworldmap:main!
-[076月2026 21:20:58.743] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
-[076月2026 21:20:58.813] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering client data for channel xaerominimap:main!
-[076月2026 21:20:58.852] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[076月2026 21:20:58.860] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.553 milliseconds
-[076月2026 21:20:58.890] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
-[076月2026 21:20:58.891] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
-[076月2026 21:20:58.893] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary client config for channel xaerominimap:main!
-[076月2026 21:20:58.895] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading client config profiles for channel xaerominimap:main!
-[076月2026 21:21:00.642] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
-[076月2026 21:21:00.663] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
-[076月2026 21:21:02.897] [Render thread/INFO] [Veil/]: GL Debug supported
-[076月2026 21:21:03.122] [Render thread/INFO] [Iris/]: Hardware information:
-[076月2026 21:21:03.122] [Render thread/INFO] [Iris/]: CPU: 16x AMD Ryzen 7 7840HS w/ Radeon 780M Graphics 
-[076月2026 21:21:03.122] [Render thread/INFO] [Iris/]: GPU: AMD Radeon 780M Graphics (Supports OpenGL 4.6.0 Core Profile Context 25.10.30.02.250923)
-[076月2026 21:21:03.122] [Render thread/INFO] [Iris/]: OS: Windows 10 (10.0)
-[076月2026 21:21:03.715] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip, mod_resources, mod/sodium, mod/ae2jeiintegration, mod/fabric_renderer_api_v1, mod/geckolib, mod/zmusic, mod/ae2, mod/jei, mod/xaerolib, mod/aeronautics, mod/aeronautics_bundled, mod/mekanism, mod/xaeroworldmap, mod/neoforge, mod/fabric_block_view_api_v2, mod/iris, mod/veil, mod/storagedelight, mod/simulated, mod/guideme, mod/createbetterfps, mod/cloth_config, mod/untitledduckmod, mod/offroad, mod/farmersdelight, mod/create_confectionery, mod/fabric_api_base, mod/mysterious_mountain_lib, mod/l2harvester, mod/autofish, mod/kotlinforforge, mod/flywheel, mod/ponder, mod/create, mod/ratatouille, mod/create_dragons_plus, mod/create_central_kitchen, mod/create_integrated_farming, mod/sable, mod/sablecompanion, mod/xaerominimap, mod/barbequesdelight, mod/l2core, mod/worldedit, mod/rusticdelight, mod/architectury, mod/corn_delight, mod/conditional_mixin, mod/fabric_rendering_data_attachment_v1, mod/create_enchantment_industry, mod/sliceanddice, mod/fruitsdelight
-[076月2026 21:21:03.741] [Worker-Main-7/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
-[076月2026 21:21:03.742] [Worker-Main-6/INFO] [cn.mcmod_mmf.mmlib.Main/]: Presented by Zaia
-[076月2026 21:21:03.743] [Worker-Main-5/INFO] [mekanism.common.Mekanism/]: Version 10.7.19 initializing...
-[076月2026 21:21:03.751] [Worker-Main-5/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
-[076月2026 21:21:03.766] [Worker-Main-5/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[076月2026 21:21:03.766] [Worker-Main-5/INFO] [mekanism.common.Mekanism/]: Mod loaded.
-[076月2026 21:21:03.786] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
-[076月2026 21:21:04.188] [Worker-Main-11/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@361b388d]
-[076月2026 21:21:04.190] [Worker-Main-11/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
-[076月2026 21:21:04.739] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
-[076月2026 21:21:04.739] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json?neoforge=only
-[076月2026 21:21:05.132] [Worker-Main-9/WARN] [net.minecraft.client.sounds.SoundManager/]: File mmlib:sounds/presented_by_zaia.ogg does not exist, cannot add it to event mysterious_mountain_lib:presented_by_zaia
-[076月2026 21:21:05.312] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[076月2026 21:21:05.312] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[076月2026 21:21:05.602] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 4.2.4 Target: null
-[076月2026 21:21:06.111] [ForkJoinPool.commonPool-worker-9/WARN] [Iris/]: [Iris Update Check] This version doesn't have an update index, skipping.
-[076月2026 21:21:08.849] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:block' referenced from: simulated:block/rope_connector/block_horizontal: java.io.FileNotFoundException: minecraft:models/block.json
-[076月2026 21:21:09.230] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'farmersdelight:block/shepherds_pie_block_leftover' referenced from: farmersdelight:block/shepherds_pie_block_leftover: java.io.FileNotFoundException: farmersdelight:models/block/shepherds_pie_block_leftover.json
-[076月2026 21:21:13.100] [Worker-Main-8/INFO] [me.zhenxin.zmusic.ZMusic/]: Welcome use ZMusic!
-[076月2026 21:21:13.100] [Worker-Main-8/INFO] [me.zhenxin.zmusic.ZMusic/]: Homepage: https://m.zplu.cc
-[076月2026 21:21:13.100] [Worker-Main-8/INFO] [me.zhenxin.zmusic.ZMusic/]: Github: https://github.com/zmusic-dev/zmusic-mod
-[076月2026 21:21:13.100] [Worker-Main-8/INFO] [me.zhenxin.zmusic.ZMusic/]: Discord: https://discord.gg/twQgJNufYn
-[076月2026 21:21:13.100] [Worker-Main-8/INFO] [me.zhenxin.zmusic.ZMusic/]: QQ Group: 1032722724
-[076月2026 21:21:13.103] [Worker-Main-8/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib client 1/2!
-[076月2026 21:21:13.212] [Worker-Main-10/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 1/2
-[076月2026 21:21:13.259] [Worker-Main-10/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2
-[076月2026 21:21:14.020] [Worker-Main-8/WARN] [xaero.lib.XaeroLib/]: io exception while checking patreon: Connect timed out
-[076月2026 21:21:14.039] [Render thread/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 2/2
-[076月2026 21:21:14.042] [Render thread/INFO] [xaero.map.WorldMap/]: New world map region cache hash code: -1306344006
-[076月2026 21:21:14.486] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture ratatouille:block/oven_fan/fans_black with size 14x14 limits mip level from 4 to 1
-[076月2026 21:21:14.944] [Render thread/ERROR] [xaero.map.WorldMap/]: io exception while checking versions: Connect timed out
-[076月2026 21:21:14.945] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: map_synced
-[076月2026 21:21:14.948] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's WorldMap Mod: Xaero's minimap found!
-[076月2026 21:21:14.954] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: minimap_synced
-[076月2026 21:21:14.954] [Render thread/INFO] [xaero.map.WorldMap/]: No Optifine!
-[076月2026 21:21:14.954] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: No Vivecraft!
-[076月2026 21:21:14.955] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: Iris found!
-[076月2026 21:21:14.987] [Render thread/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2
-[076月2026 21:21:15.901] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=west,servings=4:
+[076月2026 21:56:28.000] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[076月2026 21:56:28.060] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.233, for MC 1.21.1
+[076月2026 21:56:28.062] [modloading-worker-0/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
+[076月2026 21:56:28.139] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method renderSectionLayer in sodium-common.mixins.json:core.render.world.LevelRendererMixin from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[076月2026 21:56:28.357] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[076月2026 21:56:28.411] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[076月2026 21:56:28.479] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering client data for channel xaerominimap:main!
+[076月2026 21:56:28.508] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[076月2026 21:56:28.567] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[076月2026 21:56:28.572] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[076月2026 21:56:28.577] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary client config for channel xaerominimap:main!
+[076月2026 21:56:28.579] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading client config profiles for channel xaerominimap:main!
+[076月2026 21:56:28.593] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[076月2026 21:56:28.607] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering client data for channel xaeroworldmap:main!
+[076月2026 21:56:28.643] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[076月2026 21:56:28.644] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[076月2026 21:56:28.646] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary client config for channel xaeroworldmap:main!
+[076月2026 21:56:28.647] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading client config profiles for channel xaeroworldmap:main!
+[076月2026 21:56:28.648] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[076月2026 21:56:28.650] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering client data for channel xaerolib:main!
+[076月2026 21:56:28.652] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[076月2026 21:56:28.653] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[076月2026 21:56:28.655] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary client config for channel xaerolib:main!
+[076月2026 21:56:28.657] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading client config profiles for channel xaerolib:main!
+[076月2026 21:56:28.661] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[076月2026 21:56:28.666] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.881 milliseconds
+[076月2026 21:56:30.147] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[076月2026 21:56:30.166] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
+[076月2026 21:56:33.671] [Render thread/INFO] [Veil/]: GL Debug supported
+[076月2026 21:56:33.871] [Render thread/INFO] [Iris/]: Hardware information:
+[076月2026 21:56:33.871] [Render thread/INFO] [Iris/]: CPU: 16x AMD Ryzen 7 7840HS w/ Radeon 780M Graphics 
+[076月2026 21:56:33.871] [Render thread/INFO] [Iris/]: GPU: AMD Radeon 780M Graphics (Supports OpenGL 4.6.0 Core Profile Context 25.10.30.02.250923)
+[076月2026 21:56:33.872] [Render thread/INFO] [Iris/]: OS: Windows 10 (10.0)
+[076月2026 21:56:34.471] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip, mod_resources, mod/sodium, mod/ae2jeiintegration, mod/fabric_renderer_api_v1, mod/geckolib, mod/zmusic, mod/ae2, mod/jei, mod/xaerolib, mod/aeronautics, mod/aeronautics_bundled, mod/mekanism, mod/mekmm, mod/xaeroworldmap, mod/neoforge, mod/fabric_block_view_api_v2, mod/iris, mod/veil, mod/storagedelight, mod/simulated, mod/guideme, mod/mekanismgenerators, mod/createbetterfps, mod/cloth_config, mod/untitledduckmod, mod/offroad, mod/farmersdelight, mod/create_confectionery, mod/mekanism_extras, mod/fabric_api_base, mod/mysterious_mountain_lib, mod/l2harvester, mod/autofish, mod/kotlinforforge, mod/flywheel, mod/ponder, mod/create, mod/ratatouille, mod/create_dragons_plus, mod/create_central_kitchen, mod/create_integrated_farming, mod/sable, mod/sablecompanion, mod/xaerominimap, mod/barbequesdelight, mod/l2core, mod/worldedit, mod/mekanismtools, mod/rusticdelight, mod/architectury, mod/corn_delight, mod/conditional_mixin, mod/fabric_rendering_data_attachment_v1, mod/create_enchantment_industry, mod/sliceanddice, mod/fruitsdelight
+[076月2026 21:56:34.495] [Worker-Main-7/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[076月2026 21:56:34.495] [Worker-Main-11/INFO] [cn.mcmod_mmf.mmlib.Main/]: Presented by Zaia
+[076月2026 21:56:34.497] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Version 10.7.19 initializing...
+[076月2026 21:56:34.507] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
+[076月2026 21:56:34.524] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[076月2026 21:56:34.524] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[076月2026 21:56:34.525] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Tools' module.
+[076月2026 21:56:34.525] [Worker-Main-8/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[076月2026 21:56:34.525] [Worker-Main-8/INFO] [MekanismMoreMachine/]: Version 1.3.3 initializing...
+[076月2026 21:56:34.545] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[076月2026 21:56:34.807] [Worker-Main-14/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1781398]
+[076月2026 21:56:34.807] [Worker-Main-14/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
+[076月2026 21:56:35.203] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[076月2026 21:56:35.204] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json?neoforge=only
+[076月2026 21:56:35.454] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 4.2.4 Target: null
+[076月2026 21:56:35.757] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[076月2026 21:56:35.757] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[076月2026 21:56:36.911] [Worker-Main-11/WARN] [net.minecraft.client.sounds.SoundManager/]: File mmlib:sounds/presented_by_zaia.ogg does not exist, cannot add it to event mysterious_mountain_lib:presented_by_zaia
+[076月2026 21:56:38.959] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:block' referenced from: simulated:block/rope_connector/block_horizontal: java.io.FileNotFoundException: minecraft:models/block.json
+[076月2026 21:56:39.289] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'farmersdelight:block/shepherds_pie_block_leftover' referenced from: farmersdelight:block/shepherds_pie_block_leftover: java.io.FileNotFoundException: farmersdelight:models/block/shepherds_pie_block_leftover.json
+[076月2026 21:56:39.315] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:block_block' referenced from: mekmm:block/factory/centrifuging/base: java.io.FileNotFoundException: minecraft:models/block_block.json
+[076月2026 21:56:39.337] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'mekanism_extras:block/factory/front_led/active/ultimate' referenced from: mekanism_extras:block/factory/front_led/active/ultimate: java.io.FileNotFoundException: mekanism_extras:models/block/factory/front_led/active/ultimate.json
+[076月2026 21:56:39.342] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'mekanism_extras:block/factory/front_led/active/advanced' referenced from: mekanism_extras:block/factory/front_led/active/advanced: java.io.FileNotFoundException: mekanism_extras:models/block/factory/front_led/active/advanced.json
+[076月2026 21:56:39.342] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'mekanism_extras:block/factory/front_led/active/basic' referenced from: mekanism_extras:block/factory/front_led/active/basic: java.io.FileNotFoundException: mekanism_extras:models/block/factory/front_led/active/basic.json
+[076月2026 21:56:39.355] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'mekanism_extras:block/factory/front_led/active/elite' referenced from: mekanism_extras:block/factory/front_led/active/elite: java.io.FileNotFoundException: mekanism_extras:models/block/factory/front_led/active/elite.json
+[076月2026 21:56:42.233] [Worker-Main-6/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib client 1/2!
+[076月2026 21:56:42.237] [Worker-Main-4/INFO] [me.zhenxin.zmusic.ZMusic/]: Welcome use ZMusic!
+[076月2026 21:56:42.238] [Worker-Main-4/INFO] [me.zhenxin.zmusic.ZMusic/]: Homepage: https://m.zplu.cc
+[076月2026 21:56:42.238] [Worker-Main-4/INFO] [me.zhenxin.zmusic.ZMusic/]: Github: https://github.com/zmusic-dev/zmusic-mod
+[076月2026 21:56:42.238] [Worker-Main-4/INFO] [me.zhenxin.zmusic.ZMusic/]: Discord: https://discord.gg/twQgJNufYn
+[076月2026 21:56:42.238] [Worker-Main-4/INFO] [me.zhenxin.zmusic.ZMusic/]: QQ Group: 1032722724
+[076月2026 21:56:42.276] [Worker-Main-4/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 1/2
+[076月2026 21:56:42.408] [Worker-Main-4/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2
+[076月2026 21:56:43.152] [Worker-Main-6/WARN] [xaero.lib.XaeroLib/]: io exception while checking patreon: Connect timed out
+[076月2026 21:56:43.171] [Render thread/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 2/2
+[076月2026 21:56:43.173] [Render thread/INFO] [xaero.map.WorldMap/]: New world map region cache hash code: 1346315613
+[076月2026 21:56:43.851] [Worker-Main-15/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture ratatouille:block/mechanical_demolder/sticker with size 14x14 limits mip level from 4 to 1
+[076月2026 21:56:44.290] [Render thread/ERROR] [xaero.map.WorldMap/]: io exception while checking versions: Read timed out
+[076月2026 21:56:44.292] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: map_synced
+[076月2026 21:56:44.298] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's WorldMap Mod: Xaero's minimap found!
+[076月2026 21:56:44.307] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: minimap_synced
+[076月2026 21:56:44.308] [Render thread/INFO] [xaero.map.WorldMap/]: No Optifine!
+[076月2026 21:56:44.308] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: No Vivecraft!
+[076月2026 21:56:44.308] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: Iris found!
+[076月2026 21:56:44.339] [Render thread/WARN] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Mod 'xaeroworldmap' took 1.169 s to run a deferred task.
+[076月2026 21:56:44.339] [Render thread/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2
+[076月2026 21:56:45.055] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=west,servings=4:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=west,servings=3:
+[076月2026 21:56:45.055] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=west,servings=3:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=west,servings=2:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=west,servings=2:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=west,servings=1:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=west,servings=1:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=east,servings=1:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=east,servings=1:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=south,servings=1:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=south,servings=1:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=north,servings=4:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=north,servings=4:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=south,servings=2:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=south,servings=2:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=south,servings=3:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=south,servings=3:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=north,servings=2:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=north,servings=2:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=south,servings=4:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=south,servings=4:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=north,servings=3:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=north,servings=3:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=east,servings=4:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=east,servings=4:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=east,servings=3:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=east,servings=3:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=north,servings=1:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=north,servings=1:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.902] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=east,servings=2:
+[076月2026 21:56:45.056] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model corn_delight:nachos_block#facing=east,servings=2:
     minecraft:textures/atlas/blocks.png:farmersdelight:block/tray_top
-[076月2026 21:21:15.983] [Render thread/WARN] [xaero.hud.minimap.MinimapLogs/]: io exception while checking versions: Connect timed out
-[076月2026 21:21:15.984] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered player tracker system: minimap_synced
-[076月2026 21:21:15.984] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: World Map found!
-[076月2026 21:21:15.984] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: No Optifine!
-[076月2026 21:21:15.984] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: No Vivecraft!
-[076月2026 21:21:15.984] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: Iris found!
-[076月2026 21:21:15.985] [Render thread/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
-[076月2026 21:21:15.985] [Render thread/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib client 2/2!
-[076月2026 21:21:16.067] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
-[076月2026 21:21:16.357] [Render thread/INFO] [Veil/]: Loaded 29 shaders from: pinwheel/shaders/program
-[076月2026 21:21:16.458] [Worker-Main-5/INFO] [PonderIndex/]: Registering Ponder Scenes took 80.98 ms
-[076月2026 21:21:16.463] [Worker-Main-5/INFO] [PonderIndex/]: Registering Ponder Tags took 4.788 ms
-[076月2026 21:21:16.687] [Render thread/WARN] [net.minecraft.client.resources.language.ClientLanguage/]: Skipped language file: isometric-renders:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected gui.isometric-renders.mesh_corrupt to be a string, was an object ({"te...d"}))
-[076月2026 21:21:16.989] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[076月2026 21:21:16.989] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[076月2026 21:21:17.048] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 2 - LG ULTRAGEAR (AMD High Definition Audio Device)
-[076月2026 21:21:17.049] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[076月2026 21:21:17.123] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[076月2026 21:21:17.158] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
-[076月2026 21:21:17.159] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[076月2026 21:21:17.159] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[076月2026 21:21:17.160] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[076月2026 21:21:17.168] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[076月2026 21:21:17.169] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[076月2026 21:21:17.169] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[076月2026 21:21:17.170] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[076月2026 21:21:17.254] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
-[076月2026 21:21:17.255] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[076月2026 21:21:17.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[076月2026 21:21:17.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[076月2026 21:21:17.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[076月2026 21:21:17.286] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[076月2026 21:21:17.363] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[076月2026 21:21:17.366] [VeilVanillaShaderCompileThread#1/ERROR] [Veil/]: Couldn't load vanilla shader from mekanism:shaders/core/rendertype_mekasuit.fsh, skipping
+[076月2026 21:56:46.592] [Render thread/WARN] [xaero.hud.minimap.MinimapLogs/]: io exception while checking versions: Read timed out
+[076月2026 21:56:46.593] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered player tracker system: minimap_synced
+[076月2026 21:56:46.593] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: World Map found!
+[076月2026 21:56:46.593] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: No Optifine!
+[076月2026 21:56:46.593] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: No Vivecraft!
+[076月2026 21:56:46.593] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: Iris found!
+[076月2026 21:56:46.593] [Render thread/WARN] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Mod 'xaerominimap' took 2.254 s to run a deferred task.
+[076月2026 21:56:46.594] [Render thread/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[076月2026 21:56:46.594] [Render thread/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib client 2/2!
+[076月2026 21:56:46.751] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
+[076月2026 21:56:46.991] [Render thread/INFO] [Veil/]: Loaded 29 shaders from: pinwheel/shaders/program
+[076月2026 21:56:47.085] [Worker-Main-3/INFO] [PonderIndex/]: Registering Ponder Scenes took 74.26 ms
+[076月2026 21:56:47.090] [Worker-Main-3/INFO] [PonderIndex/]: Registering Ponder Tags took 4.008 ms
+[076月2026 21:56:47.272] [Render thread/WARN] [net.minecraft.client.resources.language.ClientLanguage/]: Skipped language file: isometric-renders:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected gui.isometric-renders.mesh_corrupt to be a string, was an object ({"te...d"}))
+[076月2026 21:56:47.550] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[076月2026 21:56:47.550] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[076月2026 21:56:47.608] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 2 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[076月2026 21:56:47.608] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[076月2026 21:56:47.691] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[076月2026 21:56:47.729] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[076月2026 21:56:47.730] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[076月2026 21:56:47.730] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[076月2026 21:56:47.730] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[076月2026 21:56:47.739] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[076月2026 21:56:47.739] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[076月2026 21:56:47.739] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[076月2026 21:56:47.740] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[076月2026 21:56:47.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[076月2026 21:56:47.826] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[076月2026 21:56:47.826] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[076月2026 21:56:47.827] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[076月2026 21:56:47.827] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[076月2026 21:56:47.858] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[076月2026 21:56:47.940] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[076月2026 21:56:47.943] [VeilVanillaShaderCompileThread#1/ERROR] [Veil/]: Couldn't load vanilla shader from mekanism:shaders/core/rendertype_mekasuit.fsh, skipping
 java.lang.NullPointerException: Cannot invoke "io.github.ocelot.glslprocessor.api.node.GlslNodeList.iterator()" because "this.body" is null
-	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.function.GlslFunctionNode.visit(GlslFunctionNode.java:37) ~[glsl-processor-0.2.3.jar%23336!/:?]
-	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.visitor.GlslTreeStringWriter.visitFunction(GlslTreeStringWriter.java:97) ~[glsl-processor-0.2.3.jar%23336!/:?]
-	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:51) ~[glsl-processor-0.2.3.jar%23336!/:?]
-	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:99) ~[glsl-processor-0.2.3.jar%23336!/:?]
-	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.toSourceString(GlslTree.java:255) ~[glsl-processor-0.2.3.jar%23336!/:?]
-	at TRANSFORMER/veil@4.0.0/foundry.veil.impl.client.render.shader.processor.VanillaShaderProcessor.modify(VanillaShaderProcessor.java:59) ~[veil-neoforge-1.21.1-4.0.0.jar%23308!/:4.0.0]
-	at TRANSFORMER/veil@4.0.0/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.compileShader(VanillaShaderCompiler.java:78) ~[veil-neoforge-1.21.1-4.0.0.jar%23308!/:4.0.0]
-	at TRANSFORMER/veil@4.0.0/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.lambda$reload$2(VanillaShaderCompiler.java:124) ~[veil-neoforge-1.21.1-4.0.0.jar%23308!/:4.0.0]
-	at TRANSFORMER/veil@4.0.0/foundry.veil.impl.ThreadTaskScheduler.run(ThreadTaskScheduler.java:89) ~[veil-neoforge-1.21.1-4.0.0.jar%23308!/:4.0.0]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.function.GlslFunctionNode.visit(GlslFunctionNode.java:37) ~[glsl-processor-0.2.3.jar%23344!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.visitor.GlslTreeStringWriter.visitFunction(GlslTreeStringWriter.java:97) ~[glsl-processor-0.2.3.jar%23344!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:51) ~[glsl-processor-0.2.3.jar%23344!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.visit(GlslTree.java:99) ~[glsl-processor-0.2.3.jar%23344!/:?]
+	at LAYER PLUGIN/glsl.processor@0.2.3/io.github.ocelot.glslprocessor.api.node.GlslTree.toSourceString(GlslTree.java:255) ~[glsl-processor-0.2.3.jar%23344!/:?]
+	at TRANSFORMER/veil@4.0.0/foundry.veil.impl.client.render.shader.processor.VanillaShaderProcessor.modify(VanillaShaderProcessor.java:59) ~[veil-neoforge-1.21.1-4.0.0.jar%23316!/:4.0.0]
+	at TRANSFORMER/veil@4.0.0/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.compileShader(VanillaShaderCompiler.java:78) ~[veil-neoforge-1.21.1-4.0.0.jar%23316!/:4.0.0]
+	at TRANSFORMER/veil@4.0.0/foundry.veil.impl.client.render.dynamicbuffer.VanillaShaderCompiler.lambda$reload$2(VanillaShaderCompiler.java:124) ~[veil-neoforge-1.21.1-4.0.0.jar%23316!/:4.0.0]
+	at TRANSFORMER/veil@4.0.0/foundry.veil.impl.ThreadTaskScheduler.run(ThreadTaskScheduler.java:89) ~[veil-neoforge-1.21.1-4.0.0.jar%23316!/:4.0.0]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[076月2026 21:21:17.427] [Render thread/INFO] [xaero.lib.XaeroLib/]: Successfully reloaded the XaeroLib shaders!
-[076月2026 21:21:17.428] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
-[076月2026 21:21:17.431] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[076月2026 21:21:17.431] [Render thread/INFO] [Veil/]: Loaded 3 framebuffers
-[076月2026 21:21:17.442] [Render thread/INFO] [Veil/]: Loaded 6 post pipelines
-[076月2026 21:21:17.450] [Render thread/INFO] [Veil/]: Loaded 4 render types
-[076月2026 21:21:17.450] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
-[076月2026 21:21:17.451] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
-[076月2026 21:21:17.451] [Render thread/INFO] [Veil/]: Loaded 0 templates
-[076月2026 21:21:17.451] [Render thread/INFO] [Veil/]: Loaded 0 modules
-[076月2026 21:21:17.454] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
-[076月2026 21:21:17.561] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 96.515 ms
-[076月2026 21:21:17.570] [Render thread/INFO] [Veil/]: Compiled 61 vanilla shaders in 214.8 ms
-[076月2026 21:21:17.653] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
-[076月2026 21:21:17.709] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
-[076月2026 21:21:18.540] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0000000000003004998F501A96EE52DC
-[076月2026 21:21:18.540] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
+[076月2026 21:56:47.960] [Render thread/INFO] [xaero.lib.XaeroLib/]: Successfully reloaded the XaeroLib shaders!
+[076月2026 21:56:47.960] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
+[076月2026 21:56:47.964] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[076月2026 21:56:47.964] [Render thread/INFO] [Veil/]: Loaded 3 framebuffers
+[076月2026 21:56:47.978] [Render thread/INFO] [Veil/]: Loaded 6 post pipelines
+[076月2026 21:56:47.984] [Render thread/INFO] [Veil/]: Loaded 4 render types
+[076月2026 21:56:47.984] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[076月2026 21:56:47.985] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[076月2026 21:56:47.985] [Render thread/INFO] [Veil/]: Loaded 0 templates
+[076月2026 21:56:47.985] [Render thread/INFO] [Veil/]: Loaded 0 modules
+[076月2026 21:56:47.989] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
+[076月2026 21:56:48.153] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 147.563 ms
+[076月2026 21:56:48.165] [Render thread/INFO] [Veil/]: Compiled 61 vanilla shaders in 233.6 ms
+[076月2026 21:56:48.248] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[076月2026 21:56:48.300] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[076月2026 21:56:48.815] [ForkJoinPool.commonPool-worker-2/WARN] [Iris/]: [Iris Update Check] This version doesn't have an update index, skipping.
+[076月2026 21:56:49.271] [Render thread/INFO] [Veil/]: Finished uploading vanilla shaders
+[076月2026 21:56:49.749] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0000000000003004998F501A96EE52DC
+[076月2026 21:56:49.750] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
 com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0000000000003004998F501A96EE52DC'
-	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:447) ~[client-1.21.1-20240808.144430-srg.jar%23225!/:?]
-	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:232) ~[client-1.21.1-20240808.144430-srg.jar%23225!/:?]
-	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:51) ~[client-1.21.1-20240808.144430-srg.jar%23225!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:447) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:232) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:51) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[076月2026 21:21:18.693] [Render thread/INFO] [Veil/]: Finished uploading vanilla shaders
-[076月2026 21:21:38.046] [Render thread/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
-trailandtales_delight (version 0.4.1 -> MISSING)
-Things may not work well.
-[076月2026 21:21:38.105] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[076月2026 21:21:38.108] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[076月2026 21:21:38.112] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@23673954] for runtime resource [create_dragons_plus:runtime]
-[076月2026 21:21:38.122] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@23673954 finished after 10 ms
-[076月2026 21:21:38.124] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKBlockTags@3fd006e8] for runtime resource [create_central_kitchen:runtime]
-[076月2026 21:21:38.128] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKBlockTags@3fd006e8 finished after 3 ms
-[076月2026 21:21:38.128] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKItemTags@4eb168a1] for runtime resource [create_central_kitchen:runtime]
-[076月2026 21:21:38.128] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKItemTags@4eb168a1 finished after 0 ms
-[076月2026 21:21:38.819] [Worker-Main-13/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.neoforge.NeoForgePlatform
-[076月2026 21:21:38.849] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[076月2026 21:21:38.851] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[076月2026 21:21:38.857] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[076月2026 21:21:38.857] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[076月2026 21:21:38.857] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[076月2026 21:21:38.857] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[076月2026 21:21:38.858] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
-[076月2026 21:21:38.858] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
-[076月2026 21:21:38.858] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
-[076月2026 21:21:38.858] [Worker-Main-13/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[076月2026 21:21:39.229] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 6591 recipes
-[076月2026 21:21:39.427] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3947 advancements
-[076月2026 21:21:40.412] [Render thread/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
-[076月2026 21:21:40.513] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[076月2026 21:21:40.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[076月2026 21:21:40.836] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 0 to minecraft:overworld
-[076月2026 21:21:41.041] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 1 to minecraft:the_end
-[076月2026 21:21:41.490] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 2 to minecraft:the_nether
-[076月2026 21:21:41.503] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 3 to ae2:spatial_storage
-[076月2026 21:21:41.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[076月2026 21:21:41.698] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
-[076月2026 21:21:41.834] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[076月2026 21:21:41.848] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 318 ms
-[076月2026 21:21:43.109] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[076月2026 21:21:43.109] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[076月2026 21:21:43.201] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding local UDP server channel future
-[076月2026 21:21:43.206] [Render thread/WARN] [io.netty.bootstrap.Bootstrap/]: Unknown channel option 'SO_BROADCAST' for channel '[id: 0x97cfb38c]'
-[076月2026 21:21:43.211] [Netty Server IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
-[076月2026 21:21:43.238] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Starting local client UDP channel future
-[076月2026 21:21:43.241] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
-[076月2026 21:21:43.524] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[076月2026 21:21:43.526] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[076月2026 21:21:43.527] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@1caaa62c] for runtime resource [create_dragons_plus:runtime]
-[076月2026 21:21:43.532] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@1caaa62c finished after 5 ms
-[076月2026 21:21:43.533] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKBlockTags@13d17701] for runtime resource [create_central_kitchen:runtime]
-[076月2026 21:21:43.533] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKBlockTags@13d17701 finished after 0 ms
-[076月2026 21:21:43.533] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKItemTags@5db5190b] for runtime resource [create_central_kitchen:runtime]
-[076月2026 21:21:43.533] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKItemTags@5db5190b finished after 0 ms
-[076月2026 21:21:43.765] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'trailandtales_delight:tat_delight' in progress file D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\saves\新的世界\advancements\00000000-0000-3004-998f-501a96ee52dc.json - it doesn't exist anymore?
-[076月2026 21:21:43.813] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: test[local:E:ac4bec34] logged in with entity id 116 at (5.5, 75.0, 9.5)
-[076月2026 21:21:43.817] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player test
-[076月2026 21:21:43.886] [Render thread/INFO] [xaero.map.WorldMap/]: Fullscreen map required item set to nothing.
-[076月2026 21:21:43.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test加入了游戏
-[076月2026 21:21:43.901] [Render thread/INFO] [xaero.map.WorldMap/]: New world map session initialized!
-[076月2026 21:21:43.947] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Minimap required item set to nothing.
-[076月2026 21:21:43.947] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: New Xaero hud session initialized!
-[076月2026 21:21:43.998] [Render thread/INFO] [Iris/]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
-[076月2026 21:21:43.998] [Render thread/INFO] [Iris/]: Destroying pipeline minecraft:overworld
-[076月2026 21:21:43.998] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
-[076月2026 21:21:44.172] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
-[076月2026 21:21:44.284] [Render thread/INFO] [flywheel/]: Started 10 worker threads
-[076月2026 21:21:44.365] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[076月2026 21:21:44.374] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[076月2026 21:21:44.382] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 7.333 milliseconds
-[076月2026 21:21:44.382] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[076月2026 21:21:44.384] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.343 milliseconds
-[076月2026 21:21:44.386] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[076月2026 21:21:44.626] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 240.1 milliseconds
-[076月2026 21:21:44.631] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 245.4 milliseconds
-[076月2026 21:21:44.632] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
-[076月2026 21:21:44.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 5.664 milliseconds
-[076月2026 21:21:44.638] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
-[076月2026 21:21:44.654] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering search ingredient aliases: mekanism:jei_plugin took 14.92 milliseconds
-[076月2026 21:21:44.655] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 16.83 milliseconds
-[076月2026 21:21:44.671] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
-[076月2026 21:21:44.672] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 825.5 microseconds
-[076月2026 21:21:44.681] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[076月2026 21:21:44.695] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 13.93 milliseconds
-[076月2026 21:21:44.713] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: ae2:core took 17.58 milliseconds
-[076月2026 21:21:44.776] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanism:jei_plugin took 62.22 milliseconds
-[076月2026 21:21:44.818] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 36.84 milliseconds
-[076月2026 21:21:44.840] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create_dragons_plus:jei_plugin took 12.46 milliseconds
-[076月2026 21:21:44.851] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 169.7 milliseconds
-[076月2026 21:21:44.852] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[076月2026 21:21:44.856] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 3.446 milliseconds
-[076月2026 21:21:44.857] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[076月2026 21:21:44.861] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 3.569 milliseconds
-[076月2026 21:21:44.862] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[076月2026 21:21:44.876] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 13.74 milliseconds
-[076月2026 21:21:44.879] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[076月2026 21:21:44.881] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added typed recipe manager plugin: class tamaized.ae2jeiintegration.integration.modules.jei.FacadeRegistryPlugin
-[076月2026 21:21:44.882] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 2.935 milliseconds
-[076月2026 21:21:44.883] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[076月2026 21:21:45.102] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 218.2 milliseconds
-[076月2026 21:21:45.121] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: ae2:core took 19.84 milliseconds
-[076月2026 21:21:45.178] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanism:jei_plugin took 55.72 milliseconds
-[076月2026 21:21:45.280] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: farmersdelight:jei_plugin took 101.4 milliseconds
-[076月2026 21:21:45.437] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 156.5 milliseconds
-[076月2026 21:21:45.469] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create_dragons_plus:jei_plugin took 28.84 milliseconds
-[076月2026 21:21:45.506] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create_enchantment_industry:jei took 27.54 milliseconds
-[076月2026 21:21:45.508] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 625.1 milliseconds
-[076月2026 21:21:45.518] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[076月2026 21:21:45.530] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 11.97 milliseconds
-[076月2026 21:21:45.534] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[076月2026 21:21:45.544] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[076月2026 21:21:45.562] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 18.63 milliseconds
-[076月2026 21:21:45.567] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[076月2026 21:21:45.568] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[076月2026 21:21:45.569] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[076月2026 21:21:45.609] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 39.38 milliseconds
-[076月2026 21:21:45.609] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[076月2026 21:21:45.640] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 4804 ingredients
-[076月2026 21:21:46.024] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 4804 ingredients
-[076月2026 21:21:46.025] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 416.1 milliseconds
-[076月2026 21:21:46.044] [Render thread/ERROR] [mezz.jei.gui.config.LookupHistoryJsonConfig/]: Encountered an error when loading the lookup history config from file D:\Minecraft\PN Base V0.1-client\.minecraft\versions\1.21.1-鸽子窝-V1.0\config\jei\world\local\lookupHistory.json
-{"ingredient":{"id":"trailandtales_delight:cherry_petal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: trailandtales_delight:cherry_petal']
-[076月2026 21:21:46.125] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 558.0 milliseconds
-[076月2026 21:21:46.126] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 558.7 milliseconds
-[076月2026 21:21:46.127] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 592.8 milliseconds
-[076月2026 21:21:46.127] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[076月2026 21:21:46.129] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 8 net.minecraft.world.item.ItemStack
-[076月2026 21:21:46.132] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 443 net.minecraft.world.item.ItemStack
-[076月2026 21:21:46.140] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: ae2:core took 12.63 milliseconds
-[076月2026 21:21:46.143] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 15.94 milliseconds
-[076月2026 21:21:46.143] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.778 seconds
-[076月2026 21:21:46.160] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Minimap updated server level id: 102780269 for world ResourceKey[minecraft:dimension / minecraft:overworld]
-[076月2026 21:21:46.171] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 47 advancements
-[076月2026 21:21:46.329] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ------------[通用机械]------------
-[076月2026 21:21:46.331] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 骄傲月快乐，test！
-[076月2026 21:21:46.331] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 别去理会别人的眼光
-[076月2026 21:21:46.331] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 你是最重要的！
-[076月2026 21:21:46.331] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  —— 通用机械开发团队
-[076月2026 21:21:46.331] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ------------[=======]------------
-[076月2026 21:21:46.808] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
-[076月2026 21:21:46.915] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Reloading radar icon resources...
-[076月2026 21:21:46.934] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Reloaded radar icon resources!
-[076月2026 21:21:47.271] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[076月2026 21:21:47.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[076月2026 21:21:47.286] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:overworld
-[076月2026 21:21:47.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[076月2026 21:21:47.324] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_end
-[076月2026 21:21:47.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[076月2026 21:21:47.325] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[076月2026 21:21:47.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/ae2:spatial_storage
-[076月2026 21:21:47.325] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/ae2:spatial_storage
-[076月2026 21:22:58.560] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
-[076月2026 21:22:58.561] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
-[076月2026 21:22:58.561] [Render thread/INFO] [xaero.map.WorldMap/]: Finalizing world map session...
-[076月2026 21:22:58.602] [Thread-6/INFO] [xaero.map.WorldMap/]: World map cleaned normally!
-[076月2026 21:22:58.663] [Render thread/INFO] [xaero.map.WorldMap/]: World map session finalized.
-[076月2026 21:22:58.663] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero hud session finalized.
-[076月2026 21:22:58.665] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[076月2026 21:22:58.665] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[076月2026 21:22:58.665] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
-[076月2026 21:22:58.667] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 2.172 milliseconds
-[076月2026 21:22:58.743] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: test lost connection: 连接中断
-[076月2026 21:22:58.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test退出了游戏
-[076月2026 21:22:58.755] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[076月2026 21:22:58.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[076月2026 21:22:58.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[076月2026 21:22:58.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[076月2026 21:22:58.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[076月2026 21:22:58.958] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:overworld
-[076月2026 21:22:59.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[076月2026 21:22:59.232] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_end
-[076月2026 21:22:59.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[076月2026 21:22:59.240] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[076月2026 21:22:59.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/ae2:spatial_storage
-[076月2026 21:22:59.248] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[新的世界]'/ae2:spatial_storage
-[076月2026 21:22:59.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新的世界): All chunks are saved
-[076月2026 21:22:59.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[076月2026 21:22:59.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[076月2026 21:22:59.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[076月2026 21:22:59.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[076月2026 21:22:59.312] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
-[076月2026 21:23:00.112] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[076月2026 21:56:58.675] [Server Pinger #0/INFO] [dev.ryanhcode.sable.Sable/]: Starting remote client UDP channel future
+[076月2026 21:56:58.681] [Netty Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[076月2026 21:56:58.795] [Netty Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[076月2026 21:56:58.796] [Netty Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[076月2026 21:57:06.048] [Server Pinger #0/INFO] [dev.ryanhcode.sable.Sable/]: Starting remote client UDP channel future
+[076月2026 21:57:06.049] [Netty Client IO #3/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[076月2026 21:57:06.099] [Netty Client IO #3/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[076月2026 21:57:06.099] [Netty Client IO #3/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[076月2026 21:57:07.137] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to frp-lab.com, 25555
+[076月2026 21:57:07.139] [Server Connector #1/INFO] [dev.ryanhcode.sable.Sable/]: Starting remote client UDP channel future
+[076月2026 21:57:07.140] [Netty Client IO #5/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[076月2026 21:57:07.270] [Netty Client IO #5/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[076月2026 21:57:07.270] [Netty Client IO #5/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[076月2026 21:57:07.612] [Download-2/ERROR] [net.minecraft.client.multiplayer.AccountProfileKeyPairManager/]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:65) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61) ~[authlib-6.0.54.jar%23111!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:130) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.lambda$readOrFetchProfileKeyPair$0(AccountProfileKeyPairManager.java:75) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[076月2026 21:58:41.565] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to frp-lab.com, 25555
+[076月2026 21:58:41.569] [Server Connector #2/INFO] [dev.ryanhcode.sable.Sable/]: Starting remote client UDP channel future
+[076月2026 21:58:41.569] [Netty Client IO #7/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[076月2026 21:58:41.613] [Netty Client IO #7/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[076月2026 21:58:41.613] [Netty Client IO #7/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[076月2026 21:58:42.220] [Download-3/ERROR] [net.minecraft.client.multiplayer.AccountProfileKeyPairManager/]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:65) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61) ~[authlib-6.0.54.jar%23111!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:130) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.lambda$readOrFetchProfileKeyPair$0(AccountProfileKeyPairManager.java:75) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[076月2026 21:59:42.666] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to frp-lab.com, 25555
+[076月2026 21:59:42.668] [Server Connector #3/INFO] [dev.ryanhcode.sable.Sable/]: Starting remote client UDP channel future
+[076月2026 21:59:42.668] [Netty Client IO #9/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[076月2026 21:59:42.714] [Netty Client IO #9/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[076月2026 21:59:42.715] [Netty Client IO #9/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[076月2026 21:59:44.608] [Download-3/ERROR] [net.minecraft.client.multiplayer.AccountProfileKeyPairManager/]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:65) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61) ~[authlib-6.0.54.jar%23111!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:130) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.lambda$readOrFetchProfileKeyPair$0(AccountProfileKeyPairManager.java:75) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[076月2026 21:59:45.304] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to frp-lab.com, 25555
+[076月2026 21:59:45.305] [Server Connector #4/INFO] [dev.ryanhcode.sable.Sable/]: Starting remote client UDP channel future
+[076月2026 21:59:45.306] [Netty Client IO #11/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[076月2026 21:59:45.363] [Netty Client IO #11/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[076月2026 21:59:45.364] [Netty Client IO #11/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[076月2026 21:59:45.601] [Download-3/ERROR] [net.minecraft.client.multiplayer.AccountProfileKeyPairManager/]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:65) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61) ~[authlib-6.0.54.jar%23111!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:130) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.lambda$readOrFetchProfileKeyPair$0(AccountProfileKeyPairManager.java:75) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[076月2026 22:00:55.377] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to frp-lab.com, 25555
+[076月2026 22:00:55.378] [Server Connector #5/INFO] [dev.ryanhcode.sable.Sable/]: Starting remote client UDP channel future
+[076月2026 22:00:55.379] [Netty Client IO #13/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[076月2026 22:00:55.755] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[076月2026 22:00:55.758] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[076月2026 22:00:55.761] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@16e557d4] for runtime resource [create_dragons_plus:runtime]
+[076月2026 22:00:55.774] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@16e557d4 finished after 12 ms
+[076月2026 22:00:55.776] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKBlockTags@77dd1899] for runtime resource [create_central_kitchen:runtime]
+[076月2026 22:00:55.782] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKBlockTags@77dd1899 finished after 6 ms
+[076月2026 22:00:55.783] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKItemTags@45da0d4] for runtime resource [create_central_kitchen:runtime]
+[076月2026 22:00:55.783] [Render thread/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKItemTags@45da0d4 finished after 0 ms
+[076月2026 22:00:55.863] [Download-3/ERROR] [net.minecraft.client.multiplayer.AccountProfileKeyPairManager/]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:65) ~[authlib-6.0.54.jar%23111!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61) ~[authlib-6.0.54.jar%23111!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:130) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.AccountProfileKeyPairManager.lambda$readOrFetchProfileKeyPair$0(AccountProfileKeyPairManager.java:75) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[076月2026 22:00:57.131] [Render thread/INFO] [xaero.map.WorldMap/]: Fullscreen map required item set to nothing.
+[076月2026 22:00:57.135] [Render thread/INFO] [xaero.map.WorldMap/]: New world map session initialized!
+[076月2026 22:00:57.162] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Minimap required item set to nothing.
+[076月2026 22:00:57.162] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: New Xaero hud session initialized!
+[076月2026 22:00:57.270] [Render thread/INFO] [Iris/]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[076月2026 22:00:57.271] [Render thread/INFO] [Iris/]: Destroying pipeline minecraft:overworld
+[076月2026 22:00:57.271] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[076月2026 22:00:57.406] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+[076月2026 22:00:57.533] [Render thread/INFO] [flywheel/]: Started 10 worker threads
+[076月2026 22:00:57.553] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Received authentication request, sending response over UDP to frp-lab.com/59.36.97.233:25555
+[076月2026 22:00:57.570] [Netty Client IO #13/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.PortUnreachableException: null
+	at java.base/sun.nio.ch.DatagramChannelImpl.receive0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.DatagramChannelImpl.receiveIntoNativeBuffer(DatagramChannelImpl.java:814) ~[?:?]
+	at java.base/sun.nio.ch.DatagramChannelImpl.receive(DatagramChannelImpl.java:790) ~[?:?]
+	at java.base/sun.nio.ch.DatagramChannelImpl.receive(DatagramChannelImpl.java:586) ~[?:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioDatagramChannel.doReadMessages(NioDatagramChannel.java:254) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:79) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23123!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23123!/:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[076月2026 22:00:57.571] [Netty Client IO #13/ERROR] [dev.ryanhcode.sable.Sable/]: UDP channel exception caught
+java.net.PortUnreachableException: null
+	at java.base/sun.nio.ch.DatagramChannelImpl.receive0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.DatagramChannelImpl.receiveIntoNativeBuffer(DatagramChannelImpl.java:814) ~[?:?]
+	at java.base/sun.nio.ch.DatagramChannelImpl.receive(DatagramChannelImpl.java:790) ~[?:?]
+	at java.base/sun.nio.ch.DatagramChannelImpl.receive(DatagramChannelImpl.java:586) ~[?:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioDatagramChannel.doReadMessages(NioDatagramChannel.java:254) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:79) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23128!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23123!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23123!/:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[076月2026 22:00:57.640] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[076月2026 22:00:57.647] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[076月2026 22:00:57.653] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 4.834 milliseconds
+[076月2026 22:00:57.653] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[076月2026 22:00:57.655] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.572 milliseconds
+[076月2026 22:00:57.657] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[076月2026 22:00:57.905] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 247.7 milliseconds
+[076月2026 22:00:57.908] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 250.7 milliseconds
+[076月2026 22:00:57.908] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[076月2026 22:00:57.912] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 3.993 milliseconds
+[076月2026 22:00:57.913] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[076月2026 22:00:57.925] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering search ingredient aliases: mekanism:jei_plugin took 11.93 milliseconds
+[076月2026 22:00:57.930] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 17.51 milliseconds
+[076月2026 22:00:57.946] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[076月2026 22:00:57.947] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 834.6 microseconds
+[076月2026 22:00:57.956] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[076月2026 22:00:57.969] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 13.25 milliseconds
+[076月2026 22:00:58.028] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanism:jei_plugin took 47.81 milliseconds
+[076月2026 22:00:58.074] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 32.97 milliseconds
+[076月2026 22:00:58.088] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: ratatouille:jei_plugin took 13.70 milliseconds
+[076月2026 22:00:58.101] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 145.1 milliseconds
+[076月2026 22:00:58.102] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[076月2026 22:00:58.104] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.249 milliseconds
+[076月2026 22:00:58.105] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[076月2026 22:00:58.113] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 8.301 milliseconds
+[076月2026 22:00:58.114] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[076月2026 22:00:58.124] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 9.775 milliseconds
+[076月2026 22:00:58.125] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[076月2026 22:00:58.126] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added typed recipe manager plugin: class tamaized.ae2jeiintegration.integration.modules.jei.FacadeRegistryPlugin
+[076月2026 22:00:58.126] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 1.650 milliseconds
+[076月2026 22:00:58.127] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[076月2026 22:00:58.369] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 240.5 milliseconds
+[076月2026 22:00:58.388] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: ae2:core took 19.64 milliseconds
+[076月2026 22:00:58.445] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanism:jei_plugin took 56.53 milliseconds
+[076月2026 22:00:58.576] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: farmersdelight:jei_plugin took 119.3 milliseconds
+[076月2026 22:00:58.712] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 136.1 milliseconds
+[076月2026 22:00:58.736] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create_dragons_plus:jei_plugin took 21.54 milliseconds
+[076月2026 22:00:58.765] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create_enchantment_industry:jei took 20.90 milliseconds
+[076月2026 22:00:58.766] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 638.4 milliseconds
+[076月2026 22:00:58.774] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[076月2026 22:00:58.780] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 5.100 milliseconds
+[076月2026 22:00:58.780] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[076月2026 22:00:58.788] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[076月2026 22:00:58.826] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:gui took 35.40 milliseconds
+[076月2026 22:00:58.828] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 40.26 milliseconds
+[076月2026 22:00:58.830] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[076月2026 22:00:58.832] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[076月2026 22:00:58.832] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[076月2026 22:00:58.866] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 34.59 milliseconds
+[076月2026 22:00:58.866] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[076月2026 22:00:58.889] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 5268 ingredients
+[076月2026 22:00:59.207] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 5268 ingredients
+[076月2026 22:00:59.207] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 340.5 milliseconds
+[076月2026 22:00:59.271] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 441.3 milliseconds
+[076月2026 22:00:59.272] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 441.9 milliseconds
+[076月2026 22:00:59.273] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 491.8 milliseconds
+[076月2026 22:00:59.273] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[076月2026 22:00:59.274] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 8 net.minecraft.world.item.ItemStack
+[076月2026 22:00:59.276] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 445 net.minecraft.world.item.ItemStack
+[076月2026 22:00:59.286] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 12.87 milliseconds
+[076月2026 22:00:59.286] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.645 seconds
+[076月2026 22:00:59.298] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Minimap updated server level id: 1756375373 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[076月2026 22:00:59.317] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 12 advancements
+[076月2026 22:00:59.373] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Backup started...
+[076月2026 22:00:59.378] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Backup completed in 0.149s (1.5 MB | 1.5 MB)
+[076月2026 22:00:59.634] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
+[076月2026 22:00:59.726] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Reloading radar icon resources...
+[076月2026 22:00:59.738] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Reloaded radar icon resources!
+[076月2026 22:00:59.786] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ------------[通用机械]------------
+[076月2026 22:00:59.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 骄傲月快乐，test！
+[076月2026 22:00:59.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 别去理会别人的眼光
+[076月2026 22:00:59.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 你是最重要的！
+[076月2026 22:00:59.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT]  —— 通用机械开发团队
+[076月2026 22:00:59.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ------------[=======]------------
+[076月2026 22:01:17.802] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Server: 已将test设为服务器管理员]
+[076月2026 22:01:24.845] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] test被僵尸杀死了
+[076月2026 22:01:24.880] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 48 advancements
+[076月2026 22:01:26.815] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Minimap updated server level id: 1756375373 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[076月2026 22:01:26.956] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[076月2026 22:01:32.389] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将自己的游戏模式设置为创造模式
+[076月2026 22:01:33.819] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 48 advancements
+[076月2026 22:02:24.138] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 难度已被设置为和平
+[076月2026 22:02:31.189] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将时间设为1000
+[076月2026 22:03:48.192] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 89 advancements
+[076月2026 22:03:54.789] [Render thread/WARN] [mekanism.common.Mekanism/]: Failed to retrieve username for UUID 530fa97a-357f-3c19-94d3-0c5c65c18fe8, you might want to add it to the JSON cache
+[076月2026 22:04:13.488] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将自己的游戏模式设置为生存模式
+[076月2026 22:04:28.233] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将自己的游戏模式设置为创造模式
+[076月2026 22:04:30.082] [Netty Client IO #13/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[076月2026 22:04:30.082] [Render thread/INFO] [xaero.map.WorldMap/]: Finalizing world map session...
+[076月2026 22:04:30.083] [Netty Client IO #13/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[076月2026 22:04:30.124] [Thread-6/INFO] [xaero.map.WorldMap/]: World map cleaned normally!
+[076月2026 22:04:30.286] [Render thread/INFO] [xaero.map.WorldMap/]: World map session finalized.
+[076月2026 22:04:30.286] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero hud session finalized.
+[076月2026 22:04:30.290] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[076月2026 22:04:30.291] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[076月2026 22:04:30.291] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[076月2026 22:04:30.295] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 4.082 milliseconds
+[076月2026 22:04:30.314] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[076月2026 22:04:30.387] [Server Pinger #1/INFO] [dev.ryanhcode.sable.Sable/]: Starting remote client UDP channel future
+[076月2026 22:04:30.390] [Netty Client IO #15/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[076月2026 22:04:30.444] [Netty Client IO #15/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[076月2026 22:04:30.445] [Netty Client IO #15/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[076月2026 22:04:43.783] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
