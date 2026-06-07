@@ -1,0 +1,215 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2026-06-07 18:07:41
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystem.findEND(ZipFileSystem.java:1320) ~[jdk.zipfs:?] {}
+-- Mod loading issue --
+Details:
+	Caused by 0: cpw.mods.niofs.union.UnionFileSystem$UncheckedIOException: Failed to open file system from path D:\Minecraft\PN Base V0.1\daemon\data\InstanceData\1.21.1 鸽子窝\mods\[机械动力]create-1.21.1-6.0.10.jar
+
+	Mod file: <No mod information provided>
+	Failure message: File D:\Minecraft\PN Base V0.1\daemon\data\InstanceData\1.21.1 鸽子窝\mods\[机械动力]create-1.21.1-6.0.10.jar is not a jar file
+	Mod version: <No mod information provided>
+	Mod issues URL: <No issues URL found>
+	Exception message: java.util.zip.ZipException: zip END header not found
+Stacktrace:
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystem.findEND(ZipFileSystem.java:1320) ~[jdk.zipfs:?] {}
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystem.initCEN(ZipFileSystem.java:1541) ~[jdk.zipfs:?] {}
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:179) ~[jdk.zipfs:?] {}
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystemProvider.getZipFileSystem(ZipFileSystemProvider.java:125) ~[jdk.zipfs:?] {}
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:120) ~[jdk.zipfs:?] {}
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:528) ~[?:?] {}
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:475) ~[?:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystem.openFileSystem(UnionFileSystem.java:139) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?] {}
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystem.<init>(UnionFileSystem.java:134) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystemProvider.newFileSystemInternal(UnionFileSystemProvider.java:135) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystemProvider.newFileSystem(UnionFileSystemProvider.java:125) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.impl.JarContentsImpl.<init>(JarContentsImpl.java:56) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.JarContentsBuilder.build(JarContentsBuilder.java:56) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.JarContents.of(JarContents.java:72) ~[securejarhandler-3.0.8.jar:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.moddiscovery.ModDiscoverer$DiscoveryPipeline.addPath(ModDiscoverer.java:190) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.neoforgespi.locating.IDiscoveryPipeline.addPath(IDiscoveryPipeline.java:32) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator.findCandidates(ModsFolderLocator.java:70) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:73) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.FMLLoader.beginModScan(FMLLoader.java:131) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.FMLServiceProvider.beginScanning(FMLServiceProvider.java:84) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:97) ~[modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$7(TransformationServicesHandler.java:94) ~[modlauncher-11.0.5.jar%2396!/:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1787) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:96) ~[modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:50) ~[modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:84) [modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/arclight.boot@1.21.1-1.0.2-SNAPSHOT-0769551/io.izzel.arclight.boot.neoforge.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:47) [arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar%2389!/:arclight-1.21.1-1.0.2-SNAPSHOT-0769551] {}
+	at MC-BOOTSTRAP/arclight.boot@1.21.1-1.0.2-SNAPSHOT-0769551/io.izzel.arclight.boot.neoforge.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:14) [arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar%2389!/:arclight-1.21.1-1.0.2-SNAPSHOT-0769551] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at io.izzel.arclight.boot.neoforge.application.Main_Neoforge.main(Main_Neoforge.java:23) [arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar:arclight-1.21.1-1.0.2-SNAPSHOT-0769551] {}
+	at io.izzel.arclight.server.Launcher.main(Launcher.java:39) [arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar:arclight-1.21.1-1.0.2-SNAPSHOT-0769551] {}
+
+
+-- Mod loading issue --
+Details:
+	Caused by 0: cpw.mods.niofs.union.UnionFileSystem$UncheckedIOException: Failed to open file system from path D:\Minecraft\PN Base V0.1\daemon\data\InstanceData\1.21.1 鸽子窝\mods\[通用机械]Mekanism-1.21.1-10.7.19.85.jar
+
+	Mod file: <No mod information provided>
+	Failure message: File D:\Minecraft\PN Base V0.1\daemon\data\InstanceData\1.21.1 鸽子窝\mods\[通用机械]Mekanism-1.21.1-10.7.19.85.jar is not a jar file
+	Mod version: <No mod information provided>
+	Mod issues URL: <No issues URL found>
+	Exception message: java.util.zip.ZipException: zip END header not found
+Stacktrace:
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystem.findEND(ZipFileSystem.java:1320) ~[jdk.zipfs:?] {}
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystem.initCEN(ZipFileSystem.java:1541) ~[jdk.zipfs:?] {}
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:179) ~[jdk.zipfs:?] {}
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystemProvider.getZipFileSystem(ZipFileSystemProvider.java:125) ~[jdk.zipfs:?] {}
+	at jdk.zipfs@21.0.11/jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:120) ~[jdk.zipfs:?] {}
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:528) ~[?:?] {}
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:475) ~[?:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystem.openFileSystem(UnionFileSystem.java:139) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?] {}
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystem.<init>(UnionFileSystem.java:134) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystemProvider.newFileSystemInternal(UnionFileSystemProvider.java:135) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystemProvider.newFileSystem(UnionFileSystemProvider.java:125) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.impl.JarContentsImpl.<init>(JarContentsImpl.java:56) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.JarContentsBuilder.build(JarContentsBuilder.java:56) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.JarContents.of(JarContents.java:72) ~[securejarhandler-3.0.8.jar:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.moddiscovery.ModDiscoverer$DiscoveryPipeline.addPath(ModDiscoverer.java:190) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.neoforgespi.locating.IDiscoveryPipeline.addPath(IDiscoveryPipeline.java:32) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator.findCandidates(ModsFolderLocator.java:70) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:73) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.FMLLoader.beginModScan(FMLLoader.java:131) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.FMLServiceProvider.beginScanning(FMLServiceProvider.java:84) ~[loader-4.0.42.jar%2391!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:97) ~[modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$7(TransformationServicesHandler.java:94) ~[modlauncher-11.0.5.jar%2396!/:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1787) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:96) ~[modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:50) ~[modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:84) [modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2396!/:?] {}
+	at MC-BOOTSTRAP/arclight.boot@1.21.1-1.0.2-SNAPSHOT-0769551/io.izzel.arclight.boot.neoforge.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:47) [arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar%2389!/:arclight-1.21.1-1.0.2-SNAPSHOT-0769551] {}
+	at MC-BOOTSTRAP/arclight.boot@1.21.1-1.0.2-SNAPSHOT-0769551/io.izzel.arclight.boot.neoforge.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:14) [arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar%2389!/:arclight-1.21.1-1.0.2-SNAPSHOT-0769551] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at io.izzel.arclight.boot.neoforge.application.Main_Neoforge.main(Main_Neoforge.java:23) [arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar:arclight-1.21.1-1.0.2-SNAPSHOT-0769551] {}
+	at io.izzel.arclight.server.Launcher.main(Launcher.java:39) [arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar:arclight-1.21.1-1.0.2-SNAPSHOT-0769551] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.11, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 116552624 bytes (111 MiB) / 671088640 bytes (640 MiB) up to 21474836480 bytes (20480 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 7840HS w/ Radeon 780M Graphics     
+	Identifier: AuthenticAMD Family 25 Model 116 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.79
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: AMD Radeon 780M Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 2048.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.21030.2001
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 5.60
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 67280.86
+	Virtual memory used (MiB): 18046.40
+	Swap memory total (MiB): 3968.00
+	Swap memory used (MiB): 1.12
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 95326.84, total: 204802.00
+	Space in storage for workdir (MiB): available: 368885.56, total: 771642.31
+	JVM Flags: 1 total; -Xmx20G
+	Arclight Release: FeudalKings
+	Arclight: The crash happens before the server initialization.
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: arclightserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar arclight_implementer PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		[JEI物品管理器兼容AE2补丁]ae2jeiintegration-1.2.1.jar      |AE2 JEI Integration           |ae2jeiintegration             |1.2.1               |Manifest: NOSIGNATURE
+		[应用能源2]appliedenergistics2-19.2.17.jar            |Applied Energistics 2         |ae2                           |19.2.17             |Manifest: NOSIGNATURE
+		arclight-1.21.1-1.0.2-SNAPSHOT-0769551.jar        |Arclight Mod                  |arclight                      |1.0.2-SNAPSHOT+07695|Manifest: NOSIGNATURE
+		[应用能源2前置]guideme-21.1.16.jar                      |GuideME                       |guideme                       |21.1.16             |Manifest: NOSIGNATURE
+		[JEI物品管理器]jei-1.21.1-neoforge-19.27.0.340.jar     |Just Enough Items             |jei                           |19.27.0.340         |Manifest: NOSIGNATURE
+		server-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.228-universal.jar                   |NeoForge                      |neoforge                      |21.1.228            |Manifest: NOSIGNATURE
+		[简单备份服务器备份]SimpleBackups-1.21-4.0.30.jar          |Simple Backups                |simplebackups                 |1.21-4.0.30         |Manifest: NOSIGNATURE
+		[火花服务器监测]spark-1.10.124-neoforge.jar              |spark                         |spark                         |1.10.124            |Manifest: NOSIGNATURE
+		[创世神]worldedit-mod-7.3.8.jar                      |WorldEdit                     |worldedit                     |7.3.8+6939-7d32b45  |Manifest: NOSIGNATURE
+		[Xaero的小地图]xaerominimap-neoforge-1.21.1-25.3.13.ja|Xaero's Minimap               |xaerominimap                  |25.3.13             |Manifest: NOSIGNATURE
+		[Xaero的世界地图]xaeroworldmap-neoforge-1.21.1-1.40.16.|Xaero's World Map             |xaeroworldmap                 |1.40.16             |Manifest: NOSIGNATURE
+		xaerolib-neoforge-1.21.1-1.1.15.jar               |XaeroLib                      |xaerolib                      |1.1.15              |Manifest: NOSIGNATURE
