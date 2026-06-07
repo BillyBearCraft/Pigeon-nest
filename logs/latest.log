@@ -1,4 +1,4 @@
-[076月2026 16:23:55.494] [main/INFO] [Arclight/]: 
+[076月2026 16:52:11.860] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -10,13 +10,13 @@
     运行版本 诸王 / arclight-1.21.1-1.0.2-SNAPSHOT-0769551
     构建日期 2026-05-09 08:50:30
 
-[076月2026 16:23:55.521] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.neoForgeVersion, 21.1.228, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
-[076月2026 16:23:55.522] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
-[076月2026 16:23:55.522] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[076月2026 16:23:55.593] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
-[076月2026 16:23:55.632] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23105!/ Service=ModLauncher Env=SERVER
-[076月2026 16:23:56.050] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[076月2026 16:23:56.053] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[076月2026 16:52:11.886] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.neoForgeVersion, 21.1.228, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[076月2026 16:52:11.886] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[076月2026 16:52:11.887] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[076月2026 16:52:11.958] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[076月2026 16:52:11.989] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23105!/ Service=ModLauncher Env=SERVER
+[076月2026 16:52:12.409] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[076月2026 16:52:12.411] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -25,223 +25,225 @@
 		NeoForge 21.1.228 (neoforge)
 		Simple Backups 1.21-4.0.30 (simplebackups)
 		spark 1.10.124 (spark)
-[076月2026 16:23:56.457] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
-[076月2026 16:23:56.489] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[076月2026 16:23:56.493] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
-[076月2026 16:23:56.493] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
-[076月2026 16:23:56.500] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
-[076月2026 16:23:57.645] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[076月2026 16:23:58.143] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[076月2026 16:24:02.871] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
-[076月2026 16:24:02.881] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
-[076月2026 16:24:02.882] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
-[076月2026 16:24:03.158] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[076月2026 16:24:03.180] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Starting version check at https://assets.melanx.de/updates/simple-backups.json
-[076月2026 16:24:03.242] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23178!/assets/.mcassetsroot' uses unexpected schema
-[076月2026 16:24:03.242] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23178!/data/.mcassetsroot' uses unexpected schema
-[076月2026 16:24:03.968] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Found status: AHEAD Current: 1.21-4.0.30 Target: null
-[076月2026 16:24:04.218] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[076月2026 16:24:04.321] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[076月2026 16:24:04.608] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[076月2026 16:24:04.608] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[076月2026 16:24:04.608] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[076月2026 16:24:04.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[076月2026 16:24:04.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25568
-[076月2026 16:24:04.706] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[076月2026 16:24:04.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[076月2026 16:24:04.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[076月2026 16:24:04.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[076月2026 16:24:04.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[076月2026 16:24:04.873] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21.1-1.0.2-SNAPSHOT-0769551 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[076月2026 16:24:05.311] [Server thread/INFO] [Minecraft/]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
-[076月2026 16:24:05.311] [Server thread/INFO] [Minecraft/]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
-[076月2026 16:24:05.355] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
-[076月2026 16:24:05.367] [Server thread/INFO] [Arclight/]: 注册了 0 个材料，其中 0 个方块 0 个物品
-[076月2026 16:24:05.481] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物类型
-[076月2026 16:24:05.481] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物群系
-[076月2026 16:24:05.499] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[076月2026 16:24:05.502] [Spigot Watchdog Thread/INFO] [Arclight/]: Started pseudo Spigot watchdog thread.
-[076月2026 16:24:05.502] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
-[076月2026 16:24:05.503] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[076月2026 16:24:05.590] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
-[076月2026 16:24:05.950] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
-[076月2026 16:24:05.977] [Server thread/INFO] [Arclight/CLCACHE]: Obsolete plugin class cache is cleared
-[076月2026 16:24:06.219] [Server thread/INFO] [CoreProtect/]: Loading CoreProtect v23.2
-[076月2026 16:24:06.219] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.12.2
-[076月2026 16:24:06.914] [Server thread/INFO] [ZMusic/]: Loading ZMusic v2.12.0
-[076月2026 16:24:06.914] [Server thread/INFO] [ZMusic-Addon/]: Loading ZMusic-Addon v2.5.0
-[076月2026 16:24:06.992] [Server thread/INFO] [spark/]: Starting background profiler...
-[076月2026 16:24:07.002] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[076月2026 16:24:07.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[076月2026 16:24:07.044] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[076月2026 16:24:07.318] [Server thread/INFO] [Minecraft/]: View Distance: 15
-[076月2026 16:24:07.319] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[076月2026 16:24:07.319] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[076月2026 16:24:07.319] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[076月2026 16:24:07.319] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[076月2026 16:24:07.319] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[076月2026 16:24:07.319] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[076月2026 16:24:07.319] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[076月2026 16:24:07.741] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: View Distance: 15
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[076月2026 16:24:07.742] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[076月2026 16:24:07.774] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
-[076月2026 16:24:07.774] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[076月2026 16:24:07.774] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[076月2026 16:24:07.774] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[076月2026 16:24:07.774] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[076月2026 16:24:07.774] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[076月2026 16:24:07.774] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: View Distance: 15
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[076月2026 16:24:07.775] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[076月2026 16:24:07.782] [Server thread/INFO] [CoreProtect/]: Enabling CoreProtect v23.2
-[076月2026 16:24:08.565] [Server thread/INFO] [Console/]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
-[076月2026 16:24:08.565] [Server thread/INFO] [Minecraft/]: [CoreProtect] Using SQLite for data storage.
-[076月2026 16:24:08.565] [Server thread/INFO] [Minecraft/]: --------------------
-[076月2026 16:24:08.565] [Server thread/INFO] [Minecraft/]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[076月2026 16:24:08.565] [Server thread/INFO] [Minecraft/]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[076月2026 16:24:08.565] [Server thread/INFO] [Minecraft/]: --------------------
-[076月2026 16:24:08.592] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.12.2
-[076月2026 16:24:09.175] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
-[076月2026 16:24:09.189] [Server thread/INFO] [ZMusic/]: Enabling ZMusic v2.12.0
-[076月2026 16:24:09.192] [Server thread/INFO] [Console/]: ZMusic >>> 正在加载中....
-[076月2026 16:24:09.237] [Server thread/INFO] [Console/]: ZMusic >>> 正在注册Mod通信频道...
-[076月2026 16:24:09.237] [Server thread/INFO] [Console/]: ZMusic >>> -- [AllMusic] 频道注册完毕.
-[076月2026 16:24:09.237] [Server thread/INFO] [Console/]: ZMusic >>> -- [ZMusic Mod] 频道注册完毕.
-[076月2026 16:24:09.237] [Server thread/INFO] [Console/]: ZMusic >>> -- [AudioBuffer] 服务端大于1.12，频道注册取消.
-[076月2026 16:24:09.238] [Server thread/INFO] [Console/]: ZMusic >>> 已检测到PlaceholderAPI, 正在注册...
-[076月2026 16:24:09.241] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: zmusic [1.0.0]
-[076月2026 16:24:09.241] [Server thread/INFO] [Console/]: ZMusic >>> -- [PlaceholderAPI] 注册成功!
-[076月2026 16:24:09.241] [Server thread/INFO] [Console/]: ZMusic >>> 未找到Vault, 经济相关功能不生效.
-[076月2026 16:24:09.241] [Server thread/INFO] [Console/]: ZMusic >>> 未找到ViaVersion, 高版本转发功能不生效.
-[076月2026 16:24:09.245] [Server thread/INFO] [Console/]: ZMusic >>> 无法找到配置文件,正在创建!
-[076月2026 16:24:09.246] [Server thread/INFO] [Console/]: ZMusic >>> 成功加载配置文件!
-[076月2026 16:24:09.247] [Server thread/INFO] [ZMusic-Addon/]: Enabling ZMusic-Addon v2.5.0
-[076月2026 16:24:09.247] [Server thread/WARN] [ZMusic-Addon/]: 请勿在子服安装ZMusic插件
-[076月2026 16:24:09.253] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[076月2026 16:24:09.257] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
-[076月2026 16:24:09.262] [Server thread/INFO] [Console/]: 0 placeholder hook(s) registered!
-[076月2026 16:24:09.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[076月2026 16:24:09.544] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[076月2026 16:24:09.628] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 364 ms
-[076月2026 16:24:09.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.712s)! For help, type "help"
-[076月2026 16:24:09.664] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[076月2026 16:24:09.664] [Server thread/INFO] [Arclight/]: Forwarding forge permission[neoforge:default_handler] to bukkit
-[076月2026 16:24:09.676] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 正在检查更新...
-[076月2026 16:24:10.002] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 已是最新版本!
-[076月2026 16:24:10.004] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 初始化语言系统...
-[076月2026 16:24:10.005] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件zh_CN[中文 (中国)]加载完成
-[076月2026 16:24:10.005] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件作者: 真心
-[076月2026 16:24:10.465] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 您未登录网易云音乐, 自动转为匿名登录.
-[076月2026 16:24:10.465] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 匿名登录将无法获取您的个人信息, 仅能播放公开音乐.
-[076月2026 16:24:10.465] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 请使用 /zm login 命令登录网易云音乐.
-[076月2026 16:24:10.465] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件作者: 真心
-[076月2026 16:24:10.465] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
-[076月2026 16:24:10.465] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
-[076月2026 16:24:10.465] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件已加载完成!
-[076月2026 16:24:27.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[076月2026 16:24:27.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[076月2026 16:24:27.516] [Server thread/INFO] [ZMusic/]: Disabling ZMusic v2.12.0
-[076月2026 16:24:27.516] [Server thread/INFO] [Console/]: ZMusic >>> 正在卸载中....
-[076月2026 16:24:27.516] [Server thread/INFO] [Console/]: ZMusic >>> 插件作者: 真心
-[076月2026 16:24:27.516] [Server thread/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
-[076月2026 16:24:27.516] [Server thread/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
-[076月2026 16:24:27.516] [Server thread/INFO] [Console/]: ZMusic >>> 插件已卸载完成!
-[076月2026 16:24:27.517] [Server thread/INFO] [PlaceholderAPI/]: Disabling PlaceholderAPI v2.12.2
-[076月2026 16:24:27.519] [Server thread/INFO] [CoreProtect/]: Disabling CoreProtect v23.2
-[076月2026 16:24:27.521] [Server thread/INFO] [Minecraft/]: [CoreProtect] Finishing up data logging. Please wait...
-[076月2026 16:24:28.527] [Server thread/INFO] [Minecraft/]: [CoreProtect] Success! Disabled CoreProtect v23.2
-[076月2026 16:24:28.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[076月2026 16:24:28.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[076月2026 16:24:28.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[076月2026 16:24:28.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
-[076月2026 16:24:28.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
-[076月2026 16:24:33.781] [Exit Thread/INFO] [Arclight/]: 2 threads not shutting down correctly, force exiting
+[076月2026 16:52:12.821] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[076月2026 16:52:12.852] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[076月2026 16:52:12.856] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[076月2026 16:52:12.857] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[076月2026 16:52:12.862] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
+[076月2026 16:52:13.929] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[076月2026 16:52:14.447] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[076月2026 16:52:19.161] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[076月2026 16:52:19.171] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
+[076月2026 16:52:19.173] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[076月2026 16:52:19.463] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[076月2026 16:52:19.498] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Starting version check at https://assets.melanx.de/updates/simple-backups.json
+[076月2026 16:52:19.519] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23178!/assets/.mcassetsroot' uses unexpected schema
+[076月2026 16:52:19.520] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23178!/data/.mcassetsroot' uses unexpected schema
+[076月2026 16:52:19.959] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
+[076月2026 16:52:20.454] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[076月2026 16:52:20.505] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Found status: AHEAD Current: 1.21-4.0.30 Target: null
+[076月2026 16:52:20.580] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[076月2026 16:52:20.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[076月2026 16:52:20.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[076月2026 16:52:20.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[076月2026 16:52:20.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[076月2026 16:52:20.927] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25568
+[076月2026 16:52:20.981] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[076月2026 16:52:21.013] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[076月2026 16:52:21.013] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[076月2026 16:52:21.013] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[076月2026 16:52:21.013] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[076月2026 16:52:21.168] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21.1-1.0.2-SNAPSHOT-0769551 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[076月2026 16:52:21.608] [Server thread/INFO] [Minecraft/]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[076月2026 16:52:21.608] [Server thread/INFO] [Minecraft/]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[076月2026 16:52:21.648] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[076月2026 16:52:21.659] [Server thread/INFO] [Arclight/]: 注册了 0 个材料，其中 0 个方块 0 个物品
+[076月2026 16:52:21.770] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物类型
+[076月2026 16:52:21.770] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物群系
+[076月2026 16:52:21.787] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[076月2026 16:52:21.790] [Spigot Watchdog Thread/INFO] [Arclight/]: Started pseudo Spigot watchdog thread.
+[076月2026 16:52:21.791] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[076月2026 16:52:21.791] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[076月2026 16:52:21.874] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[076月2026 16:52:22.203] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[076月2026 16:52:22.302] [Server thread/INFO] [CoreProtect/]: Loading CoreProtect v23.2
+[076月2026 16:52:22.302] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.12.2
+[076月2026 16:52:22.901] [Server thread/INFO] [ZMusic/]: Loading ZMusic v2.12.0
+[076月2026 16:52:22.901] [Server thread/INFO] [ZMusic-Addon/]: Loading ZMusic-Addon v2.5.0
+[076月2026 16:52:22.978] [Server thread/INFO] [spark/]: Starting background profiler...
+[076月2026 16:52:22.986] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[076月2026 16:52:23.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[076月2026 16:52:23.024] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[076月2026 16:52:23.265] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[076月2026 16:52:23.266] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[076月2026 16:52:25.050] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[076月2026 16:52:25.051] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[076月2026 16:52:25.051] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[076月2026 16:52:25.088] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[076月2026 16:52:25.097] [Server thread/INFO] [CoreProtect/]: Enabling CoreProtect v23.2
+[076月2026 16:52:25.329] [Server thread/INFO] [Console/]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
+[076月2026 16:52:25.329] [Server thread/INFO] [Minecraft/]: [CoreProtect] Using SQLite for data storage.
+[076月2026 16:52:25.329] [Server thread/INFO] [Minecraft/]: --------------------
+[076月2026 16:52:25.329] [Server thread/INFO] [Minecraft/]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[076月2026 16:52:25.329] [Server thread/INFO] [Minecraft/]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[076月2026 16:52:25.329] [Server thread/INFO] [Minecraft/]: --------------------
+[076月2026 16:52:25.335] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.12.2
+[076月2026 16:52:25.738] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
+[076月2026 16:52:25.740] [Server thread/INFO] [ZMusic/]: Enabling ZMusic v2.12.0
+[076月2026 16:52:25.742] [Server thread/INFO] [Console/]: ZMusic >>> 正在加载中....
+[076月2026 16:52:25.752] [Server thread/INFO] [Console/]: ZMusic >>> 正在注册Mod通信频道...
+[076月2026 16:52:25.753] [Server thread/INFO] [Console/]: ZMusic >>> -- [AllMusic] 频道注册完毕.
+[076月2026 16:52:25.753] [Server thread/INFO] [Console/]: ZMusic >>> -- [ZMusic Mod] 频道注册完毕.
+[076月2026 16:52:25.753] [Server thread/INFO] [Console/]: ZMusic >>> -- [AudioBuffer] 服务端大于1.12，频道注册取消.
+[076月2026 16:52:25.753] [Server thread/INFO] [Console/]: ZMusic >>> 已检测到PlaceholderAPI, 正在注册...
+[076月2026 16:52:25.755] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: zmusic [1.0.0]
+[076月2026 16:52:25.755] [Server thread/INFO] [Console/]: ZMusic >>> -- [PlaceholderAPI] 注册成功!
+[076月2026 16:52:25.755] [Server thread/INFO] [Console/]: ZMusic >>> 未找到Vault, 经济相关功能不生效.
+[076月2026 16:52:25.755] [Server thread/INFO] [Console/]: ZMusic >>> 未找到ViaVersion, 高版本转发功能不生效.
+[076月2026 16:52:25.756] [Server thread/INFO] [Console/]: ZMusic >>> 成功加载配置文件!
+[076月2026 16:52:25.757] [Server thread/INFO] [ZMusic-Addon/]: Enabling ZMusic-Addon v2.5.0
+[076月2026 16:52:25.758] [Server thread/WARN] [ZMusic-Addon/]: 请勿在子服安装ZMusic插件
+[076月2026 16:52:25.766] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[076月2026 16:52:25.770] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
+[076月2026 16:52:25.774] [Server thread/INFO] [Console/]: 0 placeholder hook(s) registered!
+[076月2026 16:52:25.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[076月2026 16:52:25.796] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[076月2026 16:52:26.279] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[076月2026 16:52:26.780] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[076月2026 16:52:27.278] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[076月2026 16:52:27.689] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1913 ms
+[076月2026 16:52:27.689] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.785s)! For help, type "help"
+[076月2026 16:52:27.714] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[076月2026 16:52:27.714] [Server thread/INFO] [Arclight/]: Forwarding forge permission[neoforge:default_handler] to bukkit
+[076月2026 16:52:27.722] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 正在检查更新...
+[076月2026 16:52:28.010] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 已是最新版本!
+[076月2026 16:52:28.011] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 初始化语言系统...
+[076月2026 16:52:28.011] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件zh_CN[中文 (中国)]加载完成
+[076月2026 16:52:28.011] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件作者: 真心
+[076月2026 16:52:28.330] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 您未登录网易云音乐, 自动转为匿名登录.
+[076月2026 16:52:28.330] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 匿名登录将无法获取您的个人信息, 仅能播放公开音乐.
+[076月2026 16:52:28.330] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 请使用 /zm login 命令登录网易云音乐.
+[076月2026 16:52:28.330] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件作者: 真心
+[076月2026 16:52:28.330] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
+[076月2026 16:52:28.330] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
+[076月2026 16:52:28.330] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件已加载完成!
+[076月2026 16:52:46.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[076月2026 16:52:46.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[076月2026 16:52:46.618] [Server thread/INFO] [ZMusic/]: Disabling ZMusic v2.12.0
+[076月2026 16:52:46.618] [Server thread/INFO] [Console/]: ZMusic >>> 正在卸载中....
+[076月2026 16:52:46.618] [Server thread/INFO] [Console/]: ZMusic >>> 插件作者: 真心
+[076月2026 16:52:46.618] [Server thread/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
+[076月2026 16:52:46.618] [Server thread/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
+[076月2026 16:52:46.618] [Server thread/INFO] [Console/]: ZMusic >>> 插件已卸载完成!
+[076月2026 16:52:46.619] [Server thread/INFO] [PlaceholderAPI/]: Disabling PlaceholderAPI v2.12.2
+[076月2026 16:52:46.619] [Server thread/INFO] [CoreProtect/]: Disabling CoreProtect v23.2
+[076月2026 16:52:46.620] [Server thread/INFO] [Minecraft/]: [CoreProtect] Finishing up data logging. Please wait...
+[076月2026 16:52:47.526] [Server thread/INFO] [Minecraft/]: [CoreProtect] Success! Disabled CoreProtect v23.2
+[076月2026 16:52:47.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[076月2026 16:52:47.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[076月2026 16:52:47.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[076月2026 16:52:48.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[076月2026 16:52:48.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[076月2026 16:52:53.248] [Exit Thread/INFO] [Arclight/]: 1 threads not shutting down correctly, force exiting
