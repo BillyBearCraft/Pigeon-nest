@@ -1,4 +1,4 @@
-[076月2026 18:42:39.518] [main/INFO] [Arclight/]: 
+[076月2026 21:20:46.214] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -10,13 +10,13 @@
     运行版本 诸王 / arclight-1.21.1-1.0.2-SNAPSHOT-0769551
     构建日期 2026-05-09 08:50:30
 
-[076月2026 18:42:39.545] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.neoForgeVersion, 21.1.228, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
-[076月2026 18:42:39.545] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
-[076月2026 18:42:39.546] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[076月2026 18:42:39.668] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
-[076月2026 18:42:39.722] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23105!/ Service=ModLauncher Env=SERVER
-[076月2026 18:42:40.705] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 25 dependencies adding them to mods collection
-[076月2026 18:42:40.707] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[076月2026 21:20:46.246] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.neoForgeVersion, 21.1.228, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[076月2026 21:20:46.246] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[076月2026 21:20:46.247] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[076月2026 21:20:46.446] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[076月2026 21:20:46.535] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23105!/ Service=ModLauncher Env=SERVER
+[076月2026 21:20:47.782] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 29 dependencies adding them to mods collection
+[076月2026 21:20:47.785] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -24,7 +24,9 @@
 		Applied Energistics 2 19.2.17 (ae2)
 		Architectury 13.0.8 (architectury)
 		Arclight Mod 1.0.2-SNAPSHOT+0769551 (arclight)
+		Barbeque's Delight 1.3.0 (barbequesdelight)
 		conditional mixin 0.6.4 (conditional_mixin)
+		Corn Delight 1.2.10-1.21.1 (corn_delight)
 		Create 6.0.10 (create)
 		Create Aeronautics 1.2.1 (aeronautics)
 		Create Aeronautics 1.2.1 (aeronautics_bundled)
@@ -39,403 +41,417 @@
 		CreateBetterFps 1.1.4 (createbetterfps)
 		Farmer's Delight 1.3.2 (farmersdelight)
 		Flywheel 1.0.6 (flywheel)
+		Fruits Delight 1.2.14 (fruitsdelight)
 		GeckoLib 4 4.8.4 (geckolib)
 		GuideME 21.1.16 (guideme)
 		Just Enough Items 19.27.0.340 (jei)
 		Kotlin For Forge 5.11.0 (kotlinforforge)
+		L2Core 3.0.8+16 (l2core)
+		L2Harvester 3.0.0 (l2harvester)
 		Mekanism 10.7.19 (mekanism)
 		Minecraft 1.21.1 (minecraft)
+		Mysterious Mountain Lib 1.2.15-1.21.1 (mysterious_mountain_lib)
 		NeoForge 21.1.228 (neoforge)
 		Ponder 1.0.82+mc1.21.1 (ponder)
 		Ratatouille 1.3.9-2 (ratatouille)
+		Rustic Delight 1.6.1 (rusticdelight)
 		Sable 1.2.2 (sable)
 		Sable Companion 1.6.0 (sablecompanion)
 		Simple Backups 1.21-4.0.30 (simplebackups)
 		spark 1.10.124 (spark)
+		Storage Delight 26.04.18a+1.21-neoforge (storagedelight)
 		Untitled Duck Mod 1.5.2 (untitledduckmod)
 		Veil 4.0.0 (veil)
 		WorldEdit 7.3.8+6939-7d32b45 (worldedit)
 		Xaero's Minimap 25.3.13 (xaerominimap)
 		Xaero's World Map 1.40.16 (xaeroworldmap)
 		XaeroLib 1.1.15 (xaerolib)
-[076月2026 18:42:40.898] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaerominimap, xaeroworldmap]
-[076月2026 18:42:41.758] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[076月2026 18:42:41.836] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
-[076月2026 18:42:41.857] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
-[076月2026 18:42:41.858] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
-[076月2026 18:42:41.868] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
-[076月2026 18:42:41.875] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.878] [main/WARN] [mixin/]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.886] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.899] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.906] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[076月2026 18:42:41.906] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[076月2026 18:42:41.918] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.919] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.920] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.930] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.command.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.931] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.debug.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.931] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.dynamicbuffer.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.931] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.fix.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.931] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.framebuffer.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.931] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.necromancer.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.931] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.network.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.932] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.performance.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.932] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.perspective.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.932] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.pipeline.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.932] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.quasar.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.932] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.registry.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.932] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.rendertype.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.933] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.resource.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.933] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.scheduler.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.933] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.shader.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.933] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.933] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.934] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.936] [main/WARN] [mixin/]: Reference map 'createbetterfps.refmap.json' for createbetterfps.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:41.936] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
-[076月2026 18:42:42.250] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.258] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:42.288] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.289] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:42.302] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.302] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:42.885] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
-[076月2026 18:42:42.894] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.895] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:42.896] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.896] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:42.903] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.904] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:42.905] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.906] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:42.929] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.929] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:42.930] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:42.930] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:43.033] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[076月2026 18:42:43.471] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[076月2026 18:42:44.387] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:44.388] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:44.396] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:44.397] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:44.403] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[076月2026 18:42:44.404] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[076月2026 18:42:48.435] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
-[076月2026 18:42:48.479] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
-[076月2026 18:42:48.482] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
-[076月2026 18:42:48.500] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
-[076月2026 18:42:48.542] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
-[076月2026 18:42:48.591] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
-[076月2026 18:42:48.610] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
-[076月2026 18:42:48.615] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
-[076月2026 18:42:48.619] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
-[076月2026 18:42:48.678] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
-[076月2026 18:42:48.679] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
-[076月2026 18:42:48.682] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
-[076月2026 18:42:48.771] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
-[076月2026 18:42:48.773] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
-[076月2026 18:42:49.028] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[076月2026 18:42:49.955] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
-[076月2026 18:42:51.706] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
-[076月2026 18:42:51.709] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.7.19 initializing...
-[076月2026 18:42:51.718] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
-[076月2026 18:42:51.725] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[076月2026 18:42:51.725] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
-[076月2026 18:42:51.834] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Starting version check at https://assets.melanx.de/updates/simple-backups.json
-[076月2026 18:42:51.958] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5a45099d]
-[076月2026 18:42:51.958] [modloading-worker-0/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
-[076月2026 18:42:52.005] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
-[076月2026 18:42:52.005] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[076月2026 18:42:52.005] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[076月2026 18:42:52.006] [modloading-sync-worker/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
-[076月2026 18:42:52.006] [modloading-sync-worker/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
-[076月2026 18:42:52.006] [modloading-sync-worker/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[076月2026 18:42:52.006] [modloading-sync-worker/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[076月2026 18:42:52.191] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[076月2026 18:42:52.278] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23202!/assets/.mcassetsroot' uses unexpected schema
-[076月2026 18:42:52.278] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23202!/data/.mcassetsroot' uses unexpected schema
-[076月2026 18:42:52.330] [main/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[076月2026 18:42:52.334] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[076月2026 18:42:52.346] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@72204ec9] for runtime resource [create_dragons_plus:runtime]
-[076月2026 18:42:52.359] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@72204ec9 finished after 13 ms
-[076月2026 18:42:52.368] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKBlockTags@2e8a0c90] for runtime resource [create_central_kitchen:runtime]
-[076月2026 18:42:52.373] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKBlockTags@2e8a0c90 finished after 5 ms
-[076月2026 18:42:52.373] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKItemTags@5fac4c95] for runtime resource [create_central_kitchen:runtime]
-[076月2026 18:42:52.374] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKItemTags@5fac4c95 finished after 0 ms
-[076月2026 18:42:52.807] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Found status: AHEAD Current: 1.21-4.0.30 Target: null
-[076月2026 18:42:52.810] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
-[076月2026 18:42:53.325] [Worker-Main-15/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.neoforge.NeoForgePlatform
-[076月2026 18:42:53.366] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[076月2026 18:42:53.368] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
-[076月2026 18:42:53.368] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[076月2026 18:42:53.368] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
-[076月2026 18:42:53.368] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
-[076月2026 18:42:53.368] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[076月2026 18:42:53.369] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[076月2026 18:42:53.369] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
-[076月2026 18:42:53.369] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[076月2026 18:42:53.369] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[076月2026 18:42:53.369] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[076月2026 18:42:53.373] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[076月2026 18:42:53.374] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[076月2026 18:42:53.374] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[076月2026 18:42:53.374] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[076月2026 18:42:53.374] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
-[076月2026 18:42:53.374] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
-[076月2026 18:42:53.374] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
-[076月2026 18:42:53.375] [Worker-Main-15/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[076月2026 18:42:53.407] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
-[076月2026 18:42:53.407] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json?neoforge=only
-[076月2026 18:42:53.656] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 4.2.4 Target: null
-[076月2026 18:42:53.756] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 5790 recipes
-[076月2026 18:42:53.922] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3442 advancements
-[076月2026 18:42:54.634] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
-[076月2026 18:42:54.727] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[076月2026 18:42:54.727] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[076月2026 18:42:54.727] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[076月2026 18:42:54.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[076月2026 18:42:54.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25568
-[076月2026 18:42:54.833] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding UDP server channel future
-[076月2026 18:42:54.867] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
-[076月2026 18:42:54.868] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[076月2026 18:42:54.872] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[076月2026 18:42:54.872] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[076月2026 18:42:54.872] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[076月2026 18:42:54.872] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[076月2026 18:42:54.990] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21.1-1.0.2-SNAPSHOT-0769551 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[076月2026 18:42:55.465] [Server thread/INFO] [Minecraft/]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
-[076月2026 18:42:55.465] [Server thread/INFO] [Minecraft/]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
-[076月2026 18:42:55.507] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
-[076月2026 18:42:55.547] [Server thread/INFO] [Arclight/]: 注册了 2128 个材料，其中 1307 个方块 821 个物品
-[076月2026 18:42:55.652] [Server thread/INFO] [Arclight/]: 注册了 24 个新的生物类型
-[076月2026 18:42:55.653] [Server thread/INFO] [Arclight/]: 注册了 1 个新的生物群系
-[076月2026 18:42:55.670] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[076月2026 18:42:55.671] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
-[076月2026 18:42:55.671] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[076月2026 18:42:55.675] [Spigot Watchdog Thread/INFO] [Arclight/]: Started pseudo Spigot watchdog thread.
-[076月2026 18:42:55.766] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
-[076月2026 18:42:56.103] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
-[076月2026 18:42:56.183] [Server thread/INFO] [CoreProtect/]: Loading CoreProtect v23.2
-[076月2026 18:42:56.183] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.12.2
-[076月2026 18:42:56.909] [Server thread/INFO] [ZMusic/]: Loading ZMusic v2.12.0
-[076月2026 18:42:56.909] [Server thread/INFO] [ZMusic-Addon/]: Loading ZMusic-Addon v2.5.0
-[076月2026 18:42:56.995] [Server thread/INFO] [spark/]: Starting background profiler...
-[076月2026 18:42:56.998] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[076月2026 18:42:57.020] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[076月2026 18:42:57.028] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
-[076月2026 18:42:57.170] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 0 to minecraft:overworld
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: View Distance: 15
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[076月2026 18:42:57.474] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[076月2026 18:42:57.475] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[076月2026 18:42:57.475] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[076月2026 18:42:57.475] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[076月2026 18:42:57.475] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[076月2026 18:42:57.500] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 1 to minecraft:the_end
-[076月2026 18:42:57.875] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
-[076月2026 18:42:57.875] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: View Distance: 15
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[076月2026 18:42:57.876] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[076月2026 18:42:57.879] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 2 to minecraft:the_nether
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: View Distance: 15
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[076月2026 18:42:57.894] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[076月2026 18:42:57.895] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[076月2026 18:42:57.895] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[076月2026 18:42:57.895] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[076月2026 18:42:57.895] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[076月2026 18:42:57.904] [Server thread/INFO] [CoreProtect/]: Enabling CoreProtect v23.2
-[076月2026 18:42:58.144] [Server thread/INFO] [Console/]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
-[076月2026 18:42:58.144] [Server thread/INFO] [Minecraft/]: [CoreProtect] Using SQLite for data storage.
-[076月2026 18:42:58.144] [Server thread/INFO] [Minecraft/]: --------------------
-[076月2026 18:42:58.144] [Server thread/INFO] [Minecraft/]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[076月2026 18:42:58.144] [Server thread/INFO] [Minecraft/]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[076月2026 18:42:58.144] [Server thread/INFO] [Minecraft/]: --------------------
-[076月2026 18:42:58.151] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.12.2
-[076月2026 18:42:58.399] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
-[076月2026 18:42:58.401] [Server thread/INFO] [ZMusic/]: Enabling ZMusic v2.12.0
-[076月2026 18:42:58.403] [Server thread/INFO] [Console/]: ZMusic >>> 正在加载中....
-[076月2026 18:42:58.412] [Server thread/INFO] [Console/]: ZMusic >>> 正在注册Mod通信频道...
-[076月2026 18:42:58.412] [Server thread/INFO] [Console/]: ZMusic >>> -- [AllMusic] 频道注册完毕.
-[076月2026 18:42:58.412] [Server thread/INFO] [Console/]: ZMusic >>> -- [ZMusic Mod] 频道注册完毕.
-[076月2026 18:42:58.412] [Server thread/INFO] [Console/]: ZMusic >>> -- [AudioBuffer] 服务端大于1.12，频道注册取消.
-[076月2026 18:42:58.413] [Server thread/INFO] [Console/]: ZMusic >>> 已检测到PlaceholderAPI, 正在注册...
-[076月2026 18:42:58.415] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: zmusic [1.0.0]
-[076月2026 18:42:58.415] [Server thread/INFO] [Console/]: ZMusic >>> -- [PlaceholderAPI] 注册成功!
-[076月2026 18:42:58.415] [Server thread/INFO] [Console/]: ZMusic >>> 未找到Vault, 经济相关功能不生效.
-[076月2026 18:42:58.415] [Server thread/INFO] [Console/]: ZMusic >>> 未找到ViaVersion, 高版本转发功能不生效.
-[076月2026 18:42:58.417] [Server thread/INFO] [Console/]: ZMusic >>> 成功加载配置文件!
-[076月2026 18:42:58.417] [Server thread/INFO] [ZMusic-Addon/]: Enabling ZMusic-Addon v2.5.0
-[076月2026 18:42:58.418] [Server thread/WARN] [ZMusic-Addon/]: 请勿在子服安装ZMusic插件
-[076月2026 18:42:58.427] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[076月2026 18:42:58.432] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
-[076月2026 18:42:58.434] [Server thread/INFO] [Console/]: 0 placeholder hook(s) registered!
-[076月2026 18:42:58.435] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 3 to ae2:spatial_storage
-[076月2026 18:42:58.463] [Server thread/WARN] [Arclight/]: Assign ae2:spatial_storage to unknown level stem LevelStem[type=Reference{ResourceKey[minecraft:dimension_type / ae2:spatial_storage]=DimensionType[fixedTime=OptionalLong[12000], hasSkyLight=false, hasCeiling=false, ultraWarm=false, natural=false, coordinateScale=1.0, bedWorks=false, respawnAnchorWorks=false, minY=0, height=256, logicalHeight=256, infiniburn=TagKey[minecraft:block / minecraft:infiniburn_overworld], effectsLocation=ae2:spatial_storage, ambientLight=1.0, monsterSettings=MonsterSettings[piglinSafe=false, hasRaids=false, monsterSpawnLightTest=0, monsterSpawnBlockLightLimit=0]]}, generator=appeng.spatial.SpatialStorageChunkGenerator@d6dfb1b]
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/ae2/spatial_storage] --------
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: View Distance: 15
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[076月2026 18:42:58.463] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[076月2026 18:42:58.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[076月2026 18:42:58.706] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[076月2026 18:42:58.760] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 293 ms
-[076月2026 18:42:58.760] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.848s)! For help, type "help"
-[076月2026 18:42:58.811] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[076月2026 18:42:58.811] [Server thread/INFO] [Arclight/]: Forwarding forge permission[neoforge:default_handler] to bukkit
-[076月2026 18:42:59.914] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 正在检查更新...
-[076月2026 18:43:00.054] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 已是最新版本!
-[076月2026 18:43:00.055] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 初始化语言系统...
-[076月2026 18:43:00.056] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件zh_CN[中文 (中国)]加载完成
-[076月2026 18:43:00.056] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件作者: 真心
-[076月2026 18:43:00.228] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 您未登录网易云音乐, 自动转为匿名登录.
-[076月2026 18:43:00.228] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 匿名登录将无法获取您的个人信息, 仅能播放公开音乐.
-[076月2026 18:43:00.228] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 请使用 /zm login 命令登录网易云音乐.
-[076月2026 18:43:00.228] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件作者: 真心
-[076月2026 18:43:00.228] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
-[076月2026 18:43:00.228] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
-[076月2026 18:43:00.228] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件已加载完成!
-[076月2026 18:47:42.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[076月2026 18:47:42.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[076月2026 18:47:42.962] [Server thread/INFO] [ZMusic/]: Disabling ZMusic v2.12.0
-[076月2026 18:47:42.962] [Server thread/INFO] [Console/]: ZMusic >>> 正在卸载中....
-[076月2026 18:47:42.962] [Server thread/INFO] [Console/]: ZMusic >>> 插件作者: 真心
-[076月2026 18:47:42.962] [Server thread/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
-[076月2026 18:47:42.962] [Server thread/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
-[076月2026 18:47:42.962] [Server thread/INFO] [Console/]: ZMusic >>> 插件已卸载完成!
-[076月2026 18:47:42.963] [Server thread/INFO] [PlaceholderAPI/]: Disabling PlaceholderAPI v2.12.2
-[076月2026 18:47:42.964] [Server thread/INFO] [CoreProtect/]: Disabling CoreProtect v23.2
-[076月2026 18:47:42.965] [Server thread/INFO] [Minecraft/]: [CoreProtect] Finishing up data logging. Please wait...
-[076月2026 18:47:43.972] [Server thread/INFO] [Minecraft/]: [CoreProtect] Success! Disabled CoreProtect v23.2
-[076月2026 18:47:43.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[076月2026 18:47:43.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[076月2026 18:47:44.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[076月2026 18:47:44.055] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
-[076月2026 18:47:44.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
-[076月2026 18:47:44.124] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/DIM1]'/minecraft:the_end
-[076月2026 18:47:44.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
-[076月2026 18:47:44.137] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
-[076月2026 18:47:44.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
-[076月2026 18:47:44.149] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
+[076月2026 21:20:48.046] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaeroworldmap, xaerominimap]
+[076月2026 21:20:49.613] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[076月2026 21:20:49.621] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
+[076月2026 21:20:49.623] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[076月2026 21:20:49.798] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[076月2026 21:20:49.866] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[076月2026 21:20:49.867] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[076月2026 21:20:49.872] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
+[076月2026 21:20:49.879] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:49.887] [main/WARN] [mixin/]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:49.954] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:49.959] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.007] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.command.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.009] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.debug.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.009] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.dynamicbuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.009] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.fix.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.009] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.framebuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.010] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.necromancer.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.010] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.network.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.011] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.performance.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.011] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.perspective.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.011] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.pipeline.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.011] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.quasar.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.012] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.registry.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.012] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.rendertype.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.012] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.resource.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.012] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.scheduler.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.013] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.shader.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.013] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.013] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.017] [main/WARN] [mixin/]: Reference map 'createbetterfps.refmap.json' for createbetterfps.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.017] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.018] [main/WARN] [mixin/]: Reference map 'mixins.mmlib.refmap.json' for mixins.mmlib.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.033] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.079] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[076月2026 21:20:50.080] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[076月2026 21:20:50.083] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.084] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:50.085] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2026 21:20:51.026] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.040] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.088] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.090] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.107] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.109] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.787] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[076月2026 21:20:51.814] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.814] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.816] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.816] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.824] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.825] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.826] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.827] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.832] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.833] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.834] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:51.835] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:51.995] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[076月2026 21:20:52.557] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[076月2026 21:20:53.848] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:53.849] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:53.854] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:53.855] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:53.861] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[076月2026 21:20:53.862] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[076月2026 21:20:59.407] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[076月2026 21:20:59.504] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
+[076月2026 21:20:59.513] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[076月2026 21:20:59.580] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[076月2026 21:20:59.605] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[076月2026 21:20:59.618] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[076月2026 21:20:59.645] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[076月2026 21:20:59.651] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[076月2026 21:20:59.654] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[076月2026 21:20:59.789] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[076月2026 21:20:59.791] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[076月2026 21:20:59.793] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[076月2026 21:20:59.901] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[076月2026 21:20:59.902] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[076月2026 21:21:00.258] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[076月2026 21:21:01.293] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[076月2026 21:21:03.267] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[076月2026 21:21:03.267] [modloading-worker-0/INFO] [cn.mcmod_mmf.mmlib.Main/]: Presented by Zaia
+[076月2026 21:21:03.271] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.7.19 initializing...
+[076月2026 21:21:03.280] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
+[076月2026 21:21:03.287] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[076月2026 21:21:03.287] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[076月2026 21:21:03.394] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Starting version check at https://assets.melanx.de/updates/simple-backups.json
+[076月2026 21:21:03.520] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@10ea2408]
+[076月2026 21:21:03.521] [modloading-worker-0/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
+[076月2026 21:21:03.574] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[076月2026 21:21:03.574] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[076月2026 21:21:03.574] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[076月2026 21:21:03.575] [modloading-sync-worker/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[076月2026 21:21:03.575] [modloading-sync-worker/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[076月2026 21:21:03.575] [modloading-sync-worker/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[076月2026 21:21:03.575] [modloading-sync-worker/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[076月2026 21:21:03.842] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[076月2026 21:21:03.935] [main/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
+trailandtales_delight (version 0.4.1 -> MISSING)
+Things may not work well.
+[076月2026 21:21:03.958] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23208!/assets/.mcassetsroot' uses unexpected schema
+[076月2026 21:21:03.958] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/PN%20Base%20V0.1/daemon/data/InstanceData/1.21.1%20鸽子窝/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23208!/data/.mcassetsroot' uses unexpected schema
+[076月2026 21:21:04.178] [main/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[076月2026 21:21:04.183] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[076月2026 21:21:04.201] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@788648e8] for runtime resource [create_dragons_plus:runtime]
+[076月2026 21:21:04.228] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createdragonsplus.data.internal.CDPRuntimeRecipeProvider@788648e8 finished after 27 ms
+[076月2026 21:21:04.244] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKBlockTags@6f7d962c] for runtime resource [create_central_kitchen:runtime]
+[076月2026 21:21:04.257] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKBlockTags@6f7d962c finished after 13 ms
+[076月2026 21:21:04.257] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: Starting provider [plus.dragons.createcentralkitchen.data.CCKItemTags@48d6de5d] for runtime resource [create_central_kitchen:runtime]
+[076月2026 21:21:04.258] [main/INFO] [plus.dragons.createdragonsplus.data.runtime.RuntimePackResources/]: plus.dragons.createcentralkitchen.data.CCKItemTags@48d6de5d finished after 0 ms
+[076月2026 21:21:04.680] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [simplebackups] Found status: AHEAD Current: 1.21-4.0.30 Target: null
+[076月2026 21:21:04.683] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[076月2026 21:21:05.705] [Worker-Main-12/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.neoforge.NeoForgePlatform
+[076月2026 21:21:05.747] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[076月2026 21:21:05.750] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[076月2026 21:21:05.757] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[076月2026 21:21:05.757] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[076月2026 21:21:05.757] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[076月2026 21:21:05.757] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[076月2026 21:21:05.757] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
+[076月2026 21:21:05.757] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[076月2026 21:21:05.757] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[076月2026 21:21:05.757] [Worker-Main-12/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[076月2026 21:21:06.553] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 6591 recipes
+[076月2026 21:21:06.888] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3947 advancements
+[076月2026 21:21:07.228] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[076月2026 21:21:07.228] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json?neoforge=only
+[076月2026 21:21:07.706] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 4.2.4 Target: null
+[076月2026 21:21:07.763] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
+[076月2026 21:21:07.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[076月2026 21:21:07.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[076月2026 21:21:07.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[076月2026 21:21:07.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[076月2026 21:21:08.023] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25568
+[076月2026 21:21:08.120] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding UDP server channel future
+[076月2026 21:21:08.169] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[076月2026 21:21:08.170] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[076月2026 21:21:08.176] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[076月2026 21:21:08.176] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[076月2026 21:21:08.176] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[076月2026 21:21:08.176] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[076月2026 21:21:08.366] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21.1-1.0.2-SNAPSHOT-0769551 (MC: 1.21.1) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[076月2026 21:21:09.073] [Server thread/INFO] [Minecraft/]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[076月2026 21:21:09.073] [Server thread/INFO] [Minecraft/]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[076月2026 21:21:09.116] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[076月2026 21:21:09.181] [Server thread/INFO] [Arclight/]: 注册了 2690 个材料，其中 1663 个方块 1027 个物品
+[076月2026 21:21:09.313] [Server thread/INFO] [Arclight/]: 注册了 24 个新的生物类型
+[076月2026 21:21:09.314] [Server thread/INFO] [Arclight/]: 注册了 1 个新的生物群系
+[076月2026 21:21:09.336] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[076月2026 21:21:09.339] [Spigot Watchdog Thread/INFO] [Arclight/]: Started pseudo Spigot watchdog thread.
+[076月2026 21:21:09.341] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[076月2026 21:21:09.341] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[076月2026 21:21:09.434] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[076月2026 21:21:09.818] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[076月2026 21:21:09.924] [Server thread/INFO] [CoreProtect/]: Loading CoreProtect v23.2
+[076月2026 21:21:09.924] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.12.2
+[076月2026 21:21:12.507] [Server thread/INFO] [ZMusic/]: Loading ZMusic v2.12.0
+[076月2026 21:21:12.507] [Server thread/INFO] [ZMusic-Addon/]: Loading ZMusic-Addon v2.5.0
+[076月2026 21:21:12.607] [Server thread/INFO] [spark/]: Starting background profiler...
+[076月2026 21:21:12.610] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[076月2026 21:21:12.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[076月2026 21:21:12.649] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
+[076月2026 21:21:12.809] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 0 to minecraft:overworld
+[076月2026 21:21:13.088] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[076月2026 21:21:13.089] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[076月2026 21:21:13.126] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 1 to minecraft:the_end
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[076月2026 21:21:13.581] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[076月2026 21:21:13.585] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 2 to minecraft:the_nether
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[076月2026 21:21:13.596] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[076月2026 21:21:13.604] [Server thread/INFO] [CoreProtect/]: Enabling CoreProtect v23.2
+[076月2026 21:21:13.859] [Server thread/INFO] [Console/]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
+[076月2026 21:21:13.859] [Server thread/INFO] [Minecraft/]: [CoreProtect] Using SQLite for data storage.
+[076月2026 21:21:13.859] [Server thread/INFO] [Minecraft/]: --------------------
+[076月2026 21:21:13.859] [Server thread/INFO] [Minecraft/]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[076月2026 21:21:13.859] [Server thread/INFO] [Minecraft/]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[076月2026 21:21:13.859] [Server thread/INFO] [Minecraft/]: --------------------
+[076月2026 21:21:13.866] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.12.2
+[076月2026 21:21:14.161] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
+[076月2026 21:21:14.165] [Server thread/INFO] [ZMusic/]: Enabling ZMusic v2.12.0
+[076月2026 21:21:14.166] [Server thread/INFO] [Console/]: ZMusic >>> 正在加载中....
+[076月2026 21:21:14.177] [Server thread/INFO] [Console/]: ZMusic >>> 正在注册Mod通信频道...
+[076月2026 21:21:14.177] [Server thread/INFO] [Console/]: ZMusic >>> -- [AllMusic] 频道注册完毕.
+[076月2026 21:21:14.177] [Server thread/INFO] [Console/]: ZMusic >>> -- [ZMusic Mod] 频道注册完毕.
+[076月2026 21:21:14.177] [Server thread/INFO] [Console/]: ZMusic >>> -- [AudioBuffer] 服务端大于1.12，频道注册取消.
+[076月2026 21:21:14.178] [Server thread/INFO] [Console/]: ZMusic >>> 已检测到PlaceholderAPI, 正在注册...
+[076月2026 21:21:14.179] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: zmusic [1.0.0]
+[076月2026 21:21:14.180] [Server thread/INFO] [Console/]: ZMusic >>> -- [PlaceholderAPI] 注册成功!
+[076月2026 21:21:14.180] [Server thread/INFO] [Console/]: ZMusic >>> 未找到Vault, 经济相关功能不生效.
+[076月2026 21:21:14.180] [Server thread/INFO] [Console/]: ZMusic >>> 未找到ViaVersion, 高版本转发功能不生效.
+[076月2026 21:21:14.181] [Server thread/INFO] [Console/]: ZMusic >>> 成功加载配置文件!
+[076月2026 21:21:14.182] [Server thread/INFO] [ZMusic-Addon/]: Enabling ZMusic-Addon v2.5.0
+[076月2026 21:21:14.183] [Server thread/WARN] [ZMusic-Addon/]: 请勿在子服安装ZMusic插件
+[076月2026 21:21:14.193] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[076月2026 21:21:14.200] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
+[076月2026 21:21:14.204] [Server thread/INFO] [Console/]: 0 placeholder hook(s) registered!
+[076月2026 21:21:14.205] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Assigned physics scene ID 3 to ae2:spatial_storage
+[076月2026 21:21:14.236] [Server thread/WARN] [Arclight/]: Assign ae2:spatial_storage to unknown level stem LevelStem[type=Reference{ResourceKey[minecraft:dimension_type / ae2:spatial_storage]=DimensionType[fixedTime=OptionalLong[12000], hasSkyLight=false, hasCeiling=false, ultraWarm=false, natural=false, coordinateScale=1.0, bedWorks=false, respawnAnchorWorks=false, minY=0, height=256, logicalHeight=256, infiniburn=TagKey[minecraft:block / minecraft:infiniburn_overworld], effectsLocation=ae2:spatial_storage, ambientLight=1.0, monsterSettings=MonsterSettings[piglinSafe=false, hasRaids=false, monsterSpawnLightTest=0, monsterSpawnBlockLightLimit=0]]}, generator=appeng.spatial.SpatialStorageChunkGenerator@6c892c0b]
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/ae2/spatial_storage] --------
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: View Distance: 15
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[076月2026 21:21:14.237] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[076月2026 21:21:14.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[076月2026 21:21:14.559] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[076月2026 21:21:14.621] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 380 ms
+[076月2026 21:21:14.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.112s)! For help, type "help"
+[076月2026 21:21:14.695] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[076月2026 21:21:14.696] [Server thread/INFO] [Arclight/]: Forwarding forge permission[neoforge:default_handler] to bukkit
+[076月2026 21:21:16.462] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 正在检查更新...
+[076月2026 21:21:16.793] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 已是最新版本!
+[076月2026 21:21:16.794] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 初始化语言系统...
+[076月2026 21:21:16.794] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件zh_CN[中文 (中国)]加载完成
+[076月2026 21:21:16.794] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 语言文件作者: 真心
+[076月2026 21:21:17.093] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 您未登录网易云音乐, 自动转为匿名登录.
+[076月2026 21:21:17.093] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 匿名登录将无法获取您的个人信息, 仅能播放公开音乐.
+[076月2026 21:21:17.093] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 请使用 /zm login 命令登录网易云音乐.
+[076月2026 21:21:17.093] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件作者: 真心
+[076月2026 21:21:17.093] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
+[076月2026 21:21:17.093] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
+[076月2026 21:21:17.093] [Craft Scheduler Thread - 1/INFO] [Console/]: ZMusic >>> 插件已加载完成!
+[076月2026 21:21:58.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[076月2026 21:21:58.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[076月2026 21:21:58.668] [Server thread/INFO] [ZMusic/]: Disabling ZMusic v2.12.0
+[076月2026 21:21:58.668] [Server thread/INFO] [Console/]: ZMusic >>> 正在卸载中....
+[076月2026 21:21:58.668] [Server thread/INFO] [Console/]: ZMusic >>> 插件作者: 真心
+[076月2026 21:21:58.668] [Server thread/INFO] [Console/]: ZMusic >>> 主页：zhenxin.me
+[076月2026 21:21:58.668] [Server thread/INFO] [Console/]: ZMusic >>> 插件交流群：1032722724
+[076月2026 21:21:58.668] [Server thread/INFO] [Console/]: ZMusic >>> 插件已卸载完成!
+[076月2026 21:21:58.670] [Server thread/INFO] [PlaceholderAPI/]: Disabling PlaceholderAPI v2.12.2
+[076月2026 21:21:58.671] [Server thread/INFO] [CoreProtect/]: Disabling CoreProtect v23.2
+[076月2026 21:21:58.672] [Server thread/INFO] [Minecraft/]: [CoreProtect] Finishing up data logging. Please wait...
+[076月2026 21:21:59.680] [Server thread/INFO] [Minecraft/]: [CoreProtect] Success! Disabled CoreProtect v23.2
+[076月2026 21:21:59.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[076月2026 21:21:59.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[076月2026 21:21:59.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[076月2026 21:21:59.822] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world]'/minecraft:overworld
+[076月2026 21:21:59.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[076月2026 21:21:59.889] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[076月2026 21:21:59.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[076月2026 21:21:59.902] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[076月2026 21:21:59.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
+[076月2026 21:21:59.914] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[world/ae2/spatial_storage]'/ae2:spatial_storage
+[076月2026 21:22:04.946] [Exit Thread/INFO] [Arclight/]: 1 threads not shutting down correctly, force exiting
