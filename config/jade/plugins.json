@@ -79,6 +79,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "oritech": {
+    "machine_core_controller": true
+  },
   "untitledduckmod": {
     "lay_egg": true,
     "next_eat": true
