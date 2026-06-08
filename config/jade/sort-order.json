@@ -39,6 +39,8 @@
   "minecraft:redstone": null,
   "minecraft:zombie_villager": null,
   "oritech:machine_core_controller": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
   "untitledduckmod:lay_egg": null,
   "untitledduckmod:next_eat": null
 }
