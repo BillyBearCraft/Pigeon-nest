@@ -1,7 +1,7 @@
 {
   "category": "misc",
   "result": {
-    "id": "supplementaries:way_sign_mangrove",
+    "id": "supplementaries:twilightforest/way_sign_mangrove",
     "count": 2
   },
   "ingredients": [
@@ -11,7 +11,7 @@
       },
       "block_type": "minecraft:wood_type",
       "from": "minecraft:oak",
-      "to": "minecraft:mangrove",
+      "to": "twilightforest:mangrove",
       "type": "moonlight:block_type_swap"
     }
   ],
