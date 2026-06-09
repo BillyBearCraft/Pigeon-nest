@@ -1,7 +1,7 @@
 {
   "category": "misc",
   "result": {
-    "id": "supplementaries:cannon_boat_mangrove",
+    "id": "supplementaries:twilightforest/cannon_boat_mangrove",
     "count": 1
   },
   "ingredients": [
@@ -11,7 +11,7 @@
       },
       "block_type": "minecraft:wood_type",
       "from": "minecraft:oak",
-      "to": "minecraft:mangrove",
+      "to": "twilightforest:mangrove",
       "type": "moonlight:block_type_swap"
     },
     {
@@ -20,7 +20,7 @@
       },
       "block_type": "minecraft:wood_type",
       "from": "minecraft:oak",
-      "to": "minecraft:mangrove",
+      "to": "twilightforest:mangrove",
       "type": "moonlight:block_type_swap"
     }
   ],
