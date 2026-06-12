@@ -1,4 +1,26 @@
 [
   {"version":1},
-  {"ingredient":{"id":"trailandtales_delight:cherry_petal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"kaleidoscope_chinesefood:raw_steamed_rice_rolls"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"AUTO","GunId":"bluearchive:toki","GunCurrentAmmoCount":30}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"AUTO","GunId":"tacz:m16a1","GunCurrentAmmoCount":20}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"AUTO","GunId":"warsaw:6p67","GunCurrentAmmoCount":30}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"AUTO","GunId":"warsaw:qbz_192","GunCurrentAmmoCount":30}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"AUTO","GunId":"dawnhunting:690","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"converted:f4n9","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"cyber_armorer:mantis_blade_maxtac","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"AUTO","GunId":"immersive_armorer:dual_barrel_cannon","GunCurrentAmmoCount":12}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:ammo","components":{"minecraft:custom_data":{"AmmoId":"cyber_armorer:material_3"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"cyber_armorer:mantis_blade","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"applied_armorer:moritz_gernade_gl3","GunCurrentAmmoCount":3}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"applied_armorer:special_melee_task_manager","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"create_armorer:special_melee_wrench","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"deep_rock_galactic:pickaxe","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"deep_rock_galactic:doreda","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"ars_armorer:special_source_flying_blade","GunCurrentAmmoCount":6}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"deep_rock_galactic:hook","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"deep_rock_galactic:40mm","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"deep_rock_galactic:doreda","GunCurrentAmmoCount":1}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:barrier","components":{"minecraft:custom_name":"\"Empty Tag: c:logs/archwood\""}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"converted:letter","GunCurrentAmmoCount":17}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_doll:doll_machine"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
