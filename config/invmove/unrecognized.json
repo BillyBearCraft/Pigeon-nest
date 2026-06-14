@@ -1,0 +1,23 @@
+{
+  "allowMovement": {
+    "com.tacz.guns.client.gui.GunRefitScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.IntroductionOnboardingScreen": true,
+    "oreexcavation.client.GuiEditShapes": true,
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "net.minecraft.client.gui.screens.options.OptionsScreen": true,
+    "net.minecraft.client.gui.screens.options.controls.ControlsScreen": true,
+    "com.blamejared.controlling.client.NewKeyBindsScreen": true,
+    "xaero.map.gui.GuiMap": true,
+    "com.terraformersmc.mod_menu.gui.ModsScreen": true,
+    "me.cominixo.betterf3.config.gui.ModConfigScreen": true,
+    "me.shedaniel.clothconfig2.gui.ClothConfigScreen": true,
+    "betteradvancements.common.gui.BetterAdvancementsScreen": true,
+    "rearth.oritech.client.ui.AugmentSelectionScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true
+  },
+  "hideBackground": {
+    "com.tacz.guns.client.gui.GunRefitScreen": true,
+    "oreexcavation.client.GuiEditShapes": true,
+    "rearth.oritech.client.ui.AugmentSelectionScreen": true
+  }
+}

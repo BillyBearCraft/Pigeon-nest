@@ -1,0 +1,39 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "hotbath:hotbath_guide": {
+      "viewedEntries": [
+        "hotbath:custom_fluids/examples",
+        "hotbath:advancements/bath_challenges",
+        "hotbath:compat/epic_fight_unavail",
+        "hotbath:advancements/hidden_adv",
+        "hotbath:bottles/drinkable_bottles",
+        "hotbath:advancements/hot_bath_adv",
+        "hotbath:compat/twilight_forest",
+        "hotbath:custom_fluids/overview",
+        "hotbath:basics/tips",
+        "hotbath:custom_fluids/json_format",
+        "hotbath:compat/legendary_survival_unavail",
+        "hotbath:compat/alexs_caves_unavail",
+        "hotbath:fluids/honey_bath",
+        "hotbath:fluids/peony_bath",
+        "hotbath:compat/tough_as_nails_unavail",
+        "hotbath:basics/introduction",
+        "hotbath:compat/farmers_delight",
+        "hotbath:fluids/milk_bath",
+        "hotbath:compat/alexs_mobs_unavail",
+        "hotbath:fluids/hot_water",
+        "hotbath:custom_fluids/structure",
+        "hotbath:compat/serene_seasons_unavail",
+        "hotbath:fluids/herbal_bath",
+        "hotbath:compat/cold_sweat_unavail",
+        "hotbath:fluids/rose_bath",
+        "hotbath:bottles/splash_bottles",
+        "hotbath:basics/bath_herb"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
