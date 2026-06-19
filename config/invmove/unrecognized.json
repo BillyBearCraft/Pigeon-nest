@@ -13,11 +13,28 @@
     "me.shedaniel.clothconfig2.gui.ClothConfigScreen": true,
     "betteradvancements.common.gui.BetterAdvancementsScreen": true,
     "rearth.oritech.client.ui.AugmentSelectionScreen": true,
-    "vazkii.patchouli.client.book.gui.GuiBookLanding": true
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "vazkii.patchouli.client.book.gui.GuiBookEntry": true,
+    "com.github.tartaricacid.touhoulittlemaid.client.gui.entity.model.ChairModelGui": true,
+    "fuzs.enchantinginfuser.client.gui.screens.inventory.InfuserScreen": true,
+    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true,
+    "xaero.common.gui.GuiMinimapMain": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.CannonScreen": true,
+    "net.neoforged.neoforge.client.gui.ConfigurationScreen": true,
+    "net.neoforged.neoforge.client.gui.ConfigurationScreen$ConfigurationSectionScreen": true,
+    "net.minecraft.client.gui.screens.options.OnlineOptionsScreen": true,
+    "yalter.mousetweaks.ConfigScreen": true,
+    "net.minecraft.client.gui.screens.options.MouseSettingsScreen": true,
+    "me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen": true
   },
   "hideBackground": {
     "com.tacz.guns.client.gui.GunRefitScreen": true,
     "oreexcavation.client.GuiEditShapes": true,
-    "rearth.oritech.client.ui.AugmentSelectionScreen": true
+    "rearth.oritech.client.ui.AugmentSelectionScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "com.github.tartaricacid.touhoulittlemaid.client.gui.entity.model.ChairModelGui": true,
+    "fuzs.enchantinginfuser.client.gui.screens.inventory.InfuserScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.CannonScreen": true
   }
 }

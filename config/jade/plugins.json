@@ -117,6 +117,10 @@
     "millstone": true,
     "enamel_basin": true
   },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
   "untitledduckmod": {
     "lay_egg": true,
     "next_eat": true

@@ -16,6 +16,11 @@
 /.sable/
 /.mixin.out/
 /.git/
+/tlm_custom_pack/
+/patchouli_books/
+/CustomSkinLoader/
+/logs/
+/1.21.1-鸽子窝-V1.0-natives/
 
 .log
 
@@ -25,3 +30,7 @@ servers.dat_old
 servers.dat
 ponders_watched.json
 command_history.txt
+patchouli_data.json
+1.21.1-鸽子窝-V1.0.jar
+1.21.1-鸽子窝-V1.0.json
+options.txt

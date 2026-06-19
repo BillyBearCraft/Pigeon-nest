@@ -9,7 +9,7 @@
 	# Range: 0 ~ 100
 	invAlpha = 0
 	#Toggle on by default
-	byDefault = true
+	byDefault = false
 	#Animate recently picked up items
 	animatedInv = false
 	#Hide background if inventory is empty
@@ -39,7 +39,7 @@
 	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT, OFF
 	armView = "PERCENTAGE"
 	#Show item durability bar
-	armBars = false
+	armBars = true
 	#Move all items at once or each one
 	moveAll = true
 	#Show/Hide empty slot icon
@@ -116,18 +116,18 @@
 	yArmPos = 70
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	potValign = "TOP"
+	potValign = "BOTTOM"
 	#Potion HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	potHalign = "LEFT"
+	potHalign = "MIDDLE"
 	#Potion HUD position (X)
 	# Default: 20
 	# Range: -9999 ~ 9999
-	xPotionPos = 20
+	xPotionPos = 88
 	#Potion HUD position (Y)
 	# Default: 20
 	# Range: -9999 ~ 9999
-	yPotionPos = 20
+	yPotionPos = 48
 	#Helmet position (X)
 	# Default: 103
 	# Range: -9999 ~ 9999

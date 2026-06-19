@@ -140,8 +140,6 @@
 
 #General settings
 [general]
-	#Enable Supplementaries to base textures off external Resource Packs rather than mod's default textures. 
-	use_external_resource_pack = false
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 	#Disables Optifine warn screen

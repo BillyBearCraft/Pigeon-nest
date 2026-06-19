@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:birch_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"patchouli:guide_book","components":{"patchouli:book":"patchouli:welcome"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"touhou_little_maid:smart_slab_init"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"touhou_little_maid:smart_slab_init","components":{"touhou_little_maid:init_maid_owner":[1772843074,1387411701,-1769343418,1884929857]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"patchouli:guide_book","components":{"patchouli:book":"butchery:butchers_guide"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

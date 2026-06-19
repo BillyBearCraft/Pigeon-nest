@@ -208,7 +208,7 @@
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
 
 	[functional.cannon]
-		enabled = true
+		enabled = false
 		#Makes TNT-like block shot from a cannon explode on impact
 		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
 		explode_tnt = "IGNITE"
@@ -227,7 +227,7 @@
 		music_disc_heave_ho = true
 
 		[functional.cannon.cannon_boat]
-			enabled = true
+			enabled = false
 			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
 			# Default: 0.5
 			# Range: 0.0 ~ 5.0

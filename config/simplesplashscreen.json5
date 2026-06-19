@@ -4,7 +4,7 @@
 	// Change the texture of the logo
 	"logoStyle": "Mojang",
 	// Enable/Disable the background image
-	"backgroundImage": false,
+	"backgroundImage": true,
 	// Change the color of the background
 	"backgroundColor": 15675965,
 	// Change the color of the progress bar
