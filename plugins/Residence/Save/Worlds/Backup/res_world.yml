@@ -1,0 +1,58 @@
+Messages:
+  1:
+    LeaveMessage: Now leaving %residence.
+    EnterMessage: Welcome %player to %residence, owned by %owner.
+Flags:
+  1:
+    container: true
+    ignite: true
+    harvest: true
+    move: true
+    shear: true
+    use: true
+    destroy: true
+    riding: true
+    animalkilling: true
+    hook: true
+    trade: true
+    mobkilling: true
+    build: true
+    vehicledestroy: true
+    leash: true
+    tp: true
+  2:
+    container: true
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: true
+    destroy: false
+    riding: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    chat: true
+    skulk: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    creeper: false
+Residences:
+  spawn:
+    TPLoc: 1783.62:81.01:-1857.89:57.9:-172.19
+    Messages: 1
+    BlockSellPrice: 0.3
+    Permissions:
+      PlayerFlags:
+        69ab7042-52b2-38f5-9689-f6467059bf41: 1
+      AreaFlags: 2
+      OwnerUUID: 69ab7042-52b2-38f5-9689-f6467059bf41
+      OwnerLastKnownName: BiliBear
+    CreatedOn: 1781872380744
+    Areas:
+      main: 1775:69:-1870:1794:88:-1851

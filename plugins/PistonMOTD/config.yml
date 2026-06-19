@@ -1,0 +1,242 @@
+# You can find color codes here: https://minecraft.tools/en/color-code.php
+# Formatting comes after the color! &d&l will work, but not &l&d.
+# MiniMessage formatting IS supported: https://docs.adventure.kyori.net/minimessage.html#template
+# MiniMessage allows you to make rainbow colors and gradients!
+# HEX/RGB colors ARE supported. (Only the MOTD)
+# Hex format: &#FFFFFF or <#FFFFFF>
+# Placeholders: <online> (Players online)
+# <max> (Server max slots)
+# <newline> adds a newline to your MOTD.
+# <tps> shows the tps (Paper only)
+# <center> centers the text of a line. Needs to be at the exact start of a line.
+description:
+  # Enables the custom MOTD.
+  activated: true
+  # The MOTD lines shown in the server list.
+  text:
+  - '&2双击开始你的旅途 <newline>&e&l欢迎来到 &r&a&o鸽子窝 &r&e&l1.21.1模组服!'
+  - '&e求赞助块 &r&a&kab &c&lRTX5090显卡 &r&a&kab &r&e<newline>提升服主游戏体验'
+  - '&d老老实实地玩 &9<newline>不要一时兴起想着加个大Mod增加游戏趣味性，&n你（服务器）把握不住'
+
+# Not supported on: Spigot (Paper works), Sponge
+version:
+  # The version name is shown if the version of the client doesn't match the version of the server.
+  # <after_icon> adds a bunch of spaces so the text is after the icon. (Only for protocol)
+  name:
+    # Enables the custom version name.
+    activated: false
+    # The version name shown to incompatible clients.
+    text: '&1My custom version name!'
+  # Dangerous! This can show a wrong server version to the client.
+  # When the client is on a different protocol, it will show the version name set above.
+  protocol:
+    # Enables the custom protocol number.
+    activated: false
+    # The protocol number sent to the client.
+    value: 1
+
+# Player count and hover sample settings.
+players:
+  # Override your actual player count
+  # Not supported on: Spigot (Paper works)
+  online:
+    # Enables the custom online player count.
+    activated: false
+    # The online player count shown in the server list.
+    value: 0
+  # Override your max player count
+  max:
+    # Enables the custom max player count.
+    activated: false
+    # The max player count shown in the server list.
+    value: 10
+  # Will show ??? as the player count.
+  # Not supported on: Spigot (Paper works)
+  hide: false
+  # Box shown when you hover over the player count
+  # Not supported on: Spigot (Paper works)
+  sample:
+    # Restores the vanilla behavior for the sample box.
+    # The name of every player on the server will be shown in the sample box.
+    # Overrides the text feature from below.
+    vanilla:
+      # Uses the real player list instead of the custom hover sample.
+      activated: false
+      # Players hidden from the vanilla player sample.
+      hidden:
+      - Notch
+    # Enables the custom hover sample below.
+    activated: false
+    # The lines shown in the hover sample when vanilla mode is disabled.
+    text:
+    - '&3你看这个做什么？'
+    - '&3这个数字一般来说无关紧要'
+    - '&e数字大点可能会影响你的游戏体验'
+    - '&4但是我更想在此强调的是本服务器使用AMD7840HS处理器'
+    - '&4所以游戏期间出问题不是服务器不行，是你不行'
+    - '&d&lQQ群号：289365641'
+
+# The image of a server in the server list.
+favicon:
+  # Enables the custom server favicon.
+  activated: true
+  # Favicons are stored in the /plugins/PistonMOTD/favicons folder.
+  # Favicons are 64x64 pixels and must be PNG. The file name does not matter for random mode.
+  # Valid: RANDOM, SINGLE
+  mode: RANDOM
+  # The single favicon shown when SINGLE is selected.
+  single: example.png
+
+# Extensions to the functionality of PistonMOTD
+extensions:
+  # Extensions for vanishing plugins
+  vanish:
+    # Support for SuperVanish/PremiumVanish. Hide players from the player count/sample on Bukkit/BungeeCord/Velocity.
+    vanishApi: false
+    # Hide players from the vanilla player sample feature.
+    hideSample: true
+    # Hide players from the online player count. (Most vanish plugins already have that built in)
+    hideCount: false
+  # Player prefixes for the player sample
+  prefix:
+    # Use LuckPerms player prefixes if it is installed
+    luckperms: false
+
+# Advanced features and protocol-specific behavior.
+advanced:
+  # If activated the server will only be shown as supported for the following protocols.
+  supportedProtocol:
+    # Enables protocol-based version filtering.
+    activated: false
+    # Shown when the protocol is not supported.
+    unsupportedNumber: -1
+    # The supported protocol versions.
+    # Protocol version numbers can be found here: https://wiki.vg/Protocol_version_numbers
+    numbers:
+    - 757
+    - 756
+  # If activated the server will display a status per server address the request comes from.
+  # This is useful for servers that have multiple addresses and want to route traffic to another server.
+  # The default status is shown when the request doesn't come from the below addresses.
+  # All config options are available for the per domain status, but you have to add them below yourself.
+  # This is because this config would be too big if I added all available options for every example domain.
+  perDomainStatus:
+    # Enables per-domain status overrides.
+    activated: false
+    # The per-domain overrides keyed by an arbitrary entry name.
+    domains:
+      example2:
+        description:
+          activated: true
+          text:
+          - Hello! <newline>World!
+          - Use &c<underlined>color <bold><yellow>codes!
+          - '&ka &rFormatting &nworks&r too! &ka'
+          - '<#800080>Players: <online>/<max>'
+          - <rainbow>RAINBOW COLOR SUPPORT! :D</rainbow>
+          - <center><yellow><bold>Centered text!<bold></yellow><newline>Second line!
+        version:
+          name:
+            activated: true
+            text: '&1My custom version name!'
+          protocol:
+            activated: false
+            value: 1
+        players:
+          online:
+            activated: false
+            value: 0
+          max:
+            activated: false
+            value: 10
+          hide: false
+          sample:
+            vanilla:
+              activated: false
+              hidden:
+              - Notch
+            activated: true
+            text:
+            - '&3Hello world!'
+            - '&eNewline!'
+            - '&6    spaces!'
+            - '&d&lCombined'
+            - '&1Players: <online>/<max>'
+        favicon:
+          activated: false
+          mode: RANDOM
+          single: example.png
+        extensions:
+          vanish:
+            vanishApi: false
+            hideSample: true
+            hideCount: false
+          prefix:
+            luckperms: false
+        domain: ''
+        advanced:
+          supportedProtocol:
+            activated: false
+            unsupportedNumber: -1
+            numbers:
+            - 757
+            - 756
+      example:
+        description:
+          activated: true
+          text:
+          - Hello! <newline>World!
+          - Use &c<underlined>color <bold><yellow>codes!
+          - '&ka &rFormatting &nworks&r too! &ka'
+          - '<#800080>Players: <online>/<max>'
+          - <rainbow>RAINBOW COLOR SUPPORT! :D</rainbow>
+          - <center><yellow><bold>Centered text!<bold></yellow><newline>Second line!
+        version:
+          name:
+            activated: true
+            text: '&1My custom version name!'
+          protocol:
+            activated: false
+            value: 1
+        players:
+          online:
+            activated: false
+            value: 0
+          max:
+            activated: false
+            value: 10
+          hide: false
+          sample:
+            vanilla:
+              activated: false
+              hidden:
+              - Notch
+            activated: true
+            text:
+            - '&3Hello world!'
+            - '&eNewline!'
+            - '&6    spaces!'
+            - '&d&lCombined'
+            - '&1Players: <online>/<max>'
+        favicon:
+          activated: false
+          mode: RANDOM
+          single: example.png
+        extensions:
+          vanish:
+            vanishApi: false
+            hideSample: true
+            hideCount: false
+          prefix:
+            luckperms: false
+        domain: ''
+        advanced:
+          supportedProtocol:
+            activated: false
+            unsupportedNumber: -1
+            numbers:
+            - 757
+            - 756
+
+# Check for updates on startup. (Only works on Sponge)
+updateChecking: true

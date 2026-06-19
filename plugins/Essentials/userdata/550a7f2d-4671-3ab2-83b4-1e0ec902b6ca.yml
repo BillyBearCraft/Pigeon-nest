@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1781446422756
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1781446433077
+  login: 1781442001091
+money: '0'
+last-account-name: mianma708
+lastlocation:
+  world: 75e3789f-498e-47fb-8bb1-47a4d251426a
+  world-name: world
+  x: -429.69999998807907
+  y: 64.0
+  z: 988.951788199581
+  yaw: 33.0023193359375
+  pitch: 31.777942657470703
+logoutlocation:
+  world: 75e3789f-498e-47fb-8bb1-47a4d251426a
+  world-name: world
+  x: -159.87223918791312
+  y: 87.22192754953562
+  z: 865.726231148372
+  yaw: 66.2383041381836
+  pitch: 55.499996185302734

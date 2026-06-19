@@ -1,0 +1,989 @@
+
+# The phrases support full color (hex) code, and some variables.
+
+# Keep in mind that some variables will not work for certain lines.
+
+# Just keep them where there are now and everything will be okay :)
+
+# Some lines can have global variables set. For the player who will be affected. For example /heal Zrips then Zrips data will be used as variable
+
+# [serverName] to show server name
+
+# [playerName] to show target player name
+
+# [playerDisplayName] to show target player display name
+
+# [lvl] to show target player level
+
+# [exp] to show target player total exp
+
+# [hp] to show target player health
+
+# [maxHp] to show target player max health
+
+# [hunger] to show target player hunger level
+
+# [gameMode] to show target player gamemode
+
+# [prefix] to show target player prefix if possible
+
+# [suffix] to show target player suffix if possible
+
+# Sender is console or player who performs the command. For example Zrips performs /heal Zhax then Zrips data will be used
+
+# [senderName] to show Sender player name
+
+# [senderDisplayName] to show Sender player display name
+
+# [senderLvl] to show Sender player level
+
+# [senderExp] to show Sender player total exp
+
+# [senderHp] to show Sender player health
+
+# [senderMaxHp] to show Sender player max health
+
+# [senderHunger] to show Sender player hunger level
+
+# [senderGameMode] to show Sender player gamemode
+
+# [senderPrefix] to show Sender player prefix if possible
+
+# [senderSuffix] to show Sender player suffix if possible
+
+# Source is player which is being used for extra info. For example Zrips performs /tp Zhax Zrips then Zhax data will be used as its location is being taken for new player location
+
+# [sourceName] to show source player name
+
+# [sourceDisplayName] to show source player display name
+
+# [sourceLvl] to show source player level
+
+# [sourceExp] to show source player total exp
+
+# [sourceHp] to show source player health
+
+# [sourceMaxHp] to show source player max health
+
+# [sourceHunger] to show source player hunger level
+
+# [sourceGameMode] to show source player gamemode
+
+# [sourcePrefix] to show source player prefix if possible
+
+# [sourceSuffix] to show source player suffix if possible
+
+# ***********************************************
+
+# Some lines support the option to send them to custom places, like action bar, title, sub-title, or even create JSON/clickable messages
+
+# If the line starts with !toast! then player will get toast message (advancement popup, only 1.12 and up). Some extra variables can be used to define type and icon. example: !toast! -t:goal -icon:paper Hello world!
+
+# If the line starts with !actionbar! then player will get action bar message defined after this variable
+
+# If the line starts with !actionbar:[seconds]! then player will get action bar message for a defined amount of time
+
+# If the line starts with !broadcast! then everyone will receive message. You can add extra !toast! !actionbar! or !title! to send message for everyone to specific place, in example !broadcast!!title!
+
+# If the line starts with !customtext:[cTextName]! then custom text will be taken by name provided and shown for player. In case it is used after !broadcast! then everyone who is online will get this custom text message
+
+# If the line starts with !title! then player will get title message defined after this variable, in addition it can contain !subtitle! which will add subtitle message
+
+# If the line starts with !bossbar:[name]-[timer]! then player will get bossbar message defined after this variable, in addition you can define how long this message will be visible. You need to define bossbar name which can be anything you want, but lines with same name will override each other to prevent stacking
+
+# To include clickable messages: <T>Text</T><H>Hover text</H><C>command</C><SC>Suggested text</SC>
+
+# <T> and </T> required, other is optional
+
+# Use /n to break line
+
+# To have more than one JSON message use <Next>
+
+# <C> performs command as a player who clicked
+
+# <CC> performs command from console once
+
+# <CCI> performs command from console every time player clicks text
+
+# <URL> includes url
+
+info:
+  # Use !prefix! in any locale line to automatically include this prefix
+  prefix: '&e[&aCMI&e] '
+  NoPermission: '&c你没有权限'
+  CantHavePermission: '&c您没有权限！'
+  WrongGroup: '&c您已经处于被删除的组里！'
+  NoPlayerPermission: '&c[playerName] 没有权限: [permission]'
+  Ingame: '&c你只能在游戏里这么做'
+  NoInformation: '&c找不到信息'
+  Console: '&6服务器'
+  FromConsole: '&c只能在控制台这么做!'
+  NotOnline: '&c玩家不在线!'
+  NobodyOnline: '&c服务器里没有玩家'
+  NoPlayer: '&c找不到这个玩家'
+  NoCommand: '&c未知指令'
+  cantFindCommand: '&5找不到 &7[%1]&5 命令, 您的意思是 &7[%2]&5?'
+  nolocation: '&4找不到合适的位置'
+  FeatureNotEnabled: '&c该机制未启用'
+  ModuleNotEnabled: '&c此模块没有启用!'
+  versionNotSupported: '&c服务器版本不支持此特性'
+  spigotNotSupported: '&c你需要使用 PaperSpigot 服务端才能使用这一特性'
+  bungeeNoGo: '&c此功能在基于bungee网络的服务器上不起作用'
+  clickToTeleport: '&e点击传送'
+  UseMaterial: '&4请使用物品名字!'
+  IncorrectMaterial: '&4错误的物品名!'
+  UseInteger: '&4请使用数字'
+  UseBoolean: '&4请使用布尔值 True 或者 False!'
+  NoLessThan: '&4数值不能小于 [amount]!'
+  NoMoreThan: '&4数值不能大于 [amount]'
+  NoWorld: '&4找不到该世界'
+  IncorrectLocation: '&4位置指定错误'
+  Show: '&e展示'
+  Remove: '&c移除'
+  Back: '&e返回'
+  Forward: '&e向前'
+  Update: '&e更新'
+  Save: '&e保存'
+  Delete: '&c删除'
+  Click: '&e点击'
+  Preview: '&e上一页'
+  PasteOld: '&e粘贴旧内容'
+  ClickToPaste: '&e点击粘贴进聊天'
+  CantTeleportWorld: '&e您不能传送到这个世界!'
+  CantTeleportNoWorld: '&c目标世界不存在. 该传送取消！'
+  ClickToConfirmDelete: '&e点击确认以移除 &6[name]'
+  ClickToConfirm: '{gcp}Click to confirm'
+  teleported: '&e您被传送了.'
+  PlayerSpliter: '&e----- &6[playerDisplayName] &e-----'
+  Spliter: '&e--------------------------------------------------'
+  SpliterValue: '&e------------------ &6[value] &e------------------'
+  singleSpliter: '&e-'
+  SpliterMiddle: ' &6[value] '
+  ListSpliter: ', '
+  ProgressBarFill: '&2▏'
+  ProgressBarEmpty: '&e▏'
+  nothingInHand: '!actionbar!&e你需要把这个拿在手上'
+  nothingInHandLeather: '&e你需要把皮革物品拿在手上'
+  nothingToShow: '&e没有东西可以展示'
+  noItem: '&c找不到物品'
+  dontHaveItem: '&c你的背包中没有 &6[itemName] x[amount] &c'
+  wrongWorld: '&c不可在此世界这样做'
+  differentWorld: '&c世界难度'
+  HaveItem: '&c在背包里有&6[amount]x [itemName]'
+  cantDoInGamemode: '&e在此游戏模式下不能这么做'
+  cantDoForPlayer: '&e你不能对 &6[playerDisplayName] &e这么做'
+  cantDoForYourSelf: '&e您不能这样做'
+  cantDetermineMobType: '&c无法指定怪物种类 &e[type] &c'
+  cantRename: '!actionbar!&e你不能更改为这个名字'
+  confirmRedefine: '&e点击确认更改'
+  cantEdit: '&e你无法编辑'
+  wrongName: '&c错误的名字'
+  unknown: unknown
+  invalidName: '&c无效的名字'
+  alreadyexist: '&4该名称已被占用'
+  dontexist: '&4未找到'
+  worldDontExist: '&c目标世界不存在'
+  notSet: 未设置
+  lookAtSign: '&e请指向一个木牌'
+  lookAtBlock: '&e请指向一个方块'
+  lookAtEntity: '&e请指向一个实体'
+  noSpace: '&e空间不够'
+  notOnGround: '&e飞行期间不能这么做'
+  bungee:
+    Online: '&6在线'
+    Offline: '&c离线'
+    not: '&c这个服务器不在群组下'
+    noserver: '&c找不到这个服务器'
+    server: '&e服务器: &7[name]'
+  variables:
+    am: '&e上午'
+    pm: '&e下午'
+    Online: '&6在线'
+    Offline: '&c离线'
+    TrueColor: '&2'
+    FalseColor: '&4'
+    'True': '&6确认'
+    'False': '&c取消'
+    Enabled: '&6启用'
+    Disabled: '&c禁用'
+    survival: '&6生存'
+    creative: '&6创造'
+    adventure: '&6冒险'
+    spectator: '&6旁观'
+    flying: '&6飞行'
+    notflying: '&6未飞行'
+  Inventory:
+    Full: '&5你的背包满了，无法添加新物品了'
+    FullDrop: '&5你的背包满了！该物品已经丢在地上了！'
+  TimeNotRecorded: '&e-我不记得了-'
+  months: '&e[months] &6月 '
+  oneMonth: '&e[months] &6月 '
+  weeks: '&e[weeks] &6周 '
+  oneWeek: '&e[weeks] &6周 '
+  years: '&e[years] &6年 '
+  oneYear: '&e[years] &6年 '
+  day: '&e[days] &6天 '
+  oneDay: '&e[days] &6天 '
+  hour: '&e[hours] &6小时 '
+  oneHour: '&e[hours] &6小时 '
+  min: '&e[mins] &6分钟 '
+  sec: '&e[secs] &6秒 '
+  time:
+    separator: '{gcn}:'
+    short:
+      year: '{gcs}[years]{gcp}Y'
+      month: '{gcs}[months]{gcp}M'
+      day: '{gcs}[days]{gcp}d'
+      hour: '{gcs}[hours]{gcp}h'
+      min: '{gcs}[mins]{gcp}m'
+      sec: '{gcs}[secs]{gcp}s'
+  nextPageConsole: '&f下一页执行&5[command]'
+  prevPage: '&2----<< &6上一页 '
+  prevCustomPage: '&2----<< &6[value] '
+  prevPageGui: '&6上一页 '
+  prevPageClean: '&6上 '
+  prevPageOff: '&2----<< &7上一页 '
+  prevCustomPageOff: '&2----<< &7[value] '
+  prevPageHover: '&7<<<'
+  firstPageHover: '&7|<'
+  nextPage: '&6 下一页 &2>>----'
+  nextCustomPage: '&6 [value] &2>>----'
+  nextPageGui: '&6下一页'
+  nextPageClean: '&6 下'
+  nextPageOff: '&7 下一页 &2>>----'
+  nextCustomPageOff: '&7 [value] &2>>----'
+  nextPageHover: '&7>>>'
+  lastPageHover: '&7>|'
+  pageCount: '&2[current]&7/&2[total]'
+  pageCountHover: '&2[totalEntries]'
+  skullOwner: '!actionbar!&7所有者:&r [playerName]'
+  mobHeadName: '&f[mobName]&e的头颅'
+  circle: '&3圆形'
+  square: '&5正方形'
+  clear: '&7清除'
+  protectedArea: '&c保护区域. 不可以这样做.'
+  valueToLong: '&e数值过长，最长: [max]'
+  valueToShort: '&e数值过短，最短: [min]'
+  pickIcon: '&8选择图标'
+  reset: '{gcp}按下 {gcs}Q {gcp}重置'
+  basicDirection: '{gcp}俯仰角：{gcs}[x] {gcp}偏航角：{gcs}[y]'
+  fullDirection: '{gcp}俯仰角：{gcs}[x] {gcp}偏航角：{gcs}[y] {gcp}翻滚角：{gcs}[z]'
+  basicScale: '{gcp}宽度：{gcs}[x] {gcp}高度：{gcs}[y]'
+  fullScale: '{gcp}宽度：{gcs}[x] {gcp}高度：{gcs}[y] {gcp}深度：{gcs}[z]'
+  basicVector: '{gcp}X：{gcs}[x] {gcp}Y：{gcs}[y]'
+  fullVector: '{gcp}X：{gcs}[x] {gcp}Y：{gcs}[y] {gcp}Z：{gcs}[z]'
+  incorrectColor: '{gcw}颜色参数设置错误！'
+  updateSpeed: '{gcp}刷新速度：{gcs}[value]'
+  serializeAndShow: '{gcp}生成并展示'
+  amount: '{gcp}数量：{gcs}[value]'
+  speed: '{gcp}速率：{gcs}[value]'
+  color: '{gcp}颜色：[color]示例'
+  duration: '{gcp}持续时长：[value]'
+  size: '{gcp}尺寸：[value]'
+  value: '{gcp}数值：[value]'
+  Spawner: '&r[type] 刷怪笼'
+  DamageCause:
+    block_explosion: 爆炸
+    campfire: campfire
+    contact: 方块伤害
+    cramming: 拥挤
+    custom: 未知原因
+    dragon_breath: 龙息
+    drowning: 淹死
+    dryout: 口渴
+    entity_attack: 实体伤害
+    entity_explosion: 爆炸
+    entity_sweep_attack: 实体横扫伤害
+    fall: 摔落
+    falling_block: 掉落的方块
+    fire: 火
+    fire_tick: 火
+    fly_into_wall: 飞行卡进墙里
+    freeze: 冻死
+    hot_floor: 岩浆块
+    kill: 击杀
+    lava: 岩浆
+    lightning: 闪电
+    magic: 魔法
+    melting: 融化
+    poison: 药水
+    projectile: 弹射物
+    sonic_boom: 声爆
+    starvation: 饥饿
+    suffocation: 窒息
+    suicide: 自杀
+    thorns: 荆棘
+    void: 虚空
+    wither: 凋零
+    world_border: 世界边界
+  EntityType:
+    ae2_tiny_tnt_primed: Ae2 tiny tnt primed
+    aeronautics_gust: Aeronautics gust
+    aeronautics_propeller_bearing_contraption: Aeronautics propeller bearing contraption
+    allay: 悦灵
+    area_effect_cloud: 药水云
+    armadillo: 犰狳
+    armor_stand: 盔甲架
+    arrow: 箭
+    automobility_automobile: Automobility automobile
+    automobility_hitbox: Automobility hitbox
+    axolotl: 美西螈
+    bat: 蝙蝠
+    bee: 蜜蜂
+    blaze: 烈焰人
+    block_display: 方块展示实体
+    boat: Boat
+    bogged: 沼泽尸
+    breeze: 轻风
+    breeze_wind_charge: 风弹（轻风）
+    butchery_turtleshellboat: Butchery turtleshellboat
+    camel: 骆驼
+    cat: 猫
+    cataclysm_abyss_blast: Cataclysm abyss blast
+    cataclysm_abyss_blast_portal: Cataclysm abyss blast portal
+    cataclysm_abyss_mark: Cataclysm abyss mark
+    cataclysm_abyss_mine: Cataclysm abyss mine
+    cataclysm_abyss_orb: Cataclysm abyss orb
+    cataclysm_abyss_portal: Cataclysm abyss portal
+    cataclysm_accretion: Cataclysm accretion
+    cataclysm_amethyst_cluster_projectile: Cataclysm amethyst cluster projectile
+    cataclysm_amethyst_crab: Cataclysm amethyst crab
+    cataclysm_ancient_desert_stele: Cataclysm ancient desert stele
+    cataclysm_ancient_remnant: Cataclysm ancient remnant
+    cataclysm_aptrgangr: Cataclysm aptrgangr
+    cataclysm_ashen_breath: Cataclysm ashen breath
+    cataclysm_axe_blade: Cataclysm axe blade
+    cataclysm_blazing_bone: Cataclysm blazing bone
+    cataclysm_bolt_strike: Cataclysm bolt strike
+    cataclysm_brontes: Cataclysm brontes
+    cataclysm_cindaria: Cataclysm cindaria
+    cataclysm_clawdian: Cataclysm clawdian
+    cataclysm_cm_falling_block: Cataclysm cm falling block
+    cataclysm_coralssus: Cataclysm coralssus
+    cataclysm_coral_bardiche: Cataclysm coral bardiche
+    cataclysm_coral_golem: Cataclysm coral golem
+    cataclysm_coral_spear: Cataclysm coral spear
+    cataclysm_cursed_sandstorm: Cataclysm cursed sandstorm
+    cataclysm_death_laser_beam: Cataclysm death laser beam
+    cataclysm_deepling: Cataclysm deepling
+    cataclysm_deepling_angler: Cataclysm deepling angler
+    cataclysm_deepling_brute: Cataclysm deepling brute
+    cataclysm_deepling_priest: Cataclysm deepling priest
+    cataclysm_deepling_warlock: Cataclysm deepling warlock
+    cataclysm_dimensional_rift: Cataclysm dimensional rift
+    cataclysm_draugr: Cataclysm draugr
+    cataclysm_drowned_host: Cataclysm drowned host
+    cataclysm_earthquake: Cataclysm earthquake
+    cataclysm_elite_draugr: Cataclysm elite draugr
+    cataclysm_endermaptera: Cataclysm endermaptera
+    cataclysm_ender_golem: Cataclysm ender golem
+    cataclysm_ender_guardian: Cataclysm ender guardian
+    cataclysm_ender_guardian_bullet: Cataclysm ender guardian bullet
+    cataclysm_eye_of_dungeon: Cataclysm eye of dungeon
+    cataclysm_flame_jet: Cataclysm flame jet
+    cataclysm_flame_strike: Cataclysm flame strike
+    cataclysm_flare_bomb: Cataclysm flare bomb
+    cataclysm_hippocamtus: Cataclysm hippocamtus
+    cataclysm_ignis: Cataclysm ignis
+    cataclysm_ignis_abyss_fireball: Cataclysm ignis abyss fireball
+    cataclysm_ignis_fireball: Cataclysm ignis fireball
+    cataclysm_ignited_berserker: Cataclysm ignited berserker
+    cataclysm_ignited_revenant: Cataclysm ignited revenant
+    cataclysm_kobolediator: Cataclysm kobolediator
+    cataclysm_koboleton: Cataclysm koboleton
+    cataclysm_laser_beam: Cataclysm laser beam
+    cataclysm_lava_bomb: Cataclysm lava bomb
+    cataclysm_lightning_area_effect: Cataclysm lightning area effect
+    cataclysm_lightning_spear: Cataclysm lightning spear
+    cataclysm_lightning_storm: Cataclysm lightning storm
+    cataclysm_lionfish: Cataclysm lionfish
+    cataclysm_lionfish_spike: Cataclysm lionfish spike
+    cataclysm_maledictus: Cataclysm maledictus
+    cataclysm_mini_abyss_blast: Cataclysm mini abyss blast
+    cataclysm_modern_remnant: Cataclysm modern remnant
+    cataclysm_netherite_ministrosity: Cataclysm netherite ministrosity
+    cataclysm_netherite_monstrosity: Cataclysm netherite monstrosity
+    cataclysm_octo_ink: Cataclysm octo ink
+    cataclysm_phantom_arrow: Cataclysm phantom arrow
+    cataclysm_phantom_halberd: Cataclysm phantom halberd
+    cataclysm_player_ceraunus: Cataclysm player ceraunus
+    cataclysm_poison_dart: Cataclysm poison dart
+    cataclysm_portal_abyss_blast: Cataclysm portal abyss blast
+    cataclysm_royal_draugr: Cataclysm royal draugr
+    cataclysm_sandstorm: Cataclysm sandstorm
+    cataclysm_sandstorm_projectile: Cataclysm sandstorm projectile
+    cataclysm_screen_shake: Cataclysm screen shake
+    cataclysm_scylla: Cataclysm scylla
+    cataclysm_scylla_ceraunus: Cataclysm scylla ceraunus
+    cataclysm_sky_color: Cataclysm sky color
+    cataclysm_spark: Cataclysm spark
+    cataclysm_storm_serpent: Cataclysm storm serpent
+    cataclysm_symbiocto: Cataclysm symbiocto
+    cataclysm_the_baby_leviathan: Cataclysm the baby leviathan
+    cataclysm_the_harbinger: Cataclysm the harbinger
+    cataclysm_the_leviathan: Cataclysm the leviathan
+    cataclysm_the_leviathan_tongue: Cataclysm the leviathan tongue
+    cataclysm_the_prowler: Cataclysm the prowler
+    cataclysm_the_watcher: Cataclysm the watcher
+    cataclysm_tidal_hook: Cataclysm tidal hook
+    cataclysm_tidal_tentacle: Cataclysm tidal tentacle
+    cataclysm_urchinkin: Cataclysm urchinkin
+    cataclysm_urchin_spike: Cataclysm urchin spike
+    cataclysm_void_howitzer: Cataclysm void howitzer
+    cataclysm_void_rune: Cataclysm void rune
+    cataclysm_void_scatter_arrow: Cataclysm void scatter arrow
+    cataclysm_void_shard: Cataclysm void shard
+    cataclysm_void_vortex: Cataclysm void vortex
+    cataclysm_wadjet: Cataclysm wadjet
+    cataclysm_wall_watcher: Cataclysm wall watcher
+    cataclysm_water_spear: Cataclysm water spear
+    cataclysm_wave: Cataclysm wave
+    cataclysm_wither_homing_missile: Cataclysm wither homing missile
+    cataclysm_wither_howitzer: Cataclysm wither howitzer
+    cataclysm_wither_missile: Cataclysm wither missile
+    cataclysm_wither_smoke_effect: Cataclysm wither smoke effect
+    cave_spider: 洞穴蜘蛛
+    chest_boat: Chest boat
+    chest_minecart: 储物矿车
+    chicken: 鸡
+    cod: 鳕鱼
+    command_block_minecart: 命令方块矿车
+    cow: 牛
+    crabbersdelight_crab: Crabbersdelight crab
+    crabbersdelight_mod_boat: Crabbersdelight mod boat
+    crabbersdelight_mod_chest_boat: Crabbersdelight mod chest boat
+    create_carriage_contraption: Create carriage contraption
+    create_confectionery_little_gingerbread_man: Create confectionery little gingerbread
+      man
+    create_contraption: Create contraption
+    create_crafting_blueprint: Create crafting blueprint
+    create_gantry_contraption: Create gantry contraption
+    create_package: Create package
+    create_potato_projectile: Create potato projectile
+    create_seat: Create seat
+    create_stationary_contraption: Create stationary contraption
+    create_super_glue: Create super glue
+    creeper: 爬行者
+    doapi_chair: Doapi chair
+    dolphin: 海豚
+    donkey: 驴
+    dragon_fireball: 龙之火球
+    drowned: 溺尸
+    egg: 蛋
+    elder_guardian: 远古守卫者
+    enderman: 末影人
+    endermite: 末影螨
+    ender_dragon: 末影龙
+    ender_pearl: 末影珍珠
+    end_crystal: 末影水晶
+    evoker: 唤魔者
+    evoker_fangs: 地刺
+    experience_bottle: 附魔之瓶
+    experience_orb: 经验球
+    eye_of_ender: 末影之眼
+    falling_block: 下落方块
+    farmersdelight_rotten_tomato: Farmersdelight rotten tomato
+    farm_and_charm_cart: Farm and charm cart
+    farm_and_charm_chair: Farm and charm chair
+    farm_and_charm_plow: Farm and charm plow
+    farm_and_charm_rotten_tomato: Farm and charm rotten tomato
+    fireball: 火球
+    firework_rocket: 烟花火箭
+    fishing_bobber: 浮漂
+    fox: 狐狸
+    frog: 青蛙
+    furnace_minecart: 动力矿车
+    ghast: 恶魂
+    giant: 巨人
+    glow_item_frame: 发光物品展示框
+    glow_squid: 发光鱿鱼
+    goat: 山羊
+    guardian: 守卫者
+    hoglin: 疣猪兽
+    hopper_minecart: 漏斗矿车
+    horse: 马
+    hotbath_thrown_bath_water: Hotbath thrown bath water
+    hotbath_thrown_custom_fluid_bottle: Hotbath thrown custom fluid bottle
+    husk: 尸壳
+    illusioner: 幻术师
+    immersive_aircraft_airship: Immersive aircraft airship
+    immersive_aircraft_bamboo_hopper: Immersive aircraft bamboo hopper
+    immersive_aircraft_biplane: Immersive aircraft biplane
+    immersive_aircraft_bullet: Immersive aircraft bullet
+    immersive_aircraft_cargo_airship: Immersive aircraft cargo airship
+    immersive_aircraft_gyrodyne: Immersive aircraft gyrodyne
+    immersive_aircraft_quadrocopter: Immersive aircraft quadrocopter
+    immersive_aircraft_tiny_tnt: Immersive aircraft tiny tnt
+    immersive_aircraft_warship: Immersive aircraft warship
+    interaction: 交互实体
+    iron_golem: 铁傀儡
+    item: 物品
+    item_display: 物品展示实体
+    item_frame: 物品展示框
+    kaleidoscope_cookery_scarecrow: Kaleidoscope cookery scarecrow
+    kaleidoscope_cookery_sit: Kaleidoscope cookery sit
+    kaleidoscope_cookery_throwable_baozi: Kaleidoscope cookery throwable baozi
+    kaleidoscope_doll_doll: Kaleidoscope doll doll
+    kaleidoscope_tavern_sit: Kaleidoscope tavern sit
+    kaleidoscope_tavern_thrown_molotov: Kaleidoscope tavern thrown molotov
+    leash_knot: 拴绳结
+    lightning_bolt: 闪电
+    llama: 羊驼
+    llama_spit: 羊驼唾沫
+    magma_cube: 岩浆怪
+    marker: 标记实体
+    mekanism_flame: Mekanism flame
+    mekanism_robit: Mekanism robit
+    minecart: 矿车
+    mooshroom: 哞菇
+    mule: 骡
+    ocelot: 豹猫
+    offroad_borehead_contraption_entity: Offroad borehead contraption entity
+    ominous_item_spawner: 不祥之物生成器
+    oritech_portal_entity: Oritech portal entity
+    painting: 画
+    panda: 熊猫
+    parrot: 鹦鹉
+    phantom: 幻翼
+    pig: 猪
+    piglin: 猪灵
+    piglin_brute: 猪灵蛮兵
+    pillager: 掠夺者
+    player: 玩家
+    polar_bear: 北极熊
+    potion: Potion
+    pufferfish: 河豚
+    rabbit: 兔子
+    ravager: 劫掠兽
+    refurbished_furniture_seat: Refurbished furniture seat
+    salmon: 鲑鱼
+    sheep: 羊
+    showercore_faucet: Showercore faucet
+    showercore_rubber_duck: Showercore rubber duck
+    showercore_seat: Showercore seat
+    shulker: 潜影贝
+    shulker_bullet: 潜影贝子弹
+    silverfish: 蠹虫
+    simulated_contraption_diagram: Simulated contraption diagram
+    simulated_honey_glue: Simulated honey glue
+    simulated_launched_plunger: Simulated launched plunger
+    skeleton: 骷髅
+    skeleton_horse: 骷髅马
+    slime: 史莱姆
+    small_fireball: 小火球
+    sniffer: 嗅探兽
+    snowball: 雪球
+    snow_golem: 雪傀儡
+    sophisticatedbackpacks_everlasting_backpack_item: Sophisticatedbackpacks everlasting
+      backpack item
+    spawner_minecart: 刷怪笼矿车
+    spectral_arrow: 光灵箭
+    spider: 蜘蛛
+    squid: 鱿鱼
+    stray: 流浪者
+    strider: 炽足兽
+    supplementaries_bomb: Supplementaries bomb
+    supplementaries_brick_projectile: Supplementaries brick projectile
+    supplementaries_cannonball: Supplementaries cannonball
+    supplementaries_cannon_boat: Supplementaries cannon boat
+    supplementaries_dispenser_minecart: Supplementaries dispenser minecart
+    supplementaries_falling_ash: Supplementaries falling ash
+    supplementaries_falling_sack: Supplementaries falling sack
+    supplementaries_falling_urn: Supplementaries falling urn
+    supplementaries_hat_stand: Supplementaries hat stand
+    supplementaries_pearl_marker: Supplementaries pearl marker
+    supplementaries_plunderer: Supplementaries plunderer
+    supplementaries_red_merchant: Supplementaries red merchant
+    supplementaries_rope_arrow: Supplementaries rope arrow
+    supplementaries_slimeball_projectile: Supplementaries slimeball projectile
+    supplementaries_slingshot_projectile: Supplementaries slingshot projectile
+    tacz_bullet: Tacz bullet
+    tacz_target_minecart: Tacz target minecart
+    tadpole: 蝌蚪
+    terraform_boat: Terraform boat
+    terraform_chest_boat: Terraform chest boat
+    text_display: 文字展示实体
+    tnt: 炸药
+    tnt_minecart: TNT矿车
+    touhou_little_maid_box: Touhou little maid box
+    touhou_little_maid_broom: Touhou little maid broom
+    touhou_little_maid_chair: Touhou little maid chair
+    touhou_little_maid_danmaku: Touhou little maid danmaku
+    touhou_little_maid_extinguishing_agent: Touhou little maid extinguishing agent
+    touhou_little_maid_fairy: Touhou little maid fairy
+    touhou_little_maid_fishing_hook: Touhou little maid fishing hook
+    touhou_little_maid_maid: Touhou little maid maid
+    touhou_little_maid_power_point: Touhou little maid power point
+    touhou_little_maid_sit: Touhou little maid sit
+    touhou_little_maid_throw_power_point: Touhou little maid throw power point
+    touhou_little_maid_tombstone: Touhou little maid tombstone
+    trader_llama: 行商羊驼
+    trident: 三叉戟
+    tropical_fish: 热带鱼
+    turtle: 海龟
+    twilightforest_adherent: Twilightforest adherent
+    twilightforest_alpha_yeti: Twilightforest alpha yeti
+    twilightforest_armored_giant: Twilightforest armored giant
+    twilightforest_bighorn_sheep: Twilightforest bighorn sheep
+    twilightforest_blockchain_goblin: Twilightforest blockchain goblin
+    twilightforest_boar: Twilightforest boar
+    twilightforest_carminite_broodling: Twilightforest carminite broodling
+    twilightforest_carminite_ghastguard: Twilightforest carminite ghastguard
+    twilightforest_carminite_ghastling: Twilightforest carminite ghastling
+    twilightforest_carminite_golem: Twilightforest carminite golem
+    twilightforest_chain_block: Twilightforest chain block
+    twilightforest_charm_effect: Twilightforest charm effect
+    twilightforest_cube_of_annihilation: Twilightforest cube of annihilation
+    twilightforest_death_tome: Twilightforest death tome
+    twilightforest_deer: Twilightforest deer
+    twilightforest_dwarf_rabbit: Twilightforest dwarf rabbit
+    twilightforest_falling_ice: Twilightforest falling ice
+    twilightforest_fire_beetle: Twilightforest fire beetle
+    twilightforest_giant_miner: Twilightforest giant miner
+    twilightforest_harbinger_cube: Twilightforest harbinger cube
+    twilightforest_hedge_spider: Twilightforest hedge spider
+    twilightforest_helmet_crab: Twilightforest helmet crab
+    twilightforest_hostile_wolf: Twilightforest hostile wolf
+    twilightforest_hydra: Twilightforest hydra
+    twilightforest_hydra_mortar: Twilightforest hydra mortar
+    twilightforest_ice_arrow: Twilightforest ice arrow
+    twilightforest_ice_crystal: Twilightforest ice crystal
+    twilightforest_ice_snowball: Twilightforest ice snowball
+    twilightforest_king_spider: Twilightforest king spider
+    twilightforest_knight_phantom: Twilightforest knight phantom
+    twilightforest_kobold: Twilightforest kobold
+    twilightforest_lich: Twilightforest lich
+    twilightforest_lich_bolt: Twilightforest lich bolt
+    twilightforest_lich_bomb: Twilightforest lich bomb
+    twilightforest_lich_minion: Twilightforest lich minion
+    twilightforest_lower_goblin_knight: Twilightforest lower goblin knight
+    twilightforest_loyal_zombie: Twilightforest loyal zombie
+    twilightforest_magic_painting: Twilightforest magic painting
+    twilightforest_maze_slime: Twilightforest maze slime
+    twilightforest_minoshroom: Twilightforest minoshroom
+    twilightforest_minotaur: Twilightforest minotaur
+    twilightforest_mist_wolf: Twilightforest mist wolf
+    twilightforest_moonworm_shot: Twilightforest moonworm shot
+    twilightforest_mosquito_swarm: Twilightforest mosquito swarm
+    twilightforest_naga: Twilightforest naga
+    twilightforest_nature_bolt: Twilightforest nature bolt
+    twilightforest_penguin: Twilightforest penguin
+    twilightforest_pinch_beetle: Twilightforest pinch beetle
+    twilightforest_plateau_boss: Twilightforest plateau boss
+    twilightforest_protection_box: Twilightforest protection box
+    twilightforest_quest_ram: Twilightforest quest ram
+    twilightforest_raven: Twilightforest raven
+    twilightforest_redcap: Twilightforest redcap
+    twilightforest_redcap_sapper: Twilightforest redcap sapper
+    twilightforest_rising_zombie: Twilightforest rising zombie
+    twilightforest_roving_cube: Twilightforest roving cube
+    twilightforest_seeker_arrow: Twilightforest seeker arrow
+    twilightforest_skeleton_druid: Twilightforest skeleton druid
+    twilightforest_slider: Twilightforest slider
+    twilightforest_slime_beetle: Twilightforest slime beetle
+    twilightforest_slime_blob: Twilightforest slime blob
+    twilightforest_snow_guardian: Twilightforest snow guardian
+    twilightforest_snow_queen: Twilightforest snow queen
+    twilightforest_squirrel: Twilightforest squirrel
+    twilightforest_stable_ice_core: Twilightforest stable ice core
+    twilightforest_swarm_spider: Twilightforest swarm spider
+    twilightforest_thrown_block: Twilightforest thrown block
+    twilightforest_thrown_ice: Twilightforest thrown ice
+    twilightforest_thrown_wep: Twilightforest thrown wep
+    twilightforest_tiny_bird: Twilightforest tiny bird
+    twilightforest_tome_bolt: Twilightforest tome bolt
+    twilightforest_towerwood_borer: Twilightforest towerwood borer
+    twilightforest_troll: Twilightforest troll
+    twilightforest_unstable_ice_core: Twilightforest unstable ice core
+    twilightforest_upper_goblin_knight: Twilightforest upper goblin knight
+    twilightforest_ur_ghast: Twilightforest ur ghast
+    twilightforest_wand_bolt: Twilightforest wand bolt
+    twilightforest_winter_wolf: Twilightforest winter wolf
+    twilightforest_wraith: Twilightforest wraith
+    twilightforest_yeti: Twilightforest yeti
+    unknown: 未知
+    untitledduckmod_duck: Untitledduckmod duck
+    untitledduckmod_duck_egg: Untitledduckmod duck egg
+    untitledduckmod_goose: Untitledduckmod goose
+    untitledduckmod_goose_egg: Untitledduckmod goose egg
+    vex: 恼鬼
+    villager: 村民
+    vindicator: 卫道士
+    vinery_chair: Vinery chair
+    vinery_dark_cherry_boat: Vinery dark cherry boat
+    vinery_dark_cherry_chest_boat: Vinery dark cherry chest boat
+    vinery_mule: Vinery mule
+    vinery_wandering_winemaker: Vinery wandering winemaker
+    wandering_trader: 流浪商人
+    warden: 监守者
+    wind_charge: 风弹
+    witch: 女巫
+    wither: 凋灵
+    wither_skeleton: 凋灵骷髅
+    wither_skull: 凋灵之首
+    wolf: 狼
+    yuushya_ride_entity: Yuushya ride entity
+    zoglin: 僵尸疣猪兽
+    zombie: 僵尸
+    zombie_horse: 僵尸马
+    zombie_villager: 僵尸村民
+    zombified_piglin: 僵尸猪灵
+  # Avoid adding color codes to the enchant name
+  EnchantNames:
+    frost_walker: 冰霜行者
+    swift_sneak: 迅捷潜行
+    punch: 冲击
+    protection: 保护
+    blast_protection: 爆炸保护
+    renewal: Renewal
+    lure: 饵钓
+    silk_touch: 精准采集
+    infinity: 无限
+    vanishing_curse: 消失诅咒
+    flame: 火矢
+    piercing: 穿透
+    fire_protection: 火焰保护
+    sharpness: 锋利
+    aqua_affinity: 水下速掘
+    binding_curse: 绑定诅咒
+    bane_of_arthropods: 节肢杀手
+    idle_hands: Idle_Hands
+    potato_recovery: Potato_Recovery
+    chill_aura: Chill_Aura
+    looting: 掠夺
+    efficiency: 效率
+    destruction: Destruction
+    butcherstouch: Butcherstouch
+    quick_charge: 快速装填
+    loyalty: 忠诚
+    capacity: Capacity
+    feather_falling: 羽毛坠落
+    unbreaking: 耐久
+    knockback: 击退
+    projectile_protection: 弹射物保护
+    respiration: 水下呼吸
+    speedy: Speedy
+    impaling: 穿刺
+    smite: 亡灵杀手
+    luck_of_the_sea: 海之眷顾
+    thorns: 荆棘
+    multishot: 多重射击
+    fire_react: Fire_React
+    fire_aspect: 火焰附加
+    breach: 破甲
+    depth_strider: 深海探索者
+    wind_burst: 风爆
+    stasis: Stasis
+    power: 力量
+    impeding: Impeding
+    enders_ender: Enders_Ender
+    soul_speed: 灵魂疾行
+    density: 致密
+    mending: 经验修补
+    riptide: 激流
+    sweeping_edge: 横扫之刃
+    fortune: 时运
+    channeling: 引雷
+    backstabbing: Backstabbing
+  PotionEffectAliases:
+    dolphinsgrace:
+    - 海豚之息
+    oozing:
+    - 渗流
+    infested:
+    - 虫蚀
+    saturation:
+    - 饱和
+    heroofthevillage:
+    - 村庄英雄
+    jumpboost:
+    - 跳跃提升
+    regeneration:
+    - 生命恢复
+    speed:
+    - 迅捷
+    hunger:
+    - 饥饿
+    invisibility:
+    - 隐身
+    windcharged:
+    - 蓄风
+    badomen:
+    - 不祥之兆
+    strength:
+    - 力量
+    slowness:
+    - 缓慢
+    conduitpower:
+    - 潮涌之力
+    wither:
+    - 凋零
+    nausea:
+    - 反胃
+    slowfalling:
+    - 缓降
+    healthboost:
+    - 生命增幅
+    resistance:
+    - 抗性提升
+    nightvision:
+    - 夜视
+    unluck:
+    - 霉运
+    haste:
+    - 急迫
+    absorption:
+    - 伤害吸收
+    waterbreathing:
+    - 水下呼吸
+    poison:
+    - 中毒
+    blindness:
+    - 失明
+    instanthealth:
+    - 瞬间治疗
+    glowing:
+    - 发光
+    levitation:
+    - 漂浮
+    fireresistance:
+    - 防火
+    instantdamage:
+    - 瞬间伤害
+    darkness:
+    - 黑暗
+    weakness:
+    - 虚弱
+    weaving:
+    - 缠绕
+    luck:
+    - 幸运
+    raidomen:
+    - 袭击预兆
+    trialomen:
+    - 试炼预兆
+    miningfatigue:
+    - 挖掘疲劳
+dialog:
+  signEditor: 告示牌编辑
+  update: 更新
+  save: 保存
+  close: 关闭
+  line: 第 [line] 行
+direction:
+  n: 北
+  ne: 东北
+  e: 东
+  se: 东南
+  s: 南
+  sw: 西南
+  w: 西
+  nw: 西北
+modify:
+  middlemouse: '&2鼠标中键单击进行编辑'
+  qButtonEdit: '&2点击 Q 编辑'
+  newItem: '&7放置新物品'
+  newLine: '&2<新的一行>'
+  newLineHover: '&2添加新的一行'
+  newPage: '&2<新的一页>'
+  newPageHover: '&2创建新的一页'
+  removePage: '&c<移除一页>'
+  removePageHover: '&c移除一页'
+  deleteSymbol: '&cX'
+  deleteSymbolHover: '&c删除 &e[text]'
+  extraEditSymbol: ' &6!'
+  addSymbol: ' &2+'
+  addSymbolHover: '&2新建'
+  cancelSymbol: ' &7&l[X]'
+  cancelSymbolHover: '&a取消'
+  acceptSymbol: ' &2&l[✔]'
+  acceptSymbolHover: '&2接受'
+  denySymbol: ' &4[X] '
+  denySymbolHover: '&2取消'
+  enabledSymbol: '&2[+]'
+  disabledSymbol: '&c[-]'
+  enabled: '&2启用'
+  disabled: '&c禁用'
+  running: '&2运行中'
+  paused: '&c已暂停'
+  editSymbol: '&e✎'
+  editSymbolHover: '&e编辑 &6[text]'
+  editLineColor: '&f'
+  listUpSymbol: '&6⇑'
+  listUpSymbolHover: '&e上'
+  listDownSymbol: '&6⇓'
+  listDownSymbolHover: '&e下'
+  listNumbering: '&e[number]. '
+  listAlign: '&80'
+  ChangeHover: '&e点击更改'
+  ChangeCommands: '&e指令'
+  enabledColor: '&6'
+  disabledColor: '&7'
+  commandTitle: ' &e--- &6[name] &e---'
+  commandList: ' &e[command]  '
+  emptyLine: '&7[Empty line]'
+  commandEdit: '&e编辑列表'
+  nameAddInfo: '&e输入新名字，或输入 &6cancel &e来取消操作'
+  lineAddInfo: '&e在聊天框中输入cancel来取消操作'
+  commandAddInfo: '&e输入一个新指令，或使用 &6cancel &e取消'
+  commandAddInformationHover: "&e[playerName] 代表玩家变量 \n&e 想给指令加延迟请使用: \n&edelay! 5\
+    \ \n&e支持特殊指令 获得更多信息 \n&ehttps://www.zrips.net/cmi/commands/specialized/"
+  commandEditInfo: '&e点击粘贴旧内容，使用 &6cancel &e取消，或使用 &6remove &e移除一行'
+  listLimit: '&e列表中内容不能多于 &6[amount] &e项'
+  commandEditInfoHover: '&e点击粘贴旧内容'
+teleportation:
+  relocation: '!actionbar!&4你将要传送到的地方不安全，已将你传送至 安全的地方'
+econ:
+  noMoney: '&c你的钱不够'
+  charged: '!actionbar!&f收费: &6[amount]'
+  notEnoughMoney: '&c你没有足够的钱！要求:(&6[amount]&c)'
+  tooMuchMoney: '&c你的钱太多了'
+Selection:
+  SelectPoints: '&c用选择工具选择 2 个点 AKA: &6[tool]'
+  PrimaryPoint: '&e选择 &6第一个 &e选择点 [point]'
+  SecondaryPoint: '&e选择了 &6第二个 &e选择点 [point]'
+  CoordsTop: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
+  CoordsBottom: '&eX:&6[x] &eY:&6[y] &eZ:&6[z]'
+  Area: '&7[world] &f(&6[x1]:[y1]:[z1] &e[x2]:[y2]:[z2]&f)'
+Location:
+  Title: '&8玩家位置'
+  Killer: '&e击杀者: &6[killer]'
+  OneLiner: '&e位置: &6[location]'
+  DeathReason: '&e死亡原因: &6[reason]'
+  Full: '&7[world] &f[x]&7:&f[y]&7:&f[z]'
+  World: '&e世界: &6[world]'
+  X: '&eX: &6[x]'
+  Y: '&eY: &6[y]'
+  Z: '&eZ: &6[z]'
+  Pitch: '&ePitch: &6[pitch]'
+  Yaw: '&eYaw: &6[yaw]'
+  WorldNames:
+  - world-&2主世界
+  - world_nether-&2地狱
+  - world_the_end-&2末地
+Locations: '&7位置: '
+command:
+  help:
+    output:
+      usage: '&e使用方法: &7%usage%'
+      cmdInfoFormat: '[command] &f- &e[description]'
+      cmdFormat: '&6/[command]&f[arguments]'
+      helpPageDescription: '&e* [description]'
+      explanation: '&e * [explanation]'
+      title: '&e------ ======= &6帮助&e &e======= ------'
+  nocmd:
+    help:
+      info: '&e显示所有可用指令'
+      args: ''
+  clearcache:
+    help:
+      info: '&e清理缓存'
+      args: ''
+  reload:
+    help:
+      info: '&e重载插件'
+      args: ''
+    info:
+      feedback: '&6配置已重载 耗时 [ms]ms 汉化 by 燃油High'
+      failedConfig: '&4config文件重载失败! 请检查拼写错误!'
+      failedLocale: '&4语言文件重载失败! 请检查拼写错误!'

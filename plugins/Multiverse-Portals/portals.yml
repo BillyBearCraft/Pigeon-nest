@@ -1,0 +1,23 @@
+portals:
+  p1:
+    currency: air
+    price: 0.0
+    safe-teleport: true
+    teleport-non-players: false
+    owner: BiliBear
+    location: world:1780.0,70.0,-1855.0:1780.0,74.0,-1852.0
+    action-type: multiverse-destination
+    action: w:world_resource
+    check-destination-safety: true
+    version: 1.2
+  p2:
+    currency: air
+    price: 0.0
+    safe-teleport: true
+    teleport-non-players: false
+    owner: BiliBear
+    location: world_resource:272.0,67.0,-583.0:272.0,70.0,-581.0
+    action-type: multiverse-destination
+    action: w:world
+    check-destination-safety: true
+    version: 1.2

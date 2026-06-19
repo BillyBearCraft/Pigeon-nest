@@ -1,4 +1,5 @@
-&6Welcome, {PLAYER}&6!
-&6Type &c/help&6 for a list of commands.
-&6Type &c/list&6 to see who else is online.
-&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+&6欢迎{PLAYER}&6来到鸽子窝1.21.1科技服！
+&6现在是北京时间：&c {DATE}{TIME}
+&6在线玩家数：&c {ONLINE} ，&6目前在线的玩家：&c{PLAYERLIST}
+&6输入 &c/help&6 以查看可以使用的命令。
+&6当前版本&3PN V1.0。

@@ -1,4 +1,5 @@
 /world/
+/world_resource/
 /simplebackups/
 /bluemap/
 /crash-reports/
@@ -10,10 +11,16 @@
 /.sable/
 /.git/
 /dynamic-data-pack-cache/
+/tlm_custom_pack/
+/patchouli_books/
+/plugins/CoreProtect/
+
+
 
 .log
 .probe
 
+arclight.conf
 usercache.json
 usernamecache.json
 whitelist.json
@@ -24,3 +31,11 @@ commands.yml
 banned-players.json
 banned-ips.json
 eula.txt
+help.yml
+spigot.yml
+bukkit.yml
+run.sh
+run.bat
+user_jvm_args.txt
+arclight-neoforge-1.21.1-1.0.2-SNAPSHOT-0769551.jar
+neoforge-21.1.228-installer.jar

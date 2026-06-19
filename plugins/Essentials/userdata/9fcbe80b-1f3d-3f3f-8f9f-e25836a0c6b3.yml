@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1781803036896
+  login: 1781803004796
+money: '0'
+last-account-name: teet
+logoutlocation:
+  world: e1c03a5c-1b22-4a78-9af2-133fb22c3cd8
+  world-name: world
+  x: 1784.5
+  y: 70.9375
+  z: -1859.5
+  yaw: -0.7516236305236816
+  pitch: 7.200542449951172
